@@ -1,6 +1,6 @@
 {
   "identifier": "less_mana_cost",
-  "mana_multi": 1.0,
+  "mana_multi": 0.9,
   "spell_id": "",
   "type": "SUPPORT_GEM",
   "req": {
@@ -15,7 +15,7 @@
   "stats": [
     {
       "min1": -10.0,
-      "max1": -20.0,
+      "max1": -10.0,
       "min2": 0.0,
       "max2": 0.0,
       "stat": "mana_cost",

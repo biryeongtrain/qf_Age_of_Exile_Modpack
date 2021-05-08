@@ -1,6 +1,6 @@
 {
   "identifier": "mana_leech",
-  "mana_multi": 1.25,
+  "mana_multi": 1.2,
   "spell_id": "",
   "type": "SUPPORT_GEM",
   "req": {

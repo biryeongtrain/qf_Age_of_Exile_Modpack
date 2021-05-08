@@ -1,6 +1,6 @@
 {
   "identifier": "piercing_proj",
-  "mana_multi": 1.5,
+  "mana_multi": 1.45,
   "spell_id": "",
   "type": "SUPPORT_GEM",
   "req": {
@@ -22,8 +22,8 @@
       "type": "FLAT"
     },
     {
-      "min1": 50.0,
-      "max1": 50.0,
+      "min1": 45.0,
+      "max1": 45.0,
       "min2": 0.0,
       "max2": 0.0,
       "stat": "mana_cost",

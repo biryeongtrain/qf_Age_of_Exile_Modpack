@@ -1,6 +1,6 @@
 {
   "identifier": "nature_dmg",
-  "mana_multi": 1.2,
+  "mana_multi": 1.15,
   "spell_id": "",
   "type": "SUPPORT_GEM",
   "req": {
@@ -22,8 +22,8 @@
       "type": "FLAT"
     },
     {
-      "min1": 20.0,
-      "max1": 20.0,
+      "min1": 15.0,
+      "max1": 15.0,
       "min2": 0.0,
       "max2": 0.0,
       "stat": "mana_cost",
