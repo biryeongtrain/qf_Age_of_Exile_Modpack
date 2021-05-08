@@ -2328,5 +2328,8 @@
 	"mmorpg.gear_type.mcdw_tier1_crbow_exploding_crossbow": "강력한 석궁",
 	"mmorpg.gear_type.mcdw_tier1_crbow_heavy_crossbow": "중석궁",
 	"mmorpg.gear_type.mcdw_tier1_crbow_scatter_crossbow": "분산 석궁",
-	"mmorpg.gear_type.mcdw_tier1_crbow_burst_crossbow": "버스트 석궁"
+	"mmorpg.gear_type.mcdw_tier1_crbow_burst_crossbow": "버스트 석궁",
+	
+	"mmorpg.skill_gem.arrow_storm": "단검 폭풍 스킬 젬",
+	"mmorpg.spell.arrow_storm": "단검 폭풍"
 }
