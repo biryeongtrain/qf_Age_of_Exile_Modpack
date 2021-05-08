@@ -1,0 +1,49 @@
+{
+  "id": "scepter0",
+  "weight": 2000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [
+    {
+      "min1": 3.0,
+      "max1": 10.0,
+      "stat": "increase_healing",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [
+    {
+      "min1": 0.9,
+      "max1": 2.6999998,
+      "min2": 2.6999998,
+      "max2": 5.3999996,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.0,
+    "end": 0.2
+  },
+  "tag_list": {
+    "tags": [
+      "wand",
+      "mage_weapon",
+      "weapon_family",
+      "melee_weapon",
+      "intelligence"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "intelligence": 0.5
+    }
+  },
+  "item_id": "mmorpg:weapon/wand/scepter0",
+  "gear_slot": "wand",
+  "rar_group": "non_unique",
+  "weapon_type": "Wand",
+  "attack_style": "MELEE",
+  "atk_speed": 1.0
+}

@@ -1,0 +1,95 @@
+{
+  "id": "beneficial/14",
+  "one_of_a_kind_id": "",
+  "type": "BENEFICIAL",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "stats": [
+    {
+      "v1": 10.0,
+      "v2": 10.0,
+      "stat": "water_resist",
+      "type": "FLAT",
+      "scale_to_lvl": true
+    },
+    {
+      "v1": 5.0,
+      "v2": 5.0,
+      "stat": "armor",
+      "type": "FLAT",
+      "scale_to_lvl": true
+    }
+  ],
+  "spell": {
+    "on_cast": [],
+    "entity_components": {
+      "default_entity_name": [
+        {
+          "targets": [
+            {
+              "type": "aoe",
+              "map": {
+                "selection_type": "RADIUS",
+                "en_predicate": "ENEMIES",
+                "radius": 2.0
+              }
+            }
+          ],
+          "acts": [
+            {
+              "type": "exile_effect",
+              "map": {
+                "exile_potion_id": "negative/2",
+                "potion_action": "GIVE_STACKS",
+                "count": 1.0,
+                "potion_dur": 80.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 100.0
+              }
+            }
+          ],
+          "per_entity_hit": [
+            {
+              "targets": [],
+              "acts": [
+                {
+                  "type": "particles_in_radius",
+                  "map": {
+                    "particle_type": "minecraft:item_snowball",
+                    "y_rand": 0.2,
+                    "motion": "None",
+                    "shape": "HORIZONTAL_CIRCLE",
+                    "radius": 1.0,
+                    "particle_count": 100.0,
+                    "height": 0.5
+                  }
+                }
+              ],
+              "ifs": []
+            },
+            {
+              "targets": [],
+              "acts": [
+                {
+                  "type": "sound",
+                  "map": {
+                    "volume": 1.0,
+                    "sound": "minecraft:block.snow.hit",
+                    "pitch": 1.0
+                  }
+                }
+              ],
+              "ifs": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

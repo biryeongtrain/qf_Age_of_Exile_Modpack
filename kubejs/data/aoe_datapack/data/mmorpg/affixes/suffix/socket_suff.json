@@ -1,0 +1,37 @@
+{
+  "guid": "socket_suff",
+  "loc_name": "Of Sockets",
+  "only_one_per_item": false,
+  "weight": 3000,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "jewelry_family",
+          "armor_family",
+          "weapon_family",
+          "offhand_family"
+        ],
+        "excluded": []
+      }
+    ]
+  },
+  "tags": [],
+  "type": "suffix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 1.0,
+          "max1": 1.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "socket_slots",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 200,
+      "tier": 1
+    }
+  }
+}

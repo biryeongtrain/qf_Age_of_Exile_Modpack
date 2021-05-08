@@ -1,0 +1,22 @@
+{
+  "id": "costly_spell_dmg",
+  "weight": 1000,
+  "stats": [
+    {
+      "min1": 20.0,
+      "max1": 40.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "spell_damage",
+      "type": "FLAT"
+    },
+    {
+      "min1": 10.0,
+      "max1": 30.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "mana_cost",
+      "type": "FLAT"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "주의",
+  "description": "이것들은 위험합니다!",
+  "icon": "minecraft:zombie_head",
+  "sortnum":4
+}

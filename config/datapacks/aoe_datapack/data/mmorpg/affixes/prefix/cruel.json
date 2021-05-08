@@ -1,0 +1,90 @@
+{
+  "guid": "cruel",
+  "loc_name": "Cruel",
+  "only_one_per_item": true,
+  "weight": 1000,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "weapon_family"
+        ],
+        "excluded": []
+      }
+    ]
+  },
+  "tags": [],
+  "type": "prefix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 16.0,
+          "max1": 20.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "physical_weapon_damage",
+          "type": "LOCAL_INCREASE"
+        }
+      ],
+      "weight": 200,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 14.0,
+          "max1": 16.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "physical_weapon_damage",
+          "type": "LOCAL_INCREASE"
+        }
+      ],
+      "weight": 300,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 10.0,
+          "max1": 14.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "physical_weapon_damage",
+          "type": "LOCAL_INCREASE"
+        }
+      ],
+      "weight": 400,
+      "tier": 3
+    },
+    "4": {
+      "mods": [
+        {
+          "min1": 7.0,
+          "max1": 10.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "physical_weapon_damage",
+          "type": "LOCAL_INCREASE"
+        }
+      ],
+      "weight": 500,
+      "tier": 4
+    },
+    "5": {
+      "mods": [
+        {
+          "min1": 5.0,
+          "max1": 7.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "physical_weapon_damage",
+          "type": "LOCAL_INCREASE"
+        }
+      ],
+      "weight": 600,
+      "tier": 5
+    }
+  }
+}

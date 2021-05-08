@@ -1,0 +1,28 @@
+{
+  "id": "vampire",
+  "weight": 500,
+  "rarity": "common",
+  "tier": 0,
+  "format": "RED",
+  "icon": "",
+  "stats": [
+    {
+      "min1": 25.0,
+      "max1": 25.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "min1": 15.0,
+      "max1": 15.0,
+      "stat": "lifesteal",
+      "type": "flat"
+    },
+    {
+      "min1": 15.0,
+      "max1": 15.0,
+      "stat": "extra_mob_drops",
+      "type": "flat"
+    }
+  ]
+}

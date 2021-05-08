@@ -1,0 +1,52 @@
+{
+  "id": "mcdw_tier1_bow_bonebow",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "min1": 0.5,
+      "max1": 2.0,
+      "min2": 2.0,
+      "max2": 3.5,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    },
+	{
+	  "min1": 0.25,
+      "max1": 1.25,
+      "min2": 1.25,
+      "max2": 2.5,
+      "stat": "critical_hit",
+      "type": "flat"
+	}
+  ],
+  "level_range": {
+    "start": 0.0,
+    "end": 0.15
+  },
+  "tag_list": {
+    "tags": [
+      "dexterity",
+	  "intelligence",
+      "ranger_casting_weapon",
+      "ranged_weapon",
+      "weapon_family",
+      "bow"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.4,
+	  "intelligence": 0.1
+    }
+  },
+  "item_id": "mcdw:bow_bonebow",
+  "gear_slot": "bow",
+  "rar_group": "non_unique",
+  "weapon_type": "Bow",
+  "attack_style": "RANGED",
+  "atk_speed": 1.0
+}

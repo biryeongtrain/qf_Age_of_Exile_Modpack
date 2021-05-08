@@ -1,0 +1,48 @@
+{
+  "id": "jester_hat",
+  "weight": 1000,
+  "rarity": "unique",
+  "tier": 0,
+  "unique_stats": [
+    {
+      "min1": -15.0,
+      "max1": 15.0,
+      "stat": "critical_hit",
+      "type": "flat"
+    },
+    {
+      "min1": -15.0,
+      "max1": 15.0,
+      "stat": "critical_damage",
+      "type": "flat"
+    },
+    {
+      "min1": -15.0,
+      "max1": 15.0,
+      "stat": "magic_find",
+      "type": "flat"
+    },
+    {
+      "min1": -15.0,
+      "max1": 15.0,
+      "stat": "increased_quantity",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [],
+  "gear_type": "cloth_helmet3",
+  "item_id": "mmorpg:uniques/armor/jester_hat",
+  "gear_types": [
+    "cloth_helmet3"
+  ],
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "intelligence": 0.5,
+      "wisdom": 0.75
+    }
+  },
+  "filters": {
+    "list": []
+  }
+}

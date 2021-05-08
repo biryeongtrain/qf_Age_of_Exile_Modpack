@@ -1,0 +1,16 @@
+{
+  "id": "beneficial/10",
+  "one_of_a_kind_id": "",
+  "type": "BENEFICIAL",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "stats": [
+    {
+      "v1": 15.0,
+      "v2": 15.0,
+      "stat": "ranged_dmg",
+      "type": "FLAT",
+      "scale_to_lvl": true
+    }
+  ]
+}

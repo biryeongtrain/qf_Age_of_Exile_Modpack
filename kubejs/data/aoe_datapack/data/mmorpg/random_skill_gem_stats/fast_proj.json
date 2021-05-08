@@ -1,0 +1,17 @@
+{
+  "id": "fast_proj",
+  "weight": 1000,
+  "stats": [
+    {
+      "min1": 2.0,
+      "max1": 10.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "faster_projectiles",
+      "type": "FLAT"
+    }
+  ],
+  "tags": [
+    "PROJECTILE"
+  ]
+}

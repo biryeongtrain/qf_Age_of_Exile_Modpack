@@ -1,0 +1,16 @@
+{
+  "name": "망각의 포션",
+  "category": "items",
+  "icon": "mmorpg:potions/reset_all_perks",
+  "sortnum": 0,
+  "pages": [
+	{  
+		"type": "text",   		
+		"text": "특성 트리를 초기화 해 새로운 특성들을 시도할 수 있게 됩니다."
+	},  
+    {
+		"type": "crafting",
+		"recipe": "mmorpg:potions/reset_all_perks"   
+    }
+  ]
+}

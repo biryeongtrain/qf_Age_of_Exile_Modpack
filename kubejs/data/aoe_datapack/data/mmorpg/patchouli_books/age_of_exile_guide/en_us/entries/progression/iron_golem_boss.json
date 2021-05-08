@@ -1,0 +1,46 @@
+{
+  "name": "10레벨 보스",
+  "category": "progression",
+  "icon": "minecraft:zombie_head",
+  "sortnum": 0,
+  "pages": [	
+	{  
+	    "type": "entity",
+        "entity": "mmorpg:boss_golem",		
+		"title": "부패한 골렘",
+		"text": "10레벨의 보스입니다. 준비를 단단히 하세요! 장비 개조기를 만드는 데 필요한 재료를 떨어뜨립니다."
+	}, 
+    {
+      "type": "multiblock",
+      "name": "보스 소환",
+      "multiblock": {
+        "pattern": [
+          [
+            "BBB",
+            "W0W",
+            " W "
+          ]
+        ],
+        "mapping": {
+          "W": "minecraft:iron_block",
+          "B": "minecraft:bone_block",
+		"0": "minecraft:iron_block"
+        }
+      },
+	 "text": "철 블록과 뼈 블록이 필요합니다."	  
+    },
+	{
+      "type": "spotlight",
+      "item": "mmorpg:mat/modify_part",
+      "link_recipe": false,
+	  "text": "오직 보스 전리품으로만 얻을 수 있으며 이것으로 장비 개조기를 만들 수 있습니다."
+
+    },
+	{
+		"type": "crafting",
+		"recipe": "mmorpg:modify_station",
+		"text": "돈을 들여 장비를 개조할 수 있으며 장비를 업그레이드하는데 필수적입니다."
+  
+    }
+  ]
+}

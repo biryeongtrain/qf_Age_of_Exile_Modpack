@@ -1,0 +1,13 @@
+{
+  "name": "주문 획득법",
+  "category": "spells",
+  "icon": "minecraft:blaze_powder",
+  "sortnum": 0,
+  "pages": [
+	{  
+		"type": "text",   
+		"title": "특성 트리",
+		"text": "[H]로 GUI를 열어 '특성'을 확인하세요. 여러 종류의 마법과 특성을 선택할 수 있습니다. 레벨을 올려 새로운 특성을 찍으면 여러 주문을 사용할 수 있습니다."
+	}
+  ]
+}

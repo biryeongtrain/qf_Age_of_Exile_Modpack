@@ -1,0 +1,36 @@
+{
+  "identifier": "bleed_chance",
+  "mana_multi": 1.25,
+  "spell_id": "",
+  "type": "SUPPORT_GEM",
+  "req": {
+    "base_req": {
+      "strength": 20.0
+    },
+    "scaling_req": {
+      "strength": 0.2
+    }
+  },
+  "attribute": "STR",
+  "stats": [
+    {
+      "min1": 10.0,
+      "max1": 20.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "chance_of_bleed",
+      "type": "FLAT"
+    },
+    {
+      "min1": 25.0,
+      "max1": 25.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "mana_cost",
+      "type": "FLAT"
+    }
+  ],
+  "tags": [
+    "DAMAGE"
+  ]
+}

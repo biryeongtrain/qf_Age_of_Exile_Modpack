@@ -1,0 +1,18 @@
+{
+    options: [
+        {
+            includeToken: "lumi:shadow_config",
+            categoryKey: "config.lumi_lights.category.shadow",
+            options: {
+                shadow_filtering: {
+                    default: "pcf_low",
+                    choices: ["none", "pcf_low", "pcf_medium", "pcf_high"],
+                    enum: true,
+                    prefix: "shadow_filtering_",
+                    nameKey: "config.lumi_lights.value.shadow_filtering",
+                    descriptionKey: "config.lumi_lights.help.shadow_filtering"
+                },
+            }
+        }
+    ]
+}

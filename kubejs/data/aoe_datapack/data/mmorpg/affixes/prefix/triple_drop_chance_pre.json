@@ -1,0 +1,62 @@
+{
+  "guid": "triple_drop_chance_pre",
+  "loc_name": "Bountiful",
+  "only_one_per_item": false,
+  "weight": 1000,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "tool_family"
+        ],
+        "excluded": []
+      }
+    ]
+  },
+  "tags": [],
+  "type": "prefix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 8.0,
+          "max1": 10.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "triple_drop_chance",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 200,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 6.0,
+          "max1": 8.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "triple_drop_chance",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 300,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 2.0,
+          "max1": 6.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "triple_drop_chance",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 400,
+      "tier": 3
+    }
+  }
+}

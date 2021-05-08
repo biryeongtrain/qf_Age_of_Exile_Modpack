@@ -1,0 +1,11 @@
+{
+  "stat_percents": {
+    "min": 10,
+    "max": 25
+  },
+  "rarity_type": "SKILL_GEM",
+  "weight": 10000,
+  "text_format": "GRAY",
+  "higher_rar": "",
+  "guid": "common"
+}

@@ -1,0 +1,82 @@
+{
+  "identifier": "frost_breath",
+  "attached": {
+    "on_cast": [
+      {
+        "targets": [],
+        "acts": [
+          {
+            "type": "particles_in_radius",
+            "map": {
+              "particle_type": "mmorpg:frost",
+              "motion": "CasterLook",
+              "shape": "CIRCLE",
+              "radius": 0.3,
+              "particle_count": 50.0,
+              "height": 1.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      },
+      {
+        "targets": [
+          {
+            "type": "in_view",
+            "map": {
+              "en_predicate": "ENEMIES",
+              "distance": 15.0
+            }
+          }
+        ],
+        "acts": [
+          {
+            "type": "damage",
+            "map": {
+              "element": "Water"
+            },
+            "calc": {
+              "scaling_values": [],
+              "base_scaling": "NORMAL",
+              "attack_scaling": 0.0,
+              "base_val": 3.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "x_ticks_condition",
+            "map": {
+              "tick_rate": 10.0
+            }
+          },
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      }
+    ],
+    "entity_components": {}
+  },
+  "config": {
+    "swing_arm": false,
+    "castingWeapon": "ANY_WEAPON",
+    "mana_cost": 2,
+    "times_to_cast": 1,
+    "cast_time_ticks": 0,
+    "cooldown_ticks": 1,
+    "style": "MAGIC",
+    "tags": [
+      "AREA",
+      "DAMAGE"
+    ],
+    "cast_type": "NORMAL",
+    "actions_needed": []
+  }
+}

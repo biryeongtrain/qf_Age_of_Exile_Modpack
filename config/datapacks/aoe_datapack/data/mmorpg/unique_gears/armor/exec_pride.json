@@ -1,0 +1,42 @@
+{
+  "id": "exec_pride",
+  "weight": 1000,
+  "rarity": "unique",
+  "tier": 0,
+  "unique_stats": [
+    {
+      "min1": 2.0,
+      "max1": 5.0,
+      "stat": "dodge",
+      "type": "flat"
+    },
+    {
+      "min1": 10.0,
+      "max1": 20.0,
+      "stat": "dodge",
+      "type": "local_increase"
+    },
+    {
+      "min1": 5.0,
+      "max1": 20.0,
+      "stat": "critical_hit",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [],
+  "gear_type": "leather_chest4",
+  "item_id": "mmorpg:uniques/armor/exec_pride",
+  "gear_types": [
+    "leather_chest4"
+  ],
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.5,
+      "agility": 0.75
+    }
+  },
+  "filters": {
+    "list": []
+  }
+}

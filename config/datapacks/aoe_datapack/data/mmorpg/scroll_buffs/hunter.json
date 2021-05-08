@@ -1,0 +1,22 @@
+{
+  "id": "hunter",
+  "weight": 1000,
+  "stats": [
+    {
+      "min1": 10.0,
+      "max1": 30.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "ranged_dmg",
+      "type": "FLAT"
+    },
+    {
+      "min1": 10.0,
+      "max1": 30.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "critical_damage",
+      "type": "LOCAL_INCREASE"
+    }
+  ]
+}

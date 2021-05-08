@@ -1,0 +1,62 @@
+{
+  "guid": "crit_prefix",
+  "loc_name": "Critical",
+  "only_one_per_item": true,
+  "weight": 1000,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "weapon_family"
+        ],
+        "excluded": []
+      }
+    ]
+  },
+  "tags": [],
+  "type": "prefix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 9.0,
+          "max1": 12.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "critical_damage",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 200,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 6.0,
+          "max1": 9.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "critical_damage",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 300,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 4.0,
+          "max1": 6.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "critical_damage",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 400,
+      "tier": 3
+    }
+  }
+}

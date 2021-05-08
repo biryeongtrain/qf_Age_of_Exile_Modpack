@@ -1,0 +1,44 @@
+{
+  "id": "mcdw_tier1_bow_longbow",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "min1": 1.0,
+      "max1": 2.99999,
+      "min2": 2.99999,
+      "max2": 5.99999,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.0,
+    "end": 0.15
+  },
+  "tag_list": {
+    "tags": [
+      "dexterity",
+	  "strength",
+      "ranger_casting_weapon",
+      "ranged_weapon",
+      "weapon_family",
+      "bow"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.3,
+	  "strength": 0.1
+    }
+  },
+  "item_id": "mcdw:bow_longbow",
+  "gear_slot": "bow",
+  "rar_group": "non_unique",
+  "weapon_type": "Bow",
+  "attack_style": "RANGED",
+  "atk_speed": 1.2
+}

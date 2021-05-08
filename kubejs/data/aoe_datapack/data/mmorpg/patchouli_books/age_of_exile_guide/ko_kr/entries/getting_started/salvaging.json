@@ -1,0 +1,18 @@
+{
+  "name": "분해",
+  "category": "getting_started",
+  "icon": "mmorpg:salvage_station",
+  "sortnum": 0,
+  "pages": [
+	{  
+		"type": "text",   
+		"title": "장비 분해기",
+		"text": "쓸모없는 장비를 분해해 레벨에 따라 에센스를 얻을 수 있습니다. 에센스는 여러 장비와 강화 재료를 만드는 데 필요합니다."
+	},  
+    {
+		"type": "crafting",
+		"recipe": "mmorpg:salvage_station",
+		"text": "분해기의 인벤토리가 꽉 찼다면 결과물이 사방으로 뿌려질 것입니다. 호퍼를 통해 자동화하세요. 일부 장비는 분해할 수 없습니다."
+    }
+  ]
+}

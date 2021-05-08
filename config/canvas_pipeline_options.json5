@@ -1,0 +1,73 @@
+{
+	"canvas:basic_light_config": {
+		"ao_shading_mode": "normal",
+		"diffuse_shading_mode": "normal"
+	},
+	"canvas:fog_config": {
+		"fog_mode": "vanilla"
+	},
+	"canvas:handheld_light_config": {
+		"handheld_light_radius": 10
+	},
+	"canvas:bloom_config": {
+		"bloom_intensity": 0.1,
+		"bloom_downsample_dist": 1.0,
+		"bloom_upsample_dist": 0.1,
+		"bloom_cutoff": 0.02
+	},
+	"lumi:shadow_config": {
+		"shadow_filtering": "pcf_high"
+	},
+	"lumi:aesthetics_config": {
+		"block_light_mode": "warm",
+		"bloom_intensity": 20,
+		"bloom_scale": 25,
+		"sky_bloom_intensity": 2,
+		"godrays_intensity": 5,
+		"sky_mode": "lumi",
+		"lumi_sky_color": "deep_cerulean",
+		"glint_style": "glint_a",
+		"glint_red": 0.655,
+		"glint_green": 0.333,
+		"glint_blue": 1.0,
+		"toon_outline": false
+	},
+	"lumi:performance_config": {
+		"antialiasing": "taa_blurry",
+		"ambient_occlusion": "ssao",
+		"blocklight_specular_mode": "fancy",
+		"reflection_profile": "medium",
+		"reflection_maximum_roughness_relative": 7,
+		"reflection_on_hand": true,
+		"cloud_rendering": "volumetric",
+		"volumetric_cloud_mode": "skybox",
+		"volumetric_cloud_denoising": false,
+		"volumetric_fog": true
+	},
+	"lumi:gameplay_config": {
+		"handheld_light_radius": 10,
+		"true_darkness_default": false,
+		"true_darkness_nether": false,
+		"true_darkness_end": false,
+		"true_darkness_moonlight": false
+	},
+	"lumi:fog_config": {
+		"overworld_fog_use_altitude": true,
+		"fog_far_chunks": 8,
+		"fog_density_relative": 10,
+		"underwater_fog_far_chunks": 1,
+		"underwater_fog_density_relative": 15
+	},
+	"lumi:experimental_config": {
+		"glint_mode": "shader",
+		"taa_debug_render": "off",
+		"multi_bounce_reflection": false,
+		"kaleidoskop": false,
+		"rgb_caves": false,
+		"tone_profile": "standard",
+		"rain_puddles": false,
+		"caustics_mode": "none",
+		"cloud_time": "client",
+		"overlay_debug": "none"
+	}
+}

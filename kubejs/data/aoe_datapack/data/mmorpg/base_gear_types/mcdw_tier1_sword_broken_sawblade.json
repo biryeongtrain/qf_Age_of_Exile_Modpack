@@ -1,0 +1,44 @@
+{
+  "id": "mcdw_tier1_sword_broken_sawblade",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "min1": 0.9999999,
+      "max1": 3.0999998,
+      "min2": 3.0999998,
+      "max2": 4.8999996,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.0,
+    "end": 0.15
+  },
+  "tag_list": {
+    "tags": [
+      "agility",
+      "warrior_casting_weapon",
+      "strength",
+      "melee_weapon",
+      "weapon_family",
+	  "sword"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "agility": 0.1,
+      "strength": 0.3
+    }
+  },
+  "item_id": "mcdw:sword_broken_sawblade",
+  "gear_slot": "sword",
+  "rar_group": "non_unique",
+  "weapon_type": "Sword",
+  "attack_style": "MELEE",
+  "atk_speed": 0.75
+}

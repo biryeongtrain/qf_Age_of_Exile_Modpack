@@ -1,0 +1,63 @@
+{
+  "guid": "of_the_troll",
+  "loc_name": "Of The Troll",
+  "only_one_per_item": true,
+  "weight": 200,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "jewelry_family",
+          "plate"
+        ],
+        "excluded": []
+      }
+    ]
+  },
+  "tags": [],
+  "type": "suffix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 1.0,
+          "max1": 2.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "health_regen",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 200,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 0.5,
+          "max1": 1.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "health_regen",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 300,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 0.3,
+          "max1": 0.5,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "health_regen",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 400,
+      "tier": 3
+    }
+  }
+}

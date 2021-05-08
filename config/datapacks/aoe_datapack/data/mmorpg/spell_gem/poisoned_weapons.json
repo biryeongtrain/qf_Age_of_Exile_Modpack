@@ -1,0 +1,19 @@
+{
+  "identifier": "poisoned_weapons",
+  "mana_multi": 1.0,
+  "spell_id": "poisoned_weapons",
+  "type": "SKILL_GEM",
+  "req": {
+    "base_req": {
+      "intelligence": 20.0
+    },
+    "scaling_req": {
+      "intelligence": 0.5
+    }
+  },
+  "attribute": "INT",
+  "stats": [],
+  "tags": [
+    "DAMAGE"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+    options: [
+        {
+            includeToken: "lumi:experimental_config",
+            categoryKey: "config.lumi_lights.category.experimental",
+            options: {
+                glint_mode: {
+                    default: "shader",
+                    choices: ["texture", "shader"],
+                    enum: true,
+                    prefix: "glint_mode_",
+                    nameKey: "config.lumi_lights.value.glint_mode",
+                    descriptionKey: "config.lumi_lights.help.glint_mode"
+                },
+                taa_debug_render: {
+                    default: "off",
+                    choices: ["off", "velocity", "depth", "frames"],
+                    enum: true,
+                    prefix: "taa_debug_render_",
+                    nameKey: "config.lumi_lights.value.taa_debug_render",
+                    descriptionKey: "config.lumi_lights.help.taa_debug_render"
+                },
+                multi_bounce_reflection: {
+                    default: false,
+                    nameKey: "config.lumi_lights.value.multi_bounce_reflection",
+                    descriptionKey: "config.lumi_lights.help.multi_bounce_reflection"
+                },
+                kaleidoskop: {
+                    default: false,
+                    nameKey: "config.lumi_lights.value.kaleidoskop",
+                    descriptionKey: "config.lumi_lights.help.kaleidoskop"
+                },
+                rgb_caves: {
+                    default: false,
+                    nameKey: "config.lumi_lights.value.rgb_caves",
+                    descriptionKey: "config.lumi_lights.help.rgb_caves"
+                },
+                tone_profile: {
+                    default: "standard",
+                    choices: ["standard", "fixed_exposure", "auto_exposure", "high_contrast_old"],
+                    enum: true,
+                    prefix: "tone_profile_",
+                    nameKey: "config.lumi_lights.value.tone_profile",
+                    descriptionKey: "config.lumi_lights.help.tone_profile"
+                },
+                rain_puddles: {
+                    default: false,
+                    nameKey: "config.lumi_lights.value.rain_puddles",
+                    descriptionKey: "config.lumi_lights.help.rain_puddles"
+                },
+                caustics_mode: {
+                    default: "none",
+                    choices: ["none", "texture"],
+                    enum: true,
+                    prefix: "caustics_mode_",
+                    nameKey: "config.lumi_lights.value.caustics_mode",
+                    descriptionKey: "config.lumi_lights.help.caustics_mode"
+                },
+                cloud_time: {
+                    default: "client",
+                    choices: ["client", "world", "stop"],
+                    enum: true,
+                    prefix: "cloud_time_",
+                    nameKey: "config.lumi_lights.value.cloud_time",
+                    descriptionKey: "config.lumi_lights.help.cloud_time"
+                },
+                overlay_debug: {
+                    default: "none",
+                    choices: ["none", "neon", "disco"],
+                    enum: true,
+                    prefix: "overlay_debug_",
+                    nameKey: "config.lumi_lights.value.overlay_debug",
+                    descriptionKey: "config.lumi_lights.help.overlay_debug"
+                },
+            }
+        }
+    ]
+}

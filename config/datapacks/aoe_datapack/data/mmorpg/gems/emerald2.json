@@ -1,0 +1,39 @@
+{
+  "socket_type": "emerald",
+  "text_format": "GREEN",
+  "on_armor_stats": [
+    {
+      "min1": 5.6,
+      "max1": 16.8,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "nature_resist",
+      "type": "FLAT"
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "min1": 5.6,
+      "max1": 11.2,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "spell_nature_damage",
+      "type": "FLAT"
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "min1": 0.5,
+      "max1": 1.5,
+      "min2": 1.0,
+      "max2": 3.0,
+      "stat": "nature_weapon_damage",
+      "type": "FLAT"
+    }
+  ],
+  "item_id": "mmorpg:gems/emerald/2",
+  "identifier": "emerald2",
+  "required_item_level": 0.6,
+  "weight": 1000,
+  "effective_level": 0.6
+}

@@ -1,0 +1,6 @@
+{ 
+	// The relative path to the resources zip. Expect strange behaviour if changed
+	"resourcesFile": "resources.zip",
+	// Set to true to provide a hash to clients. Changes to the pack will require a server restart with this
+	"hashResources": false
+}

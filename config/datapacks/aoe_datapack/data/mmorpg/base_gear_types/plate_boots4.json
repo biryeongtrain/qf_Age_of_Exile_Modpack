@@ -1,0 +1,46 @@
+{
+  "id": "plate_boots4",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "min1": 2.0,
+      "max1": 3.0,
+      "stat": "armor",
+      "type": "flat"
+    },
+    {
+      "min1": 2.0,
+      "max1": 3.0,
+      "stat": "health",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.8,
+    "end": 1.0
+  },
+  "tag_list": {
+    "tags": [
+      "armor_family",
+      "strength",
+      "boots",
+      "plate",
+      "armor_stat"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.5
+    }
+  },
+  "item_id": "mmorpg:armor/plate/boots/plate_boots4",
+  "gear_slot": "boots",
+  "rar_group": "non_unique",
+  "weapon_type": "None",
+  "attack_style": "MELEE",
+  "atk_speed": 1.0
+}

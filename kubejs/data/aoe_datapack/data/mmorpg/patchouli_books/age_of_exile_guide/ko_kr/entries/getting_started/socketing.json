@@ -1,0 +1,17 @@
+{
+  "name": "소켓",
+  "category": "getting_started",
+  "icon": "mmorpg:socket_station",
+  "sortnum": 4,
+  "pages": [
+	{  
+		"type": "text",   
+		"title": "장비 부여대",
+		"text": "젬, 룬, 그리고 소켓이 있는 아이템을 얻었다면 이들을 결합할 수 있습니다. 장비 부여대에서 아이템의 소켓에 젬과 룬을 장착할 수 있으며 룬을 조합해 특별한 효과를 얻을 수도 있습니다."
+	},  
+    {
+		"type": "crafting",
+		"recipe": "mmorpg:socket_station"		
+    }
+  ]
+}

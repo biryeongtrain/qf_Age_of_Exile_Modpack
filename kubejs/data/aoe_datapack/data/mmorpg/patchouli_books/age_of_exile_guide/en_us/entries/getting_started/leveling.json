@@ -1,0 +1,18 @@
+{
+  "name": "레벨 시스템",
+  "category": "getting_started",
+  "icon": "minecraft:experience_bottle",
+  "sortnum": 3,
+  "pages": [
+	{  
+		"type": "entity",
+        "entity": "minecraft:zombie",				
+		"text": "레벨을 올리려면 좀비, 스켈레톤 등의 몹을 죽이세요!"	
+	},  
+	{  
+		"type": "text",   
+		"title": "심화",
+		"text": "스폰으로부터 떨어진 거리에 따라 몹의 레벨이 결정됩니다. 최적의 레벨링을 위해서는 비슷한 레벨의 몹을 죽이세요."
+	}
+  ]
+}

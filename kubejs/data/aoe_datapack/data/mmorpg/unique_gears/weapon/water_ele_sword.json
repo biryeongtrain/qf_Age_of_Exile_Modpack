@@ -1,0 +1,45 @@
+{
+  "id": "water_ele_sword",
+  "weight": 1000,
+  "rarity": "unique",
+  "tier": 0,
+  "unique_stats": [
+    {
+      "min1": 15.0,
+      "max1": 30.0,
+      "stat": "water_weapon_damage",
+      "type": "local_increase"
+    },
+    {
+      "min1": 15.0,
+      "max1": 30.0,
+      "stat": "chill_bonus_dmg",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [
+    {
+      "min1": 0.9,
+      "max1": 2.6999998,
+      "min2": 2.6999998,
+      "max2": 5.3999996,
+      "stat": "water_weapon_damage",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "sword3",
+  "item_id": "mmorpg:uniques/weapon/water_ele_sword",
+  "gear_types": [
+    "sword3"
+  ],
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "agility": 0.75,
+      "intelligence": 0.5
+    }
+  },
+  "filters": {
+    "list": []
+  }
+}

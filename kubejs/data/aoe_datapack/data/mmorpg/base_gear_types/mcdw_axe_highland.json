@@ -1,0 +1,50 @@
+{
+  "id": "mcdw_axe_highland",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "min1": 1.5,
+      "max1": 4.0,
+      "min2": 4.0,
+      "max2": 7.75,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    },
+	{
+      "min1": 1.5,
+      "max1": 3.0,
+      "min2": 3.0,
+      "max2": 3.0,
+      "stat": "critical_hit",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.0,
+    "end": 0.15
+  },
+  "tag_list": {
+    "tags": [
+      "warrior_casting_weapon",
+      "strength",
+      "weapon_family",
+      "melee_weapon",
+      "axe"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.5
+    }
+  },
+  "item_id": "mcdw:axe_highland",
+  "gear_slot": "axe",
+  "rar_group": "non_unique",
+  "weapon_type": "Axe",
+  "attack_style": "MELEE",
+  "atk_speed": 1.25
+}

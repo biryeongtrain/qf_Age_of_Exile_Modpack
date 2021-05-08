@@ -1,0 +1,36 @@
+{
+  "id": "lunar_ring",
+  "weight": 1000,
+  "rarity": "unique",
+  "tier": 0,
+  "unique_stats": [
+    {
+      "min1": 10.0,
+      "max1": 20.0,
+      "stat": "spell_water_damage",
+      "type": "flat"
+    },
+    {
+      "min1": 10.0,
+      "max1": 20.0,
+      "stat": "day_dmg",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [],
+  "gear_type": "cold_res_ring_low",
+  "item_id": "mmorpg:uniques/jewelry/lunar_ring",
+  "gear_types": [
+    "cold_res_ring_low"
+  ],
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.5,
+      "agility": 0.75
+    }
+  },
+  "filters": {
+    "list": []
+  }
+}

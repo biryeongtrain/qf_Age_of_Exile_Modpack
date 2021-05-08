@@ -1,0 +1,42 @@
+{
+  "id": "winter",
+  "weight": 250,
+  "rarity": "common",
+  "tier": 0,
+  "format": "AQUA",
+  "icon": "§b❉",
+  "stats": [
+    {
+      "min1": 15.0,
+      "max1": 15.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "min1": 5.0,
+      "max1": 5.0,
+      "stat": "chance_of_frostburn",
+      "type": "flat"
+    },
+    {
+      "min1": 75.0,
+      "max1": 75.0,
+      "stat": "convert_water_to_phys",
+      "type": "flat"
+    },
+    {
+      "min1": 1.0,
+      "max1": 1.0,
+      "min2": 1.0,
+      "max2": 1.0,
+      "stat": "water_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "min1": 20.0,
+      "max1": 20.0,
+      "stat": "extra_mob_drops",
+      "type": "flat"
+    }
+  ]
+}

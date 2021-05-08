@@ -1,0 +1,55 @@
+{
+  "socket_type": "amethyst",
+  "text_format": "DARK_PURPLE",
+  "on_armor_stats": [
+    {
+      "min1": 1.0,
+      "max1": 2.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "health",
+      "type": "FLAT"
+    },
+    {
+      "min1": 1.0,
+      "max1": 2.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "mana",
+      "type": "FLAT"
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "min1": 0.5,
+      "max1": 1.5,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "health_regen",
+      "type": "FLAT"
+    },
+    {
+      "min1": 0.5,
+      "max1": 1.5,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "mana_regen",
+      "type": "FLAT"
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "min1": 3.2,
+      "max1": 6.4,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "attack_all_dmg_leech_as_mana",
+      "type": "FLAT"
+    }
+  ],
+  "item_id": "mmorpg:gems/amethyst/3",
+  "identifier": "amethyst3",
+  "required_item_level": 8.0,
+  "weight": 250,
+  "effective_level": 8.0
+}

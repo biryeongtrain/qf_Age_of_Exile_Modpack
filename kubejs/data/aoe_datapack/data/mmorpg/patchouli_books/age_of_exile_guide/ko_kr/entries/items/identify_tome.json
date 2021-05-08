@@ -1,0 +1,16 @@
+{
+  "name": "감정 주문서",
+  "category": "items",
+  "icon": "mmorpg:identify_tome",
+  "sortnum": 0,
+  "pages": [
+	{  
+		"type": "text",   		
+		"text": "미감정 아이템을 감정하여 사용할 수 있게 해줍니다."
+	},  
+    {
+		"type": "crafting",
+		"recipe": "mmorpg:identify_tome"   
+    }
+  ]
+}

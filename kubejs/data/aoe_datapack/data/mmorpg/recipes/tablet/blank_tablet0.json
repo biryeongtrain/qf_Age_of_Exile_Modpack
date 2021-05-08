@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mmorpg:stone/3"
+    },
+    {
+      "item": "mmorpg:stone/3"
+    },
+    {
+      "item": "mmorpg:stone/3"
+    }
+  ],
+  "result": {
+    "item": "mmorpg:tablet/blank_tablet0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "mcdw_tier2_sword_masters_katana",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "min1": 0.8,
+      "max1": 2.4999998,
+      "min2": 2.4999998,
+      "max2": 3.8999996,
+      "stat": "water_weapon_damage",
+      "type": "flat"
+    },
+	{ "min1": 0.9999999,
+      "max1": 2.9999998,
+      "min2": 2.9999998,
+      "max2": 3.8999996,
+      "stat": "critical_hit",
+      "type": "flat"
+	}
+  ],
+  "level_range": {
+    "start": 0.16,
+    "end": 0.40
+  },
+  "tag_list": {
+    "tags": [
+      "agility",
+      "warrior_casting_weapon",
+      "sword",
+      "strength",
+      "melee_weapon",
+      "weapon_family"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "agility": 0.4,
+      "strength": 0.2
+    }
+  },
+  "item_id": "mcdw:sword_masters_katana",
+  "gear_slot": "sword",
+  "rar_group": "non_unique",
+  "weapon_type": "Sword",
+  "attack_style": "MELEE",
+  "atk_speed": 0.5
+}

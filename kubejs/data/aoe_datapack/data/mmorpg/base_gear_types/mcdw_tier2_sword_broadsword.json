@@ -1,0 +1,52 @@
+{
+  "id": "mcdw_tier2_sword_broadsword",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "min1": 1.9999999,
+      "max1": 4.0999998,
+      "min2": 4.0999998,
+      "max2": 5.8999996,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    },
+	{
+	  "min1": 0.9999999,
+	  "max1": 5.9999999,
+	  "min2": 5.9999999,
+	  "max2": 7.9999999,
+	  "stat": "critical_damage",
+	  "type": "flat"
+	}
+  ],
+  "level_range": {
+    "start": 0.15,
+    "end": 0.4
+  },
+  "tag_list": {
+    "tags": [
+      "vitality",
+      "warrior_casting_weapon",
+      "strength",
+      "melee_weapon",
+      "weapon_family",
+	  "sword"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "vitality": 0.1,
+      "strength": 0.35
+    }
+  },
+  "item_id": "mcdw:sword_broadsword",
+  "gear_slot": "sword",
+  "rar_group": "non_unique",
+  "weapon_type": "Sword",
+  "attack_style": "MELEE",
+  "atk_speed": 0.7
+}

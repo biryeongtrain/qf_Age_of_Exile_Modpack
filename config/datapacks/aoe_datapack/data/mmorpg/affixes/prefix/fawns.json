@@ -1,0 +1,86 @@
+{
+  "guid": "fawns",
+  "loc_name": "Fawn\u0027s",
+  "only_one_per_item": true,
+  "weight": 1000,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "dodge_stat"
+        ],
+        "excluded": []
+      }
+    ]
+  },
+  "tags": [],
+  "type": "prefix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 1.2,
+          "max1": 1.5,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "dodge",
+          "type": "FLAT"
+        },
+        {
+          "min1": 1.5,
+          "max1": 2.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "health",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 200,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 0.8,
+          "max1": 1.2,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "dodge",
+          "type": "FLAT"
+        },
+        {
+          "min1": 1.0,
+          "max1": 1.5,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "health",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 300,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 0.3,
+          "max1": 0.8,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "dodge",
+          "type": "FLAT"
+        },
+        {
+          "min1": 0.5,
+          "max1": 1.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "health",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 400,
+      "tier": 3
+    }
+  }
+}

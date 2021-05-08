@@ -1,0 +1,14 @@
+{
+  "item_type": "mcdw_tier2_sword_mechanized_sawblade",
+  "item_id": "mcdw:sword_mechanized_sawblade",
+  "id": "mcdw:sword_mechanized_sawblade",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

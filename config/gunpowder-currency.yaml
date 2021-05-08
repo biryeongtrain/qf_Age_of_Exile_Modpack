@@ -1,0 +1,7 @@
+# Gunpowder Currency Config
+
+# Balance to receive on first join
+startBalance: 1000.00
+
+# Hourly bonus
+hourlyBonus: 10.00

@@ -1,0 +1,62 @@
+{
+  "guid": "true_hit",
+  "loc_name": "True Hit",
+  "only_one_per_item": true,
+  "weight": 1000,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "weapon_family"
+        ],
+        "excluded": []
+      }
+    ]
+  },
+  "tags": [],
+  "type": "prefix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 5.0,
+          "max1": 10.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "critical_hit",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 200,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 3.0,
+          "max1": 5.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "critical_hit",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 300,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 2.0,
+          "max1": 3.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "critical_hit",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 400,
+      "tier": 3
+    }
+  }
+}

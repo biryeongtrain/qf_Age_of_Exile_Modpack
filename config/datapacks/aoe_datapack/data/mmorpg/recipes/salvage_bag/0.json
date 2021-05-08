@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "t",
+    "v",
+    "o"
+  ],
+  "key": {
+    "t": {
+      "item": "minecraft:coal"
+    },
+    "v": {
+      "item": "mmorpg:salvage_station"
+    },
+    "o": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "mmorpg:salvage_bag/0"
+  }
+}

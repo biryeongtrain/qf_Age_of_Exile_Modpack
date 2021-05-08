@@ -1,0 +1,36 @@
+{
+  "id": "ms_armor_chest",
+  "weight": 1000,
+  "rarity": "unique",
+  "tier": 0,
+  "unique_stats": [
+    {
+      "min1": 2.0,
+      "max1": 10.0,
+      "stat": "armor",
+      "type": "local_increase"
+    },
+    {
+      "min1": 10.0,
+      "max1": 30.0,
+      "stat": "health_regen",
+      "type": "local_increase"
+    }
+  ],
+  "base_stats": [],
+  "gear_type": "plate_chest2",
+  "item_id": "mmorpg:uniques/armor/ms_armor_chest",
+  "gear_types": [
+    "plate_chest2"
+  ],
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.5,
+      "vitality": 0.75
+    }
+  },
+  "filters": {
+    "list": []
+  }
+}

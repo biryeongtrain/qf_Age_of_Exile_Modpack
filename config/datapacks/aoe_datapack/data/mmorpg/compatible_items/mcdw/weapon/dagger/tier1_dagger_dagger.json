@@ -1,0 +1,14 @@
+{
+  "item_type": "mcdw_tier1_dagger_dagger",
+  "item_id": "mcdw:dagger_dagger",
+  "id": "mcdw:dagger_dagger",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

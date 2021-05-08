@@ -1,0 +1,11 @@
+{
+  "stat_percents": {
+    "min": 75,
+    "max": 100
+  },
+  "rarity_type": "SKILL_GEM",
+  "weight": 100,
+  "text_format": "LIGHT_PURPLE",
+  "higher_rar": "",
+  "guid": "mythic"
+}

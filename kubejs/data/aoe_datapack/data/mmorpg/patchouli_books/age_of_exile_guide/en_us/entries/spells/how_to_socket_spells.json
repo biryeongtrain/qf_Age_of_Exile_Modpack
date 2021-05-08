@@ -1,0 +1,12 @@
+{
+  "name": "소켓 사용법",
+  "category": "spells",
+  "icon": "minecraft:book",
+  "sortnum": 1,
+  "pages": [
+	{  
+		"type": "text",   
+		"text": "주문은 단축바의 빈 자리에 자동으로 등록됩니다. 단축키를 바꾸거나 다른 주문과 교환하고 싶다면 특성 트리를 열어 하단 단축바에서 조정하세요."
+	}
+  ]
+}

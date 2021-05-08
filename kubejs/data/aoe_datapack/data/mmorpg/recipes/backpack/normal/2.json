@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ooo",
+    "omo",
+    "odo"
+  ],
+  "key": {
+    "o": {
+      "item": "mmorpg:leather/2"
+    },
+    "m": {
+      "item": "minecraft:chest"
+    },
+    "d": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "mmorpg:backpack/normal/2"
+  }
+}

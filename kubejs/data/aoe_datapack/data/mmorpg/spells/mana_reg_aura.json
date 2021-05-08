@@ -1,0 +1,34 @@
+{
+  "identifier": "mana_reg_aura",
+  "attached": {
+    "on_cast": [],
+    "entity_components": {}
+  },
+  "config": {
+    "swing_arm": false,
+    "castingWeapon": "ANY_WEAPON",
+    "mana_cost": 0,
+    "times_to_cast": 1,
+    "cast_time_ticks": 0,
+    "cooldown_ticks": 5,
+    "style": "MAGIC",
+    "tags": [
+      "AURA"
+    ],
+    "cast_type": "NORMAL",
+    "actions_needed": []
+  },
+  "aura_data": {
+    "mana_reserved": 0.1,
+    "stats": [
+      {
+        "min1": 1.2,
+        "max1": 4.3,
+        "min2": 0.0,
+        "max2": 0.0,
+        "stat": "mana_per_sec",
+        "type": "FLAT"
+      }
+    ]
+  }
+}

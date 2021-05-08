@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mmorpg:mat/condensed_salvage/c4"
+    },
+    {
+      "item": "mmorpg:mat/salvage/salvage4"
+    },
+    {
+      "item": "mmorpg:mat/salvage/salvage4"
+    },
+    {
+      "item": "mmorpg:mat/salvage/salvage4"
+    },
+    {
+      "item": "mmorpg:mat/salvage/salvage4"
+    }
+  ],
+  "result": {
+    "item": "mmorpg:stat_infusion/4"
+  }
+}

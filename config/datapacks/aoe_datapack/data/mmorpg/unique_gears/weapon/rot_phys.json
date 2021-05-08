@@ -1,0 +1,30 @@
+{
+  "id": "rot_phys",
+  "weight": 1000,
+  "rarity": "unique",
+  "tier": 0,
+  "unique_stats": [
+    {
+      "min1": 50.0,
+      "max1": 100.0,
+      "stat": "physical_weapon_damage",
+      "type": "local_increase"
+    }
+  ],
+  "base_stats": [],
+  "gear_type": "wand1",
+  "item_id": "mmorpg:uniques/weapon/rot_phys",
+  "gear_types": [
+    "wand1"
+  ],
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.75,
+      "intelligence": 0.5
+    }
+  },
+  "filters": {
+    "list": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kingmaker",
+  "weight": 1000,
+  "rarity": "unique",
+  "tier": 0,
+  "unique_stats": [
+    {
+      "min1": 2.0,
+      "max1": 5.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "min1": 25.0,
+      "max1": 50.0,
+      "stat": "critical_damage",
+      "type": "flat"
+    },
+    {
+      "min1": -100.0,
+      "max1": -100.0,
+      "stat": "dodge",
+      "type": "global_increase"
+    }
+  ],
+  "base_stats": [],
+  "gear_type": "plate_chest3",
+  "item_id": "mmorpg:uniques/armor/kingmaker",
+  "gear_types": [
+    "plate_chest3"
+  ],
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.5,
+      "vitality": 0.75
+    }
+  },
+  "filters": {
+    "list": []
+  }
+}

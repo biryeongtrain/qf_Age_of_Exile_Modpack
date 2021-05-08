@@ -1,0 +1,52 @@
+{
+  "id": "mcdw_tier1_crbow_heavy_crossbow",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "min1": 1.25,
+      "max1": 2.5,
+      "min2": 2.5,
+      "max2": 4.5,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    },
+	{
+	  "min1": 1.25,
+      "max1": 3.5,
+      "min2": 2.25,
+      "max2": 5.0,
+      "stat": "armor_penetration",
+      "type": "flat"
+	}
+  ],
+  "level_range": {
+    "start": 0.0,
+    "end": 0.15
+  },
+  "tag_list": {
+    "tags": [
+      "strength",
+	  "intelligence",
+      "ranger_casting_weapon",
+      "ranged_weapon",
+      "weapon_family",
+      "crossbow"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.4,
+	  "strength": 0.2
+    }
+  },
+  "item_id": "mcdw:crossbow_heavy_crossbow",
+  "gear_slot": "crossbow",
+  "rar_group": "non_unique",
+  "weapon_type": "Crossbow",
+  "attack_style": "RANGED",
+  "atk_speed": 1.5
+}

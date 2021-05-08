@@ -1,0 +1,17 @@
+{
+  "id": "proj_dmg",
+  "weight": 1000,
+  "stats": [
+    {
+      "min1": 2.0,
+      "max1": 5.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "projectile_damage",
+      "type": "FLAT"
+    }
+  ],
+  "tags": [
+    "PROJECTILE"
+  ]
+}
