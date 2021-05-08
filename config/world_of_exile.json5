@@ -6,7 +6,7 @@
 			"blackOrWhiteList": "WHITELIST",
 			"dimensions": [ 
 				"minecraft:overworld",
-				"miningdim:hunting_dim"
+				"mining_dims:hunting_dim"
 			]
 		},
 		"PER_BIOME": { 
@@ -32,7 +32,7 @@
 		"PER_DIM": { 
 			"blackOrWhiteList": "WHITELIST",
 			"dimensions": [ 
-				"world_of_exile:hell2"
+				"world_of_exile:hell2",
 			]
 		},
 		"PER_BIOME": { 
@@ -61,7 +61,8 @@
 				"minecraft:overworld",
 				"world_of_exile:hell1",
 				"world_of_exile:hell2",
-				"world_of_exile:hell3"
+				"world_of_exile:hell3",
+				"mining_dims:hunting_dim"
 			]
 		},
 		"PER_BIOME": { 
@@ -87,7 +88,7 @@
 		"PER_DIM": { 
 			"blackOrWhiteList": "WHITELIST",
 			"dimensions": [ 
-				"world_of_exile:hell3"
+				"world_of_exile:hell3",
 			]
 		},
 		"PER_BIOME": { 
@@ -116,7 +117,8 @@
 				"minecraft:overworld",
 				"world_of_exile:hell1",
 				"world_of_exile:hell2",
-				"world_of_exile:hell3"
+				"world_of_exile:hell3",
+				"mining_dims:hunting_dim"
 			]
 		},
 		"PER_BIOME": { 
