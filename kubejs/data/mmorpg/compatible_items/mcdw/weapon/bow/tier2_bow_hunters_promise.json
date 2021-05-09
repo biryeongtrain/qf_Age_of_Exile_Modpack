@@ -1,0 +1,14 @@
+{
+  "item_type": "mcdw_tier2_bow_hunters_promise",
+  "item_id": "mcdw:bow_hunters_promise",
+  "id": "mcdw:bow_hunters_promise",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}
