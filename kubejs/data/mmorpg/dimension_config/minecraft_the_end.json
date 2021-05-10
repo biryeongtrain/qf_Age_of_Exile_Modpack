@@ -1,7 +1,7 @@
 {
   "dimension_id": "minecraft:the_end",
   "mob_tier": 3,
-  "exp_multi": 1.0,
+  "exp_multi": 10.0,
   "all_drop_multi": 1.0,
   "mob_lvl_per_distance": 100,
   "unique_gear_drop_multi": 1.0,
