@@ -41,10 +41,10 @@
       "type": "flat"
     }
   ],
-  "gear_type": "mcdw_axe",
+  "gear_type": "mcdw_axe_whirlwind",
   "item_id": "mcdw:axe_firebrand",
   "gear_types": [
-    "mcdw_axe"
+    "mcdw_axe_whirlwind"
   ],
   "stat_req": {
     "base_req": {},
