@@ -33,7 +33,7 @@
             "type": "push",
             "map": {
               "push_way": "FORWARDS",
-              "push_str": 0.3
+              "push_str": 0.5
             }
           }
         ],
@@ -122,7 +122,7 @@
   },
   "config": {
     "swing_arm": false,
-    "castingWeapon": "ANY_WEAPON",
+    "castingWeapon": "MELEE_WEAPON",
     "mana_cost": 50,
     "times_to_cast": 1,
     "cast_time_ticks": 0,
