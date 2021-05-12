@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "campanion:proteins"
+    },
+    {
+      "tag": "campanion:fruits"
+    },
+    {
+      "tag": "campanion:grains"
+    },
+    {
+      "tag": "campanion:jams"
+    },
+    {
+      "tag": "campanion:vegetables"
+    },
+    {
+      "tag": "campanion:juice"
+    },
+    {
+      "item": "croptopia:cheese"
+    },
+    {
+      "item": "croptopia:food_press"
+    }
+  ],
+  "result": {
+    "item": "campanion:mre"
+  }
+}
