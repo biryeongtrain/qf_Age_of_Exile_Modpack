@@ -1,0 +1,19 @@
+{
+  "identifier": "slash",
+  "mana_multi": 1.0,
+  "spell_id": "slash",
+  "type": "SKILL_GEM",
+  "req": {
+    "base_req": {
+      "strength": 20.0
+    },
+    "scaling_req": {
+      "strength": 0.8
+    }
+  },
+  "attribute": "STR",
+  "stats": [],
+  "tags": [
+    "DAMAGE"
+  ]
+}
