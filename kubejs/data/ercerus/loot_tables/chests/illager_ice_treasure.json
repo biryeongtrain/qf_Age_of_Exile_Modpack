@@ -1,0 +1,146 @@
+{
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:snowball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 6
+                            }
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_nugget",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 5
+                            }
+                        }
+                    ],
+                    "weight": 1,
+                    "quality": 1
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 5,
+                "max": 10
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:ice",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:packed_ice",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:blue_ice",
+                    "weight": 1,
+                    "quality": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:snow_block",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 2,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion:\"minecraft:slowness\"}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion:\"minecraft:long_slowness\"}"
+                        }
+                    ],
+                    "weight": 1,
+                    "quality": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion:\"minecraft:strong_slowness\"}"
+                        }
+                    ],
+                    "weight": 1,
+                    "quality": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 1,
+                    "quality": 2
+                }
+            ]
+        }
+    ]
+}

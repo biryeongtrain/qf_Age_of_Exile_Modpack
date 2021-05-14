@@ -1,0 +1,123 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 3,
+                "max": 6
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 6
+                            }
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 2,
+                "max": 6
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:lapis_lazuli",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 5
+            },
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:experience_bottle",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+
+                            "treasure": true,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 0,
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+
+                            "treasure": true,
+                            "levels": {
+                                "min": 15,
+                                "max": 30
+                            }
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}
