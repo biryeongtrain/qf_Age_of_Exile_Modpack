@@ -23,7 +23,7 @@
 	}
   ],
   "level_range": {
-    "start": 0.4,
+    "start": 0.6,
     "end": 0.6
   },
   "tag_list": {
@@ -40,7 +40,7 @@
     "base_req": {},
     "scaling_req": {
       "vitality": 0.15,
-      "strength": 0.4
+      "strength": 0.6
     }
   },
   "item_id": "mcdw:sword_claymore",

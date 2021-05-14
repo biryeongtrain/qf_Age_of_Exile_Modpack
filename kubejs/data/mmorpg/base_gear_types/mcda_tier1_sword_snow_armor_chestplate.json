@@ -1,0 +1,53 @@
+{
+  "id": "mcda_tier1_sword_snow_armor_chestplate",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "min1": 4.0,
+      "max1": 6.0,
+      "stat": "armor",
+      "type": "flat"
+    },
+    {
+      "min1": 4.0,
+      "max1": 6.0,
+      "stat": "health",
+      "type": "flat"
+    },
+	{
+      "min1": 2.0,
+      "max1": 5.0,
+      "stat": "water_resist",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.05,
+    "end": 0.4
+  },
+  "tag_list": {
+    "tags": [
+      "chest",
+      "armor_family",
+      "strength",
+      "plate",
+      "armor_stat",
+	  "sword_armor_family"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.5
+    }
+  },
+  "item_id": "mcda:snow_armor_chestplate",
+  "gear_slot": "chest",
+  "rar_group": "non_unique",
+  "weapon_type": "None",
+  "attack_style": "MELEE",
+  "atk_speed": 1.0
+}

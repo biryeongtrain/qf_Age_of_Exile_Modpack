@@ -1,5 +1,5 @@
 {
-  "id": "mcdw_axe",
+  "id": "mcdw_axe_double",
   "weight": 1000,
   "rarity": "common",
   "tier": 0,
@@ -33,7 +33,7 @@
       "strength": 0.5
     }
   },
-  "item_id": "mcdw:axe",
+  "item_id": "mcdw:axe_double",
   "gear_slot": "axe",
   "rar_group": "non_unique",
   "weapon_type": "Axe",

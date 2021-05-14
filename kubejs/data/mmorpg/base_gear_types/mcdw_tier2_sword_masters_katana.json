@@ -23,7 +23,7 @@
   ],
   "level_range": {
     "start": 0.16,
-    "end": 0.40
+    "end": 0.60
   },
   "tag_list": {
     "tags": [
@@ -38,7 +38,7 @@
   "stat_req": {
     "base_req": {},
     "scaling_req": {
-      "agility": 0.4,
+      "agility": 0.6,
       "strength": 0.2
     }
   },

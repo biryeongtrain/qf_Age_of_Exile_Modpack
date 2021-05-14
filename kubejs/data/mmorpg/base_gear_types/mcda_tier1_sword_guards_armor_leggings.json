@@ -1,0 +1,47 @@
+{
+  "id": "mcda_tier1_sword_guards_armor_pants",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "min1": 3.2,
+      "max1": 4.8,
+      "stat": "armor",
+      "type": "flat"
+    },
+    {
+      "min1": 3.2,
+      "max1": 4.8,
+      "stat": "health",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.05,
+    "end": 0.4
+  },
+  "tag_list": {
+    "tags": [
+      "armor_family",
+      "pants",
+      "strength",
+      "plate",
+      "armor_stat",
+	  "sword_armor_family"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.5
+    }
+  },
+  "item_id": "mcda:guards_armor_leggings",
+  "gear_slot": "pants",
+  "rar_group": "non_unique",
+  "weapon_type": "None",
+  "attack_style": "MELEE",
+  "atk_speed": 1.0
+}

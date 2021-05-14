@@ -1,0 +1,47 @@
+{
+  "id": "mcda_tier1_dag_climbing_gear_boots",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "min1": 2.0,
+      "max1": 3.0,
+      "stat": "dodge",
+      "type": "flat"
+    },
+    {
+      "min1": 1.5,
+      "max1": 3.0,
+      "stat": "health",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.05,
+    "end": 0.4
+  },
+  "tag_list": {
+    "tags": [
+      "dexterity",
+      "dodge_stat",
+      "armor_family",
+      "boots",
+      "leather",
+	  "dagger_armor_family"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.5
+    }
+  },
+  "item_id": "mcda:climbing_gear_boots",
+  "gear_slot": "boots",
+  "rar_group": "non_unique",
+  "weapon_type": "None",
+  "attack_style": "MELEE",
+  "atk_speed": 1.0
+}

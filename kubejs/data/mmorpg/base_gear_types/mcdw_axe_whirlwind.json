@@ -1,21 +1,29 @@
 {
-  "id": "mcdw_axe",
+  "id": "mcdw_axe_whirlwind",
   "weight": 1000,
   "rarity": "common",
   "tier": 0,
   "implicit_stats": [],
   "base_stats": [
     {
-      "min1": 1.5,
-      "max1": 4.0,
-      "min2": 4.0,
-      "max2": 7.75,
+      "min1": 1.75,
+      "max1": 4.25,
+      "min2": 4.25,
+      "max2": 8.0,
       "stat": "physical_weapon_damage",
       "type": "flat"
+    },
+	{
+      "min1": 3.75,
+      "max1": 5.25,
+      "min2": 5.25,
+      "max2": 7.0,
+      "stat": "armor_penetration",
+      "type": "flat"
     }
-  ],
+	],
   "level_range": {
-    "start": 0.0,
+    "start": 0.15,
     "end": 0.6
   },
   "tag_list": {
@@ -33,10 +41,10 @@
       "strength": 0.5
     }
   },
-  "item_id": "mcdw:axe",
+  "item_id": "mcdw:axe_whirlwind",
   "gear_slot": "axe",
   "rar_group": "non_unique",
   "weapon_type": "Axe",
   "attack_style": "MELEE",
-  "atk_speed": 1.25
+  "atk_speed": 1.0
 }

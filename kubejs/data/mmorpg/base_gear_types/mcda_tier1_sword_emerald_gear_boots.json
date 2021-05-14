@@ -1,0 +1,47 @@
+{
+  "id": "mcda_tier1_sword_emerald_gear_boots",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "min1": 2.0,
+      "max1": 3.0,
+      "stat": "armor",
+      "type": "flat"
+    },
+    {
+      "min1": 2.0,
+      "max1": 3.0,
+      "stat": "health",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.05,
+    "end": 0.4
+  },
+  "tag_list": {
+    "tags": [
+      "armor_family",
+      "strength",
+      "boots",
+      "plate",
+      "armor_stat",
+	  "sword_armor_family"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.5
+    }
+  },
+  "item_id": "mcda:emerald_gear_boots",
+  "gear_slot": "boots",
+  "rar_group": "non_unique",
+  "weapon_type": "None",
+  "attack_style": "MELEE",
+  "atk_speed": 1.0
+}
