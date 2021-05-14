@@ -1,0 +1,306 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:construction_site_big,type:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:construction_site_big_90,type:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:construction_site_big_180,type:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:construction_site_big_270,type:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:construction_site_small,type:1}"
+                        }
+                    ],
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:construction_site_small_90,type:1}"
+                        }
+                    ],
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:flag_post,type:1}"
+                        }
+                    ],
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:mine,type:1}"
+                        }
+                    ],
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:mine_90,type:1}"
+                        }
+                    ],
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:patrol_tower_big,type:1}"
+                        }
+                    ],
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:patrol_tower_small,type:1}"
+                        }
+                    ],
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:tower_broken,type:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:tower_broken_90,type:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:tower_broken_180,type:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:tower_broken_270,type:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:tower_double,type:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:tower_double_90,type:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:tower_double_180,type:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:tower_double_270,type:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:tower_single,type:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:tower_single_90,type:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:tower_single_180,type:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:tower_single_270,type:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:wheat_field_big,type:1}"
+                        }
+                    ],
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:wheat_field_big_90,type:1}"
+                        }
+                    ],
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:wheat_field_small,type:1}"
+                        }
+                    ],
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:underground_storage_small,type:1}"
+                        }
+                    ],
+                    "weight": 4
+                }
+            ]
+        }
+    ]
+}

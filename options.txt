@@ -22,7 +22,7 @@ mouseSensitivity:0.5
 fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
-gamma:0.40140846371650696
+gamma:0.5035211267605634
 renderDistance:7
 entityDistanceScaling:1.0
 guiScale:0
@@ -33,7 +33,7 @@ graphicsMode:0
 ao:1
 biomeBlendRadius:3
 renderClouds:true
-resourcePacks:["vanilla","Fabric Mods","kubejs:resource_pack","slightguimodifications:cts_textures","lambdabettergrass/default","file/korean_hd_font","file/LumiLights-v0.22-116_mac_compat","file/LumiPBRCompat-v0.20","file/LumiPBRExt-v0.20 (1)"]
+resourcePacks:["vanilla","Fabric Mods","kubejs:resource_pack","slightguimodifications:cts_textures","lambdabettergrass/default","file/korean_hd_font","file/LumiLights-v0.22-116_mac_compat","file/LumiPBRCompat-v0.20","file/LumiPBRExt-v0.20 (1)","file/qf_lang_file"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:ko_kr
@@ -89,8 +89,8 @@ key_key.fullscreen:key.keyboard.f11
 key_key.spectatorOutlines:key.keyboard.unknown
 key_key.swapOffhand:key.keyboard.f
 key_key.saveToolbarActivator:key.keyboard.unknown
-key_key.loadToolbarActivator:key.keyboard.x
-key_key.advancements:key.keyboard.l
+key_key.loadToolbarActivator:key.keyboard.unknown
+key_key.advancements:key.keyboard.unknown
 key_key.hotbar.1:key.keyboard.1
 key_key.hotbar.2:key.keyboard.2
 key_key.hotbar.3:key.keyboard.3
@@ -103,45 +103,31 @@ key_key.hotbar.9:key.keyboard.9
 key_key.dynamicfps.toggle_forced:key.keyboard.unknown
 key_key.dynamicfps.toggle_disabled:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
-key_key.fabrishot.screenshot:key.keyboard.f9
-key_key.ftbultimine:key.keyboard.grave.accent
 key_key.worldeditcui.toggle:key.keyboard.unknown
 key_key.worldeditcui.clear:key.keyboard.unknown
 key_key.worldeditcui.chunk:key.keyboard.unknown
+key_key.ftbchunks.map:key.keyboard.m
 key_key.curios.open.desc:key.keyboard.unknown
-key_key.origins.primary_active:key.keyboard.l
+key_key.origins.primary_active:key.keyboard.i
 key_key.origins.secondary_active:key.keyboard.unknown
 key_key.origins.view_origin:key.keyboard.o
-key_key.antighost.reveal:key.keyboard.period
+key_key.antighost.reveal:key.keyboard.unknown
 key_key.cleanview.togglecleanview:key.keyboard.unknown
 key_Main Hub Screen:key.keyboard.h
-key_Use Spell 1:key.keyboard.v
-key_Use Spell 2:key.keyboard.r
-key_Use Spell 3:key.keyboard.c
-key_Use Spell 4:key.keyboard.g
-key_gui.xaero_switch_waypoint_set:key.keyboard.unknown
-key_gui.xaero_instant_waypoint:key.keyboard.keypad.add
-key_gui.xaero_toggle_slime:key.keyboard.unknown
-key_gui.xaero_toggle_grid:key.keyboard.unknown
-key_gui.xaero_toggle_waypoints:key.keyboard.unknown
-key_gui.xaero_toggle_map_waypoints:key.keyboard.unknown
-key_gui.xaero_toggle_map:key.keyboard.keypad.9
-key_gui.xaero_enlarge_map:key.keyboard.z
-key_gui.xaero_waypoints_key:key.keyboard.u
-key_gui.xaero_zoom_in:key.keyboard.unknown
-key_gui.xaero_zoom_out:key.keyboard.unknown
-key_gui.xaero_new_waypoint:key.keyboard.unknown
-key_gui.xaero_display_all_sets:key.keyboard.unknown
-key_gui.xaero_toggle_light_overlay:key.keyboard.unknown
-key_gui.xaero_minimap_settings:key.keyboard.y
-key_key.fabrictailor.toggle_skin_gui:key.keyboard.k
-key_key.waila.config:key.keyboard.keypad.0
-key_key.waila.show_overlay:key.keyboard.keypad.1
-key_key.waila.toggle_liquid:key.keyboard.keypad.2
-key_key.waila.show_recipe_input:key.keyboard.keypad.3
-key_key.waila.show_recipe_output:key.keyboard.keypad.4
+key_Use Spell 1:key.keyboard.x
+key_Use Spell 2:key.keyboard.c
+key_Use Spell 3:key.keyboard.v
+key_Use Spell 4:key.keyboard.b
+key_key.fabrictailor.toggle_skin_gui:key.keyboard.backslash
+key_key.backslot.switch_backslot:key.keyboard.g
+key_key.backslot.switch_beltslot:key.keyboard.g
+key_key.mousewheelie.open_config_screen:key.keyboard.unknown
+key_key.mousewheelie.sort_inventory:key.mouse.middle
+key_key.mousewheelie.scroll_up:amecsapi.key.mouse.scroll.up
+key_key.mousewheelie.scroll_down:amecsapi.key.mouse.scroll.down
+key_key.mousewheelie.pick_tool:key.keyboard.unknown
 key_key.ftbquests.quests:key.keyboard.unknown
-key_key.campanion.open_backpack:key.keyboard.i
+key_key.campanion.open_backpack:key.keyboard.r
 key_key.trade:key.keyboard.n
 soundCategory_master:1.0
 soundCategory_music:0.0

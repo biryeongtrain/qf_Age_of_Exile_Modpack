@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "croptopia:grape_juice",
+    "croptopia:orange_juice",
+    "croptopia:apple_juice",
+    "croptopia:cranberry_juice",
+    "croptopia:saguaro_juice",
+    "croptopia:tomato_juice",
+    "croptopia:melon_juice",
+    "croptopia:pineapple_juice"
+  ]
+}

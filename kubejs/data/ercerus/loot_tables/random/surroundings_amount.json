@@ -1,0 +1,53 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:4,amount:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:5,amount:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:6,amount:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:8,amount:1}"
+                        }
+                    ],
+                    "weight": 0
+                }
+            ]
+        }
+    ]
+}

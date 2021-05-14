@@ -1,0 +1,42 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:fortress,central:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:tower,central:1}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:dungeon,central:1}"
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}
