@@ -1,0 +1,15 @@
+{
+  "type": "origins:modify_jump",
+  "modifier": {
+    "value": 0.4,
+    "operation": "addition"
+  },
+  "condition": {
+    "type":"moborigins:time_since_rest",
+    "comparison": ">",
+    "compare_to": 72000.0
+
+  },
+  "name": "불면증",
+    "description": "오랫동안 꺠어있으면 이동속도가 크게 늘어납니다."
+}
