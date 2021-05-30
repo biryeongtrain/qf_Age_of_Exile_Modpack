@@ -1,0 +1,384 @@
+{
+	id: "7F2A9A0974125706",
+	group: "",
+	order_index: 1,
+	filename: "7F2A9A0974125706",
+	title: "기본기 마련",
+	icon: "minecraft:grass_block",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "시작",
+			x: -1.0d,
+			y: 0.0d,
+			description: [
+				"Age of Exile 모드팩에 잘 오셨습니다!",
+				"",
+				"이 모드팩은 Age of Exile 모드를 메인으로 구성된 RPG / 탐험 위주 모드팩입니다. ",
+				"",
+				"여러분은 여러 적대적 몬스터들과 새롭게 추가된 보스들을 상대하며 경험을 쌓아나가 마지막에는 엔더드래곤을 처치하는 여정을 떠나게 될 것입니다.",
+				"",
+				"시작하기 전, &a체크표시 버튼을 눌러 아이템들을 수령하세요.&r",
+				"",
+				"아, 꼭 &a리소스팩&r 에 가셔서 &bqf_lang_file&r을 활성화 해주세요."
+			],
+			id: "14036680FCD32393",
+			tasks: [{
+				id: "4C958E0B6ECFDE8C",
+				type: "checkmark"
+			}],
+			rewards: [
+				{
+					id: "43AE840FAF416CD0",
+					type: "item",
+					auto: "no_toast",
+					item: "minecraft:golden_carrot",
+					count: 10
+				},
+				{
+					id: "5E20E18D842C776A",
+					type: "item",
+					auto: "no_toast",
+					item: {
+						id: "campanion:sleeping_bag",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "7D1C1684564F8B10",
+					type: "item",
+					auto: "no_toast",
+					item: "mmorpg:scroll/spawn_teleport",
+					count: 5
+				},
+				{
+					id: "48F75130348C93B9",
+					type: "command",
+					title: "200원을 지급합니다.",
+					icon: "mcda:upgrade_core_golden",
+					auto: "enabled",
+					command: "/money @p add 200",
+					player_command: false
+				}
+			]
+		},
+		{
+			title: "Age of Exile 의 기본",
+			icon: "mmorpg:alchemy/potion/health/4",
+			x: 1.0d,
+			y: 0.0d,
+			description: [
+				"Age of Exile 은 여러분들에게 스텟, 주문등을 제공합니다.",
+				"",
+				'&aH를 눌러 Age of Exile GUI 를 연 다음, 우측 첫번째 "특성"버튼을 눌러 특성 페이지에 진입&r하세요. ',
+				"",
+				"특성 페이지에서는 처음에 찍을 수 있는 특성이 정해져 있으며, 총 7개의 시작 특성 중 하나를 선택하실 수 있습니다.",
+				"",
+				"&a선택한 특성에 따라, 초심자 장비 가방을 사용했을 때 나오는 아이템이 바뀌니&r 이 점 참고해 주세요.",
+				"",
+				'&a스킬젬은 H 키를 누른 다음, 오른쪽 특성 밑에 있는 "주문"버튼을 누른 다음, 노란색 자리와 초록색 자리&r에 두면 됩니다.',
+				"",
+				"또한 노란색 옆 창은 스킬 젬을 강화시키는 보조 젬을 두는 장소입니다.",
+				"",
+				"클리어 후, 스킬 젬을 눌러 스킬 젬을 받아가세요. 여러분이 어떤 스킬 젬을 가져가실 지 정할 수 있습니다.",
+				"",
+				"또한, &a스킬젬을 제외하고 지급된 아이템들은 보관해 두세요.&r 다음 퀘스트에 필요할겁니다."
+			],
+			dependencies: ["14036680FCD32393"],
+			id: "57740EBCAAD390FC",
+			tasks: [{
+				id: "0958C46C65ADC584",
+				type: "checkmark"
+			}],
+			rewards: [
+				{
+					id: "66143AB19B0FB1BA",
+					type: "choice",
+					title: "스킬 젬 선택",
+					table_id: 7493294600384580155L
+				},
+				{
+					id: "026767BA1812B441",
+					type: "item",
+					item: "minecraft:diamond"
+				},
+				{
+					id: "76FDB8244976A077",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 2
+				},
+				{
+					id: "5B824C3233272E70",
+					type: "item",
+					item: "minecraft:gold_ingot"
+				},
+				{
+					id: "40DACEC98EC0EDEE",
+					type: "item",
+					item: "minecraft:furnace",
+					count: 4
+				},
+				{
+					id: "1B093325A1E092EE",
+					type: "item",
+					item: "minecraft:crafting_table",
+					count: 2
+				},
+				{
+					id: "4FB04B5F08C31DE1",
+					type: "item",
+					item: "minecraft:coal"
+				},
+				{
+					id: "7CCD460049FC9976",
+					type: "item",
+					item: "minecraft:gunpowder"
+				}
+			]
+		},
+		{
+			title: "스킬 보조 젬",
+			icon: {
+				id: "mmorpg:skill_gems/str_support",
+				Count: 1b,
+				tag: {
+					gem: {
+						stat_perc: 21,
+						rar: "common",
+						lvl: 1,
+						id: "bleed_chance",
+						exp: 0,
+						random_stats: {
+							size: 0
+						}
+					}
+				}
+			},
+			x: 2.5d,
+			y: -1.5d,
+			subtitle: "스킬 강화",
+			description: [
+				"스킬 보조젬은 Age of Exile 에서 제공하는 스킬을 자신의 취향에 따라 강화시킬 수 있게 하는 아이템입니다.",
+				"",
+				"혼자 사용될 수는 없으며, 무조건 스킬 젬을 보조하는 역할로만 사용될 수 있습니다.",
+				"",
+				"보조 젬은 여러 추가 효과를 제공해 주는 대신, 마나량을 증가하거나 다른 유형의 데미지, 범위를 감소시키는 등의 효과를 가지고 있으니 꼭 확인하고 적용하시는 것이 좋습니다."
+			],
+			dependencies: ["57740EBCAAD390FC"],
+			id: "74A1FED8455AD3CD",
+			tasks: [{
+				id: "746D844BFF09A888",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "00E3A5E18FAD5A50",
+				type: "random",
+				title: "출혈 / 화상 / 동상 / 중독 / 감전 보조 중 하나가 나옵니다.",
+				table_id: 3827878820154701388L
+			}]
+		},
+		{
+			icon: "origins:orb_of_origin",
+			x: -3.0d,
+			y: -2.0d,
+			subtitle: "딱 한번만 구제해 드립니다.",
+			description: [
+				"누구나 실수를 할 수는 있습니다.",
+				"",
+				"종족을 잘 못 골랐다던가, 특성을 잘 못 골랐다던가... 또는 싸우면 안될 것에 싸움을 걸던가 말입니다.",
+				"",
+				"딱 한번, 종족을 변경 할 수 있는 아이템을 드립니다. 이번에는 절대 까먹지 마세요.",
+				"",
+				"오브를 들고 우클릭 하면 종족을 다시 선택 할 수 있습니다."
+			],
+			id: "5F2B5111A05AAF15",
+			tasks: [{
+				id: "379AAA64AD34DD96",
+				type: "checkmark",
+				title: "종족 다시 정하기"
+			}],
+			rewards: [
+				{
+					id: "172ECA5738CC3CC5",
+					type: "command",
+					title: "스폰으로 이동시킵니다.",
+					team_reward: false,
+					auto: "no_toast",
+					command: "/spawn",
+					player_command: true
+				},
+				{
+					id: "587EFF452D514118",
+					type: "item",
+					item: "origins:orb_of_origin"
+				}
+			]
+		},
+		{
+			title: "맞춤형 레벨링",
+			x: 5.5d,
+			y: 0.0d,
+			subtitle: "뉴비들을 위한 초반 던전",
+			description: [
+				"정말 슬프게도 오버월드 스폰은 대부분 선발 주자들에게 점령 당했습니다.",
+				"",
+				"하지만 우리는 오버월드 근처에 있는 던전들이 필요하죠.",
+				"",
+				"그 때 우리는 Hell 1 디멘션을 가면 됩니다.",
+				"",
+				"우선, Hell 1 디멘션에 들어가 보세요. Hell 1 디멘션은 네더의 모습을 하고 있습니다.",
+				"",
+				"Hell 1 디멘션에 가려면 조약돌을 네더 포탈처럼 둔 다음, 부싯돌과 부시를 사용해 보세요."
+			],
+			dependencies: ["57740EBCAAD390FC"],
+			id: "662A27A57BE9E6C0",
+			tasks: [{
+				id: "4536774B1861A9CE",
+				type: "dimension",
+				title: "Hell 1 차원 입장하기",
+				icon: {
+					id: "mmorpg:uniques/armor/jester_hat",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				dimension: "world_of_exile:hell1"
+			}]
+		},
+		{
+			title: "필요한 장비들",
+			x: 2.5d,
+			y: 1.5d,
+			subtitle: "더 좋은 장비들..?",
+			description: [
+				"아까 드린 자원들로 새로운 작업대들을 만들 시간입니다.",
+				"",
+				"장비 개조대는 여러분의 장비에 오브(Orb)를 추가시켜 장비를 더 강화시키는데 사용됩니다. 예를 들어, 변환의 오브는 일반 등급 장비를 고급 등급으로 업그레이드 시켜줍니다.",
+				"",
+				"장비 수리기는 장비를 레드스톤 가루, 철괴, 금괴, 에메랄드, 다이아몬드를 소모해 내구도를 4, 50, 100, 100, 500 회복시켜 줍니다.",
+				"",
+				"장비 분해기는 쓸모 없는 장비를 분해해 여러 유용한 오브나 아이템을 만들 수 있는 에센스로 바꾸어줍니다.",
+				"",
+				"장비 부여대는 특정 등급 이상에서만 등장하는 Socket (소켓)에 룬, 또는 젬을 부착 시킬 수 있게 해줍니다. "
+			],
+			dependencies: ["57740EBCAAD390FC"],
+			id: "42D7C93B29C3A91C",
+			tasks: [
+				{
+					id: "5C32E705E1AEADA3",
+					type: "item",
+					item: "mmorpg:modify_station"
+				},
+				{
+					id: "18422A2907CFD714",
+					type: "item",
+					item: "mmorpg:repair_station"
+				},
+				{
+					id: "7C5C8AECEADBF7FB",
+					type: "item",
+					item: "mmorpg:salvage_station"
+				},
+				{
+					id: "514FA76AFDC2C256",
+					type: "item",
+					item: "mmorpg:socket_station"
+				}
+			],
+			rewards: [
+				{
+					id: "2B8A850D0257A639",
+					type: "command",
+					title: "무작위 장비 하나를 획득합니다. ( 레벨은 1로 고정이며, 장비 종류, 희귀도는 무작위입니다. )",
+					icon: {
+						id: "mmorpg:weapon/axe/axe0",
+						Count: 1b,
+						tag: {
+							Damage: 109,
+							GEAR_ITEM_DATA: {
+								implicit: {
+									perc: 75
+								},
+								lvl: 1,
+								uniqueStats-: 1b,
+								in: 0.0f,
+								can_sal: 1b,
+								item_id: "",
+								sealed: 0b,
+								affixes: {
+									suf: {
+										size: 0
+									},
+									pre: {
+										size: 0
+									}
+								},
+								rare_suffix: 1,
+								ided: 1b,
+								is_uniq: 0b,
+								rare_prefix: 4,
+								uniq_id: "",
+								sockets: {
+									slots: 0,
+									sockets: {
+										size: 0
+									},
+									word: "",
+									word_perc: 0
+								},
+								baseStats: {
+									perc: {
+										0: 43,
+										1: 36,
+										2: 71,
+										3: 12,
+										size: 8,
+										4: 92,
+										5: 49,
+										6: 8,
+										7: 94
+									}
+								},
+								gear_type: "axe0",
+								is_cor: 0b,
+								rarity: "common"
+							}
+						}
+					},
+					auto: "enabled",
+					command: "/age_of_exile give gear @p random 1 random 1",
+					player_command: false
+				},
+				{
+					id: "64F5376E6E9CAEB9",
+					type: "command",
+					title: "200원을 지급합니다.",
+					icon: "mcda:upgrade_core_golden",
+					team_reward: false,
+					auto: "enabled",
+					command: "/money @p add 200",
+					player_command: false
+				}
+			]
+		},
+		{
+			title: "직업 ( Skill )",
+			x: 2.5d,
+			y: 3.0d,
+			subtitle: "모험을 위한 준비",
+			description: [""],
+			dependencies: ["42D7C93B29C3A91C"],
+			id: "59616E2ACF37D864",
+			tasks: [{
+				id: "7E22C542D29F4275",
+				type: "item",
+				item: "mmorpg:cooking_station"
+			}]
+		}
+	]
+}

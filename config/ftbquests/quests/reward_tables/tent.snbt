@@ -1,0 +1,10 @@
+{
+	id: "746D2E2BB2A7D69C",
+	order_index: 2,
+	title: "tent",
+	loot_size: 1,
+	rewards: [
+		{ item: "campanion:small_unbuilt_tent" },
+		{ item: "campanion:large_unbuilt_tent" }
+	]
+}

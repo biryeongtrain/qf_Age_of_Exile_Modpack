@@ -1,0 +1,98 @@
+{
+	id: "351F5B81868FF64C",
+	order_index: 1,
+	title: "tier1_support_gem",
+	loot_size: 1,
+	rewards: [
+		{
+			item: {
+				id: "mmorpg:skill_gems/int_support",
+				Count: 1b,
+				tag: {
+					gem: {
+						stat_perc: 23,
+						rar: "common",
+						lvl: 1,
+						id: "frostburn_chance",
+						exp: 0,
+						random_stats: {
+							size: 0
+						}
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "mmorpg:skill_gems/str_support",
+				Count: 1b,
+				tag: {
+					gem: {
+						stat_perc: 21,
+						rar: "common",
+						lvl: 1,
+						id: "bleed_chance",
+						exp: 0,
+						random_stats: {
+							size: 0
+						}
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "mmorpg:skill_gems/int_support",
+				Count: 1b,
+				tag: {
+					gem: {
+						stat_perc: 21,
+						rar: "common",
+						lvl: 1,
+						id: "fire_chance",
+						exp: 0,
+						random_stats: {
+							size: 0
+						}
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "mmorpg:skill_gems/str_support",
+				Count: 1b,
+				tag: {
+					gem: {
+						stat_perc: 10,
+						rar: "common",
+						lvl: 1,
+						id: "thunder_dmg",
+						exp: 0,
+						random_stats: {
+							size: 0
+						}
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "mmorpg:skill_gems/dex_support",
+				Count: 1b,
+				tag: {
+					gem: {
+						stat_perc: 25,
+						rar: "common",
+						lvl: 1,
+						id: "poison_chance",
+						exp: 0,
+						random_stats: {
+							size: 0
+						}
+					}
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,134 @@
+{
+	id: "67FD87BCE5468A3B",
+	order_index: 0,
+	title: "tier1_spell_gems",
+	loot_size: 1,
+	rewards: [
+		{
+			item: {
+				id: "mmorpg:skill_gems/int_skill",
+				Count: 1b,
+				tag: {
+					gem: {
+						stat_perc: 10,
+						rar: "common",
+						lvl: 1,
+						id: "thunder_spear",
+						exp: 0,
+						random_stats: {
+							size: 0
+						}
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "mmorpg:skill_gems/int_skill",
+				Count: 1b,
+				tag: {
+					gem: {
+						stat_perc: 10,
+						rar: "common",
+						lvl: 1,
+						id: "frostball",
+						exp: 0,
+						random_stats: {
+							size: 0
+						}
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "mmorpg:skill_gems/str_skill",
+				Count: 1b,
+				tag: {
+					gem: {
+						stat_perc: 25,
+						rar: "common",
+						lvl: 1,
+						id: "flame_strike",
+						exp: 0,
+						random_stats: {
+							size: 0
+						}
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "mmorpg:skill_gems/int_skill",
+				Count: 1b,
+				tag: {
+					gem: {
+						stat_perc: 25,
+						rar: "common",
+						lvl: 1,
+						id: "fireball",
+						exp: 0,
+						random_stats: {
+							size: 0
+						}
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "mmorpg:skill_gems/dex_skill",
+				Count: 1b,
+				tag: {
+					gem: {
+						stat_perc: 15,
+						rar: "common",
+						lvl: 1,
+						id: "explosive_arrow",
+						exp: 0,
+						random_stats: {
+							size: 0
+						}
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "mmorpg:skill_gems/dex_skill",
+				Count: 1b,
+				tag: {
+					gem: {
+						stat_perc: 14,
+						rar: "common",
+						lvl: 1,
+						id: "arrow_storm",
+						exp: 0,
+						random_stats: {
+							size: 0
+						}
+					}
+				}
+			}
+		},
+		{
+			item: {
+				id: "mmorpg:skill_gems/str_skill",
+				Count: 1b,
+				tag: {
+					gem: {
+						stat_perc: 18,
+						rar: "common",
+						lvl: 1,
+						id: "charge",
+						exp: 0,
+						random_stats: {
+							size: 0
+						}
+					}
+				}
+			}
+		}
+	]
+}

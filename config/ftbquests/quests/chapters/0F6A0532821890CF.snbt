@@ -1,0 +1,127 @@
+{
+	id: "0F6A0532821890CF",
+	group: "",
+	order_index: 0,
+	filename: "0F6A0532821890CF",
+	title: "조작법",
+	icon: "ftbquests:book",
+	default_quest_shape: "",
+	quests: [
+		{
+			icon: "waystones:abyss_watcher",
+			x: 0.0d,
+			y: -2.0d,
+			subtitle: "REI ( Roughly Enough Item )은 아이템 리스트와 조합법을 보여주는 모드입니다.",
+			description: [
+				"인벤토리 하단 검색창에서 검색하여 아이템을 찾거나,인벤토리 오른쪽 아이템 목록에서 아이템이 어떻게 만들어지고 쓰이는지 알 수 있습니다.",
+				"",
+				"아이템 위에 커서를 올리고 다음 단축키를 누를 수 있습니다.",
+				"",
+				"R키 - 해당 아이템의 조합법을 보여줍니다.",
+				"",
+				"U키 - 해당 아이템이 어디에 쓰이는지 보여줍니다.",
+				"",
+				"A키 - 인벤토리 왼쪽 상당에 북마크로 저장합니다.",
+				"",
+				"추가적으로, 검색시 @(모드이름)으로 해당 모드에서 추가하는 아이템을 검색할 수 있습니다."
+			],
+			dependencies: ["29AB97590120282A"],
+			id: "7A22F5E1DA6F5397",
+			tasks: [{
+				id: "2743D97D2E893585",
+				type: "checkmark",
+				title: "REI에서 아이템 조합법 찾기"
+			}]
+		},
+		{
+			icon: "minecraft:chest",
+			x: 0.0d,
+			y: 2.0d,
+			dependencies: ["29AB97590120282A"],
+			id: "2EF27E65A96285AD",
+			tasks: [{
+				id: "21CB4B2A094D7D75",
+				type: "checkmark",
+				title: "추가 인벤토리"
+			}]
+		},
+		{
+			icon: "origins:orb_of_origin",
+			x: 2.0d,
+			y: -1.0d,
+			dependencies: ["29AB97590120282A"],
+			id: "3D42FA4703F3AF9E",
+			tasks: [{
+				id: "4C53EEC39D2C4906",
+				type: "checkmark",
+				title: "Origin 능력 조작법"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:filled_map",
+				Count: 1b,
+				tag: {
+					map: 0
+				}
+			},
+			x: -2.0d,
+			y: -1.0d,
+			subtitle: "FTB Chunk는 미니맵과 청크보호 기능을 가지고 있습니다.",
+			description: [
+				"화면 오른쪽 상단에 미니맵이 있으며, M키를 눌러 월드맵을 볼 수 있습니다.",
+				"",
+				"월드맵 창에서 왼쪽 상단에 Claimed Chunks 버튼을 눌러 보호할 청크를 선택할 수 있습니다.",
+				"보호된 청크에서는 자기(혹은 팀)를 제외하고 블록이 파괴되지 않지만, 몹은 생성되니 주의하세요.",
+				"",
+				"또한 월드맵 창에서는 웨이포인트를 추가, 삭제할 수 있습니다.",
+				"이외에 설정을 알아보고 싶다면 월드맵 왼쪽하단에 설정창이 있습니다."
+			],
+			dependencies: ["29AB97590120282A"],
+			id: "6981A38D3B99CC9D",
+			tasks: [{
+				id: "7162E08F7DBE5808",
+				type: "checkmark",
+				title: "미니맵과 청크 보호하기"
+			}]
+		},
+		{
+			icon: "mobz:friendhead",
+			x: -2.0d,
+			y: 1.0d,
+			dependencies: ["29AB97590120282A"],
+			id: "2DCE3A482002C121",
+			tasks: [{
+				id: "76ECD70A6201C655",
+				type: "checkmark",
+				title: "멀티플레이 - 파티맺기"
+			}]
+		},
+		{
+			icon: "mmorpg:identify_tome",
+			x: 2.0d,
+			y: 1.0d,
+			dependencies: ["29AB97590120282A"],
+			id: "4AF84B7679CBAC01",
+			tasks: [{
+				id: "4FCB4ADDABB6C77E",
+				type: "checkmark",
+				title: "Age of Exile 메뉴"
+			}]
+		},
+		{
+			icon: "ftbquests:book",
+			x: 0.0d,
+			y: 0.0d,
+			shape: "square",
+			subtitle: "여러 모드의 조작법을 소개합니다",
+			size: 1.5d,
+			id: "29AB97590120282A",
+			tasks: [{
+				id: "3A34715D83E5EE70",
+				type: "checkmark",
+				title: "소개"
+			}]
+		}
+	]
+}
