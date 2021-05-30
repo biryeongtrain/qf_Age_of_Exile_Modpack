@@ -1,0 +1,35 @@
+{
+  "type": "varied-mobs:seq",
+  "choices": [
+    {
+      "type": "varied-mobs:biome",
+      "biomes": [
+        "minecraft:nether"
+      ],
+      "value": {
+        "type": "varied-mobs:pick",
+        "weights": [
+          1
+        ],
+        "choices": [
+          "minecraft:optifine/random/entity/enderman/enderman_eyes5.png"
+        ]
+      }
+    },
+    {
+      "type": "varied-mobs:pick",
+      "weights": [
+        10,
+        1,
+        1,
+        1
+      ],
+      "choices": [
+        "minecraft:optifine/random/entity/enderman/enderman_eyes1.png",
+        "minecraft:optifine/random/entity/enderman/enderman_eyes2.png",
+        "minecraft:optifine/random/entity/enderman/enderman_eyes3.png",
+        "minecraft:optifine/random/entity/enderman/enderman_eyes4.png"
+      ]
+    }
+  ]
+}

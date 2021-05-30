@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "type": "square-textured",
+  "textures": {
+    "top": "fabricskyboxes:sky/starfield02_top.png",
+    "bottom": "fabricskyboxes:sky/starfield02_bottom.png",
+    "north": "fabricskyboxes:sky/starfield02_north.png",
+    "south": "fabricskyboxes:sky/starfield02_south.png",
+    "east": "fabricskyboxes:sky/starfield02_east.png",
+    "west": "fabricskyboxes:sky/starfield02_west.png"
+  },
+  "properties": {
+    "fade": {
+      "startFadeIn": 13500,
+      "endFadeIn": 13833,
+      "startFadeOut": 22333,
+      "endFadeOut": 22666
+    },
+    "shouldRotate": false,
+    "rotation": {
+      "axis": [
+        0.0,
+        -36.0,
+        0.0
+      ]
+    }
+  },
+  "conditions": {
+    "worlds": [
+      "minecraft:overworld"
+    ]
+  },
+    "blend": {
+	"type": "screen"
+  }
+}

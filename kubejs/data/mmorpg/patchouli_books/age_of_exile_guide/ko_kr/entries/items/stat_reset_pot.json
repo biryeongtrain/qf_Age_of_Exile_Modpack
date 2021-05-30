@@ -1,0 +1,16 @@
+{
+  "name": "초심의 포션",
+  "category": "items",
+  "icon": "mmorpg:potions/reset_stats_potion",
+  "sortnum": 0,
+  "pages": [
+	{  
+		"type": "text",   		
+		"text": "능력치를 초기화 해 새로운 빌드를 연구할 수 있게 됩니다."
+	},  
+    {
+		"type": "crafting",
+		"recipe": "mmorpg:potions/reset_stats_potion"   
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "물품",
+  "description": "언젠가 사용하게 될 아이템입니다.",
+  "icon": "mmorpg:identify_tome",
+  "sortnum":3
+}

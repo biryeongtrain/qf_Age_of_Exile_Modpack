@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "type": "square-textured",
+  "blend": false,
+  "textures": {
+    "top": "fabricskyboxes:sky/rain_clouds_top.png",
+    "bottom": "fabricskyboxes:sky/rain_clouds_bottom.png",
+    "north": "fabricskyboxes:sky/rain_clouds_north.png",
+    "south": "fabricskyboxes:sky/rain_clouds_south.png",
+    "east": "fabricskyboxes:sky/rain_clouds_east.png",
+    "west": "fabricskyboxes:sky/rain_clouds_west.png"
+  },
+  "properties": {
+    "fade": {
+      "startFadeIn": 23116,
+      "endFadeIn": 23450,
+      "startFadeOut": 12849,
+      "endFadeOut": 13183
+    },
+    "shouldRotate": true,
+    "rotation": {
+      "axis": [
+        0.0,
+        -18.0,
+        0.0
+      ]
+    }
+  },
+  "conditions": {
+    "weather": [
+      "rain",
+      "thunder"
+    ],
+    "worlds": [
+      "minecraft:overworld"
+    ]
+  }
+}
