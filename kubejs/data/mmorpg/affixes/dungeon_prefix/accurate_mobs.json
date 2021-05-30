@@ -1,0 +1,32 @@
+{
+  "guid": "accurate_mobs",
+  "loc_name": "Accurate",
+  "only_one_per_item": true,
+  "weight": 1000,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [],
+        "excluded": []
+      }
+    ]
+  },
+  "tags": [],
+  "type": "dungeon_prefix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 20.0,
+          "max1": 50.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "accuracy",
+          "type": "LOCAL_INCREASE"
+        }
+      ],
+      "weight": 200,
+      "tier": 1
+    }
+  }
+}

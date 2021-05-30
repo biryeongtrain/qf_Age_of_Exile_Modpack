@@ -1,7 +1,6 @@
 {
   "type": "SPECIAL",
   "identifier": "big_wisdom_of_the_elders",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/big_wisdom_of_the_elders.png",
   "is_entry": false,

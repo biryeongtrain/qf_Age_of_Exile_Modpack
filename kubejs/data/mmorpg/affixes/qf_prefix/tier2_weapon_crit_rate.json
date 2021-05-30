@@ -1,0 +1,95 @@
+{
+  "guid": "pref_tier2_weapon_crit_dmg",
+  "loc_name": "Sharp",
+  "only_one_per_item": false,
+  "weight": 1600,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "weapon_family",
+		  "pants"
+        ],
+        "excluded": [
+		  "tier1",
+		  "tier3"
+		]
+      }
+    ]
+  },
+  "tags": [],
+  "type": "prefix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 18.0,
+          "max1": 20.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "critical_damage",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 112,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 14.0,
+          "max1": 18.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "critical_damage",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 240,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 10.0,
+          "max1": 14.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "critical_damage",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 368,
+      "tier": 3
+    },
+    "4": {
+      "mods": [
+        {
+          "min1": 7.0,
+          "max1": 10.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "critical_damage",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 400,
+      "tier": 4
+    },
+	"5": {
+      "mods": [
+        {
+          "min1": 5.0,
+          "max1": 7.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "critical_damage",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 480,
+      "tier": 5
+    }
+    }
+  }
+}

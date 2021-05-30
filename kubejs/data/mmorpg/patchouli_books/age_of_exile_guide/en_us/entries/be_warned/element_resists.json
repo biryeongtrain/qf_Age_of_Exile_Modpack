@@ -1,18 +1,18 @@
 {
-  "name": "속성 몹",
+  "name": "Elemental Mobs",
   "category": "be_warned",
   "icon": "minecraft:blaze_powder",
   "sortnum": 2,
   "pages": [
 	{  
 		"type": "text",   
-		"title": "기초",
-		"text": "물리공격을 가하는 적들은 방어와 회피로 상대할 수 있습니다. 그러나 속성공격을 가하는 적들을 상대하려면 화염, 냉기, 자연, 번개 속성에 대한 저항을 높일 필요가 있습니다."
+		"title": "The Basics",
+		"text": "Enemies usually deal physical damage so your armor or dodge handles that. But, many mobs will deal elemental damage! That damage isn't prevented by armor or dodge, so you need to build elemental resistances! Fire, Water, Nature, Thunder."
 	},  
 	{  
 		"type": "text",   
-		"title": "심화",
-		"text": "특별한 몹이나 수식어가 있는 몹은 속성공격을 가합니다. 특히 레벨이 높아질수록 속성피해가 강력해집니다. 그러므로 1레벨에는 저항이 낮아도 괜찮지만, 레벨이 올라갈수록 저항에 신경을 써야합니다."
+		"title": "More info",
+		"text": "There are some special mobs that deal a high % of elemental damage, and mob affixes that give them elemental damage too. Also, mobs recieve extra elemental damage per level. So while it might not be a problem to have 0 resists at lvl 1, be careful at lvl 30 or so."
 	}
   ]
 }

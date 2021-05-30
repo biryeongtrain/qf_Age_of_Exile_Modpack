@@ -1,7 +1,6 @@
 {
   "type": "SPECIAL",
   "identifier": "huge_dex",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/huge_dex.png",
   "is_entry": false,

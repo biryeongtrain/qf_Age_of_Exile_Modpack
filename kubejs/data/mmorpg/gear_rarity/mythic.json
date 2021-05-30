@@ -5,6 +5,7 @@
     "chance_for_more": 15
   },
   "max_worn_at_once": -1,
+  "drops_after_tier": -1,
   "default_stat_percents": {
     "min": 40,
     "max": 100
@@ -25,6 +26,7 @@
     "min": 5,
     "max": 5
   },
+  "item_tier": 5,
   "item_tier_power": 2.5,
   "item_value_multi": 3.0,
   "stat_req_multi": 1.0,
@@ -38,8 +40,8 @@
   "special_spawn_chance": 0.0,
   "special_spawn_chest_bonus_chance": 0.0,
   "rarity_type": "GEAR",
-  "weight": 20,
-  "text_format": "LIGHT_PURPLE",
+  "weight": 25,
+  "text_format": "DARK_PURPLE",
   "higher_rar": "",
   "guid": "mythic"
 }

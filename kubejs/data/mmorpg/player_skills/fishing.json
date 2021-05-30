@@ -5,7 +5,8 @@
   "order": 3,
   "dropTables": [
     {
-      "loot_chance_per_action_exp": 0.5,
+      "loot_chance_per_action_exp": 0.4,
+      "tag": "ink",
       "req": "NONE",
       "tier": "TIER0",
       "drop_rewards": [
@@ -20,7 +21,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.5,
+      "loot_chance_per_action_exp": 0.4,
+      "tag": "ink",
       "req": "NONE",
       "tier": "TIER1",
       "drop_rewards": [
@@ -35,7 +37,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.5,
+      "loot_chance_per_action_exp": 0.4,
+      "tag": "ink",
       "req": "NONE",
       "tier": "TIER2",
       "drop_rewards": [
@@ -50,7 +53,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.5,
+      "loot_chance_per_action_exp": 0.4,
+      "tag": "ink",
       "req": "NONE",
       "tier": "TIER3",
       "drop_rewards": [
@@ -65,7 +69,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.5,
+      "loot_chance_per_action_exp": 0.4,
+      "tag": "ink",
       "req": "NONE",
       "tier": "TIER4",
       "drop_rewards": [
@@ -80,7 +85,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.3,
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
       "req": "HOT_BIOME",
       "tier": "TIER0",
       "drop_rewards": [
@@ -95,7 +101,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.3,
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
       "req": "HOT_BIOME",
       "tier": "TIER1",
       "drop_rewards": [
@@ -110,7 +117,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.3,
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
       "req": "HOT_BIOME",
       "tier": "TIER2",
       "drop_rewards": [
@@ -125,7 +133,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.3,
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
       "req": "HOT_BIOME",
       "tier": "TIER3",
       "drop_rewards": [
@@ -140,7 +149,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.3,
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
       "req": "HOT_BIOME",
       "tier": "TIER4",
       "drop_rewards": [
@@ -155,7 +165,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.3,
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
       "req": "SWAMP_BIOME",
       "tier": "TIER0",
       "drop_rewards": [
@@ -170,7 +181,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.3,
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
       "req": "SWAMP_BIOME",
       "tier": "TIER1",
       "drop_rewards": [
@@ -185,7 +197,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.3,
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
       "req": "SWAMP_BIOME",
       "tier": "TIER2",
       "drop_rewards": [
@@ -200,7 +213,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.3,
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
       "req": "SWAMP_BIOME",
       "tier": "TIER3",
       "drop_rewards": [
@@ -215,7 +229,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.3,
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
       "req": "SWAMP_BIOME",
       "tier": "TIER4",
       "drop_rewards": [
@@ -230,7 +245,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.3,
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
       "req": "COLD_BIOME",
       "tier": "TIER0",
       "drop_rewards": [
@@ -245,7 +261,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.3,
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
       "req": "COLD_BIOME",
       "tier": "TIER1",
       "drop_rewards": [
@@ -260,7 +277,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.3,
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
       "req": "COLD_BIOME",
       "tier": "TIER2",
       "drop_rewards": [
@@ -275,7 +293,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.3,
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
       "req": "COLD_BIOME",
       "tier": "TIER3",
       "drop_rewards": [
@@ -290,7 +309,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.3,
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
       "req": "COLD_BIOME",
       "tier": "TIER4",
       "drop_rewards": [
@@ -305,8 +325,9 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.1,
-      "req": "NONE",
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
+      "req": "NIGHT",
       "tier": "TIER0",
       "drop_rewards": [
         {
@@ -320,8 +341,9 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.1,
-      "req": "NONE",
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
+      "req": "NIGHT",
       "tier": "TIER1",
       "drop_rewards": [
         {
@@ -335,8 +357,9 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.1,
-      "req": "NONE",
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
+      "req": "NIGHT",
       "tier": "TIER2",
       "drop_rewards": [
         {
@@ -350,8 +373,9 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.1,
-      "req": "NONE",
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
+      "req": "NIGHT",
       "tier": "TIER3",
       "drop_rewards": [
         {
@@ -365,8 +389,9 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.1,
-      "req": "NONE",
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
+      "req": "NIGHT",
       "tier": "TIER4",
       "drop_rewards": [
         {
@@ -380,8 +405,9 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.3,
-      "req": "MOUNTAIN_BIOME",
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
+      "req": "DAY",
       "tier": "TIER0",
       "drop_rewards": [
         {
@@ -395,8 +421,9 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.3,
-      "req": "MOUNTAIN_BIOME",
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
+      "req": "DAY",
       "tier": "TIER1",
       "drop_rewards": [
         {
@@ -410,8 +437,9 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.3,
-      "req": "MOUNTAIN_BIOME",
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
+      "req": "DAY",
       "tier": "TIER2",
       "drop_rewards": [
         {
@@ -425,8 +453,9 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.3,
-      "req": "MOUNTAIN_BIOME",
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
+      "req": "DAY",
       "tier": "TIER3",
       "drop_rewards": [
         {
@@ -440,8 +469,9 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.3,
-      "req": "MOUNTAIN_BIOME",
+      "loot_chance_per_action_exp": 0.5,
+      "tag": "fish",
+      "req": "DAY",
       "tier": "TIER4",
       "drop_rewards": [
         {

@@ -1,0 +1,14 @@
+{
+  "id": "pharaoh_set",
+  "stats": {
+    "2": [
+      {
+        "v1": 50.0,
+        "v2": 0.0,
+        "stat": "mummy_curse",
+        "type": "FLAT",
+        "scale_to_lvl": true
+      }
+    ]
+  }
+}

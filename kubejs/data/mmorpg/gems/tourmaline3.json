@@ -3,8 +3,8 @@
   "text_format": "LIGHT_PURPLE",
   "on_armor_stats": [
     {
-      "min1": 1.0,
-      "max1": 2.0,
+      "min1": 1.6,
+      "max1": 3.2,
       "min2": 0.0,
       "max2": 0.0,
       "stat": "health",
@@ -13,8 +13,8 @@
   ],
   "on_jewelry_stats": [
     {
-      "min1": 0.4,
-      "max1": 1.5,
+      "min1": 0.64000005,
+      "max1": 2.4,
       "min2": 0.0,
       "max2": 0.0,
       "stat": "health_regen",
@@ -33,7 +33,7 @@
   ],
   "item_id": "mmorpg:gems/tourmaline/3",
   "identifier": "tourmaline3",
-  "required_item_level": 8.0,
+  "required_item_level": 0.6,
   "weight": 250,
-  "effective_level": 8.0
+  "effective_level": 0.6
 }

@@ -3,8 +3,8 @@
   "text_format": "GREEN",
   "on_armor_stats": [
     {
-      "min1": 1.0,
-      "max1": 3.0,
+      "min1": 1.4,
+      "max1": 4.2,
       "min2": 0.0,
       "max2": 0.0,
       "stat": "dodge",
@@ -33,7 +33,7 @@
   ],
   "item_id": "mmorpg:gems/garnet/2",
   "identifier": "garnet2",
-  "required_item_level": 0.6,
+  "required_item_level": 0.4,
   "weight": 1000,
-  "effective_level": 0.6
+  "effective_level": 0.4
 }

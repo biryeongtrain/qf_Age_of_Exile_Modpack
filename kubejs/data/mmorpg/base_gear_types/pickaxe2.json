@@ -21,7 +21,8 @@
   "tag_list": {
     "tags": [
       "pickaxe",
-      "tool_family"
+      "tool_family",
+	  "tier1"
     ]
   },
   "stat_req": {
@@ -30,8 +31,9 @@
   },
   "item_id": "minecraft:diamond_pickaxe",
   "gear_slot": "pickaxe",
+  "weapon_offhand_stat_util": 0,
   "rar_group": "non_unique",
-  "weapon_type": "Sword",
-  "attack_style": "MELEE",
+  "weapon_type": "sword",
+  "attack_style": "melee",
   "atk_speed": 1.0
 }

@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "area_dmg_mana",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/misc/area_dmg.png",
   "is_entry": false,

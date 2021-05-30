@@ -6,6 +6,7 @@
   "dropTables": [
     {
       "loot_chance_per_action_exp": 1.0,
+      "tag": "",
       "req": "NONE",
       "tier": "TIER0",
       "drop_rewards": [
@@ -21,6 +22,7 @@
     },
     {
       "loot_chance_per_action_exp": 1.0,
+      "tag": "",
       "req": "NONE",
       "tier": "TIER1",
       "drop_rewards": [
@@ -36,6 +38,7 @@
     },
     {
       "loot_chance_per_action_exp": 1.0,
+      "tag": "",
       "req": "NONE",
       "tier": "TIER2",
       "drop_rewards": [
@@ -51,6 +54,7 @@
     },
     {
       "loot_chance_per_action_exp": 1.0,
+      "tag": "",
       "req": "NONE",
       "tier": "TIER3",
       "drop_rewards": [
@@ -66,6 +70,7 @@
     },
     {
       "loot_chance_per_action_exp": 1.0,
+      "tag": "",
       "req": "NONE",
       "tier": "TIER4",
       "drop_rewards": [

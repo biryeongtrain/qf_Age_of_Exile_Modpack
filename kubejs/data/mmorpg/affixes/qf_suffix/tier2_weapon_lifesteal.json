@@ -1,0 +1,93 @@
+{
+  "guid": "pref_tier2_weapon_lifesteal",
+  "loc_name": "- Bloodthirster",
+  "only_one_per_item": false,
+  "weight": 2000,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "weapon_family"
+        ],
+        "excluded": [
+		  "tier1"
+		]
+      }
+    ]
+  },
+  "tags": [],
+  "type": "suffix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 9.0,
+          "max1": 11.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "lifesteal",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 140,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 7.0,
+          "max1": 9.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "lifesteal",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 300,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 10.0,
+          "max1": 13.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "lifesteal",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 460,
+      "tier": 3
+    },
+    "4": {
+      "mods": [
+        {
+          "min1": 7.0,
+          "max1": 10.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "lifesteal",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 500,
+      "tier": 4
+    },
+	    "5": {
+      "mods": [
+        {
+          "min1": 5.0,
+          "max1": 7.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "lifesteal",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 600,
+      "tier": 5
+    }
+    }
+  }
+}

@@ -1,7 +1,6 @@
 {
   "type": "SPECIAL",
   "identifier": "big_overflow_mana",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/big_overflow_mana.png",
   "is_entry": false,

@@ -1,0 +1,17 @@
+{
+  "ifs": [
+    "is_none_wep_type",
+    "is_axe_wep_type",
+    "is_hammer_wep_type",
+    "is_mace_wep_type",
+    "is_staff_wep_type",
+    "is_dagger_wep_type",
+    "is_scythe_wep_type",
+    "is_spear_wep_type",
+    "is_sword_wep_type",
+    "is_glove_wep_type",
+    "is_scepter_wep_type"
+  ],
+  "id": "is_melee_weapon",
+  "ser": "either_is_true"
+}

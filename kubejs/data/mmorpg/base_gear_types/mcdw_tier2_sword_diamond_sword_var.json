@@ -10,13 +10,13 @@
       "max1": 4.0999998,
       "min2": 4.0999998,
       "max2": 5.8999996,
-      "stat": "thunder_weapon_damage",
+      "stat": "light_weapon_damage",
       "type": "flat"
     }
   ],
   "level_range": {
-    "start": 0.15,
-    "end": 0.6
+    "start": 0.1,
+    "end": 1.0
   },
   "tag_list": {
     "tags": [
@@ -25,7 +25,8 @@
       "strength",
       "melee_weapon",
       "weapon_family",
-	  "sword"
+	  "sword",
+	  "tier2"
     ]
   },
   "stat_req": {
@@ -38,7 +39,8 @@
   "item_id": "mcdw:sword_diamond_sword_var",
   "gear_slot": "sword",
   "rar_group": "non_unique",
+  "weapon_offhand_stat_util": 15,
   "weapon_type": "Sword",
-  "attack_style": "MELEE",
-  "atk_speed": 0.75
+  "attack_style": "melee",
+  "atk_speed": 1.25
 }

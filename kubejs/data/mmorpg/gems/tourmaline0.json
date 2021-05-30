@@ -33,7 +33,7 @@
   ],
   "item_id": "mmorpg:gems/tourmaline/0",
   "identifier": "tourmaline0",
-  "required_item_level": 0.2,
+  "required_item_level": 0.0,
   "weight": 20000,
-  "effective_level": 0.2
+  "effective_level": 0.0
 }

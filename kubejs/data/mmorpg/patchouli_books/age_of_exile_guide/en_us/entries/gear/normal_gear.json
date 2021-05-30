@@ -1,17 +1,17 @@
 {
-  "name": "일반 장비",
+  "name": "Normal Gear",
   "category": "gear",
   "icon": "mmorpg:weapon/wand/wand0",
   "sortnum": 0,
   "pages": [
 	{  
 	    "type": "spotlight",
-		"item": "mmorpg:weapon/wand/scepter0",		
-		"text": "일반 장비는 능력치와 접두사로 구성됩니다. 어떤 장비는 숨겨진 능력치와 소켓을 가지고 있습니다. 등급이 높을수록 더 많은 접두사가 붙습니다. 모든 장비에는 레벨 제한이 있습니다."
+		"item": "mmorpg:weapon/wand/wand0",		
+		"text": "Normal Gears consist of the base stat and affixes. Some have implicit stats and sockets. The higher the rarity, the more affixes an item can have. All gears have level requirements."
 	},
 	{  
 		"type": "text",   
-		"text": "어떤 장비에는 숨겨진 능력치가 있습니다. 예를 들어 지팡이는 주문 피해를, 셉터는 치유 효과를 증가시킵니다."
+		"text": "Some gears also have implicit stats, for example wands increase spell damage and scepters increase healing."
 	}
   ]
 }

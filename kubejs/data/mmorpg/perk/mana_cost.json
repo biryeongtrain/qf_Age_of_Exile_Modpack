@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "mana_cost",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/misc/mana_cost.png",
   "is_entry": false,

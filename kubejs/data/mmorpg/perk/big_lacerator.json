@@ -1,7 +1,6 @@
 {
   "type": "SPECIAL",
   "identifier": "big_lacerator",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/big_lacerator.png",
   "is_entry": false,

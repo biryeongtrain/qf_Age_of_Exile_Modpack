@@ -1,0 +1,95 @@
+{
+  "guid": "pref_tier2_armor_intelligence",
+  "loc_name": "능지",
+  "only_one_per_item": false,
+  "weight": 800,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "armor_family"
+        ],
+        "excluded": [
+		  "tier1",
+		  "tier3",
+		  "pants"
+		]
+      }
+    ]
+  },
+  "tags": [],
+  "type": "prefix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 9.0,
+          "max1": 10.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "intelligence",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 32,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 8.0,
+          "max1": 9.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "intelligence",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 120,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 7.0,
+          "max1": 8.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "intelligence",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 184,
+      "tier": 3
+    },
+    "4": {
+      "mods": [
+        {
+          "min1": 6.0,
+          "max1": 7.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "intelligence",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 200,
+      "tier": 4
+    },
+	    "5": {
+      "mods": [
+        {
+          "min1": 5.0,
+          "max1": 6.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "intelligence",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 240,
+      "tier": 5
+    }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "guid": "pref_tier2_chest_armor_dodge_flat",
+  "loc_name": "비열한",
+  "only_one_per_item": true,
+  "weight": 2800,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "dodge_stat"
+        ],
+        "excluded": [
+		  "tier1",
+		  "pants",
+		  "tier3",
+		  "helmet",
+		  "boots"
+		]
+      }
+    ]
+  },
+  "tags": [],
+  "type": "prefix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 21.0,
+          "max1": 25.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "dodge",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 280,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 7.5,
+          "max1": 8.5,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "dodge",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 560,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 6.0,
+          "max1": 7.5,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "dodge",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 840,
+      "tier": 3
+    },
+    "4": {
+      "mods": [
+        {
+          "min1": 5.0,
+          "max1": 6.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "dodge",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 1120,
+      "tier": 4
+    }
+  }
+}

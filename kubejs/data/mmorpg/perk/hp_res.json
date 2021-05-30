@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "hp_res",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/main/health.png",
   "is_entry": false,

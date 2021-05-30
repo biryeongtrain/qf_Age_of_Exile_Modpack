@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "mmorpg:smithing_shapeless",
   "ingredients": [
     {
       "item": "mmorpg:stone/4"

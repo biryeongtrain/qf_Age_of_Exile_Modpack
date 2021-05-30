@@ -1,7 +1,6 @@
 {
   "type": "START",
   "identifier": "duelist",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/duelist.png",
   "one_of_a_kind": "start",

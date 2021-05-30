@@ -3,15 +3,11 @@
   "stats": {
     "stats": [
       {
-        "mod": {
-          "min1": -100.0,
-          "max1": -100.0,
-          "min2": 0.0,
-          "max2": 0.0,
-          "stat": "heal_effect_on_self",
-          "type": "FLAT"
-        },
-        "scaleToLevel": true
+        "v1": -100.0,
+        "v2": 0.0,
+        "stat": "heal_effect_on_self",
+        "type": "FLAT",
+        "scale_to_lvl": false
       }
     ]
   },

@@ -1,0 +1,17 @@
+{
+  "id": "spell_crit_dmg",
+  "weight": 1000,
+  "stats": [
+    {
+      "min1": 2.0,
+      "max1": 6.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "spell_critical_damage",
+      "type": "FLAT"
+    }
+  ],
+  "tags": [
+    "spell"
+  ]
+}

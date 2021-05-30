@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "dex",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/core/dexterity.png",
   "is_entry": false,

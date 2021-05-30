@@ -1,18 +1,18 @@
 {
-  "name": "고유 장비",
+  "name": "Unique Gear",
   "category": "gear",
-  "icon": "mmorpg:uniques/weapon/obsi_might",
+  "icon": "minecraft:gold_ingot",
   "sortnum": 2,
   "pages": [
 	{  
 	    "type": "spotlight",
-		"item": "mmorpg:uniques/weapon/obsi_might",		
-		"text": "장비를 제작하다보면 확률적으로 고유 장비를 얻을 수 있습니다. 몹 전리품으로도 획득할 수 있습니다. 이런 아이템은 접두사가 없는 대신 특별한 능력치를 가지고 있습니다."
+		"item": "minecraft:gold_ingot",		
+		"text": "This is a special type of item that has no affixes, but has unique stats instead. They can not be crafted normally, but crafting normal gears has a chance to create a unique. They can also be found as mob loot."
 	},
 	{  
 		"type": "text",   
-		"title": "경고",
-		"text": "고유 장비는 대부분 강력하지만 특수한 빌드에서만 사용되는 경우도 있습니다. 빌드가 맞지 않는다면 역효과를 낼 수도 있습니다. 낮은 레벨에서는 크게 상관이 없지만, 레벨이 높아질수록 특화되는 경향이 있습니다. 예를 들면 어떤 고유 장비는 중갑 화염 마법사에게만 유용하게 사용될 수 있겠죠."
+		"title": "Caveats",
+		"text": "They can be very powerful but are usually very specific to your gear build. Sometimes they might be detrimental to your build. Low level uniques are usually useful to most builds, but higher level ones are more and more specific. For example a unique might only be good for a fire mage that uses plate armor."
 	}
   ]
 }

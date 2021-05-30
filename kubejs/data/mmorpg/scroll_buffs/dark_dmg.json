@@ -1,0 +1,14 @@
+{
+  "id": "dark_dmg",
+  "weight": 1000,
+  "stats": [
+    {
+      "min1": 10.0,
+      "max1": 50.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "all_nature_damage",
+      "type": "FLAT"
+    }
+  ]
+}

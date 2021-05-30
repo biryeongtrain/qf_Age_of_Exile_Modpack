@@ -1,6 +1,6 @@
 {
-  "name": "장비",
-  "description": "새로운 장비 시스템에 대한 설명입니다.",
+  "name": "Gear Items",
+  "description": "All you need to know about this new Gear system.",
   "icon": "mmorpg:weapon/wand/wand0",
   "sortnum":2
 }

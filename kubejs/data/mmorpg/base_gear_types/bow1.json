@@ -24,7 +24,8 @@
       "ranger_casting_weapon",
       "ranged_weapon",
       "weapon_family",
-      "bow"
+      "bow",
+	  "tier1"
     ]
   },
   "stat_req": {
@@ -33,10 +34,11 @@
       "dexterity": 0.5
     }
   },
-  "item_id": "minecraft:bow",
+  "item_id": "mmorpg:weapon/bow/bow1",
   "gear_slot": "bow",
+  "weapon_offhand_stat_util": 0,
   "rar_group": "non_unique",
-  "weapon_type": "Bow",
-  "attack_style": "RANGED",
+  "weapon_type": "bow",
+  "attack_style": "ranged",
   "atk_speed": 1.0
 }

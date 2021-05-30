@@ -6,15 +6,15 @@
   "implicit_stats": [],
   "base_stats": [
     {
-      "min1": 3.2,
-      "max1": 4.8,
-      "stat": "armor",
+      "min1": 16.0,
+      "max1": 32.0,
+      "stat": "health",
       "type": "flat"
     },
     {
-      "min1": 3.2,
-      "max1": 4.8,
-      "stat": "health",
+      "min1": 8.0,
+      "max1": 20.0,
+      "stat": "armor",
       "type": "flat"
     }
   ],
@@ -28,7 +28,8 @@
       "pants",
       "strength",
       "plate",
-      "armor_stat"
+      "armor_stat",
+	  "tier1"
     ]
   },
   "stat_req": {
@@ -39,8 +40,9 @@
   },
   "item_id": "mmorpg:armor/plate/pants/plate_pants0",
   "gear_slot": "pants",
+  "weapon_offhand_stat_util": 0,
   "rar_group": "non_unique",
-  "weapon_type": "None",
-  "attack_style": "MELEE",
+  "weapon_type": "none",
+  "attack_style": "melee",
   "atk_speed": 1.0
 }

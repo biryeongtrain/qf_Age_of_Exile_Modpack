@@ -23,17 +23,17 @@
   ],
   "on_weapons_stats": [
     {
-      "min1": 0.5,
-      "max1": 1.5,
-      "min2": 1.0,
-      "max2": 3.0,
+      "min1": 0.7,
+      "max1": 2.1,
+      "min2": 1.4,
+      "max2": 4.2,
       "stat": "water_weapon_damage",
       "type": "FLAT"
     }
   ],
   "item_id": "mmorpg:gems/sapphire/2",
   "identifier": "sapphire2",
-  "required_item_level": 0.6,
+  "required_item_level": 0.4,
   "weight": 1000,
-  "effective_level": 0.6
+  "effective_level": 0.4
 }

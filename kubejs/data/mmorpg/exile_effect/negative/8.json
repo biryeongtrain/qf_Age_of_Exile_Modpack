@@ -1,8 +1,11 @@
 {
   "id": "negative/8",
   "one_of_a_kind_id": "",
-  "type": "HARMFUL",
+  "type": "negative",
   "max_stacks": 5,
+  "tags": [
+    "negative"
+  ],
   "mc_stats": [],
   "stats": [],
   "spell": {
@@ -21,14 +24,9 @@
               "type": "damage",
               "map": {
                 "exile_potion_id": "negative/8",
-                "dmg_effect_type": "DOT",
+                "dmg_effect_type": "dot",
+                "value_calculation": "bleed",
                 "element": "Physical"
-              },
-              "calc": {
-                "scaling_values": [],
-                "base_scaling": "NORMAL",
-                "attack_scaling": 0.0,
-                "base_val": 2.25
               }
             }
           ],
@@ -47,10 +45,10 @@
             {
               "type": "particles_in_radius",
               "map": {
-                "particle_type": "minecraft:effect",
+                "particle_type": "mmorpg:blood_drip",
                 "motion": "None",
-                "radius": 1.0,
-                "particle_count": 10.0
+                "radius": 0.5,
+                "particle_count": 2.0
               }
             }
           ],
@@ -58,28 +56,7 @@
             {
               "type": "x_ticks_condition",
               "map": {
-                "tick_rate": 20.0
-              }
-            }
-          ]
-        },
-        {
-          "targets": [],
-          "acts": [
-            {
-              "type": "sound",
-              "map": {
-                "volume": 0.5,
-                "sound": "minecraft:entity.generic.hurt",
-                "pitch": 1.0
-              }
-            }
-          ],
-          "ifs": [
-            {
-              "type": "x_ticks_condition",
-              "map": {
-                "tick_rate": 20.0
+                "tick_rate": 5.0
               }
             }
           ]

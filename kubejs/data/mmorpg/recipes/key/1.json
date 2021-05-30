@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "mmorpg:smithing_shapeless",
   "ingredients": [
     {
       "item": "mmorpg:stone/1"
@@ -8,14 +8,10 @@
       "item": "mmorpg:stone/1"
     },
     {
-      "item": "mmorpg:stone/1"
-    },
-    {
-      "item": "mmorpg:stone/1"
+      "item": "minecraft:iron_ingot"
     }
   ],
   "result": {
-    "item": "mmorpg:key/1",
-    "count": 3
+    "item": "mmorpg:key/1"
   }
 }

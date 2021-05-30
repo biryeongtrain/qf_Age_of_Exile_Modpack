@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "magic_dmg",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/misc/magic_dmg.png",
   "is_entry": false,

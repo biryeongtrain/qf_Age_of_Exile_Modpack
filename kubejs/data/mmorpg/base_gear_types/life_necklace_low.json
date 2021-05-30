@@ -19,7 +19,8 @@
   "tag_list": {
     "tags": [
       "jewelry_family",
-      "necklace"
+      "necklace",
+	  "tier1"
     ]
   },
   "stat_req": {
@@ -28,8 +29,9 @@
   },
   "item_id": "mmorpg:jewelry/necklace/life_necklace_low",
   "gear_slot": "necklace",
+  "weapon_offhand_stat_util": 0,
   "rar_group": "non_unique",
-  "weapon_type": "None",
-  "attack_style": "MELEE",
+  "weapon_type": "none",
+  "attack_style": "melee",
   "atk_speed": 1.0
 }

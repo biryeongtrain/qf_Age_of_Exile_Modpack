@@ -8,11 +8,11 @@
       "item": "minecraft:coal"
     },
     "s": {
-      "item": "minecraft:lapis_lazuli"
+      "item": "mmorpg:plant/mana"
     }
   },
   "result": {
     "item": "mmorpg:gear_mat/essences/mana",
-    "count": 16
+    "count": 8
   }
 }

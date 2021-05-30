@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "ranged_dmg",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/misc/ranged_dmg.png",
   "is_entry": false,

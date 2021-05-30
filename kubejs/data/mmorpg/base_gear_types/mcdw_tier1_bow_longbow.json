@@ -15,8 +15,8 @@
     }
   ],
   "level_range": {
-    "start": 0.0,
-    "end": 0.15
+    "start": 0.05,
+    "end": 1.0
   },
   "tag_list": {
     "tags": [
@@ -25,7 +25,8 @@
       "ranger_casting_weapon",
       "ranged_weapon",
       "weapon_family",
-      "bow"
+      "bow",
+	  "tier1"
     ]
   },
   "stat_req": {
@@ -39,6 +40,6 @@
   "gear_slot": "bow",
   "rar_group": "non_unique",
   "weapon_type": "Bow",
-  "attack_style": "RANGED",
-  "atk_speed": 1.2
+  "attack_style": "ranged",
+  "atk_speed": 0.8
 }

@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "melee_dmg",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/misc/melee_dmg.png",
   "is_entry": false,

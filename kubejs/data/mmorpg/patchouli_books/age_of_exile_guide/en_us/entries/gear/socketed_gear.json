@@ -1,17 +1,17 @@
 {
-  "name": "장비 소켓",
+  "name": "Gear with Sockets",
   "category": "gear",
-  "icon": "mmorpg:jewelry/ring/cold_res_ring_low",
+  "icon": "minecraft:gold_ingot",
   "sortnum": 1,
   "pages": [
 	{  
 	    "type": "spotlight",
-		"item": "mmorpg:jewelry/ring/cold_res_ring_low",		
-		"text": "어떤 장비에는 젬이나 룬을 장착할 수 있는 소켓이 있습니다. 낮은 확률로 추가 소켓이 있는 유물 장비를 얻을 수도 있습니다."
+		"item": "minecraft:gold_ingot",		
+		"text": "Some gears have sockets. These are empty spots that can be filled with gems or runes!"
 	},
 	{  
 		"type": "text",   
-		"text": "장비의 레벨보다 낮은 레벨의 젬과 룬만 장착 가능하며 동일한 젬이나 룬을 두 개 이상 장착할 수 없습니다."
+		"text": "There are some limitations with socketing. The gem/rune can't be higher level than the gear it's being inserted."
 	}
   ]
 }

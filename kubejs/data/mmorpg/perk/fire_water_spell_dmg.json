@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "fire_water_spell_dmg",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/elemental/all_fire_damage.png",
   "is_entry": false,

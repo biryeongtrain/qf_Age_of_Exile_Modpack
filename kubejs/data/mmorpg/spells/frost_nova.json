@@ -1,4 +1,5 @@
 {
+  "weight": 1000,
   "identifier": "frost_nova",
   "attached": {
     "on_cast": [
@@ -92,7 +93,7 @@
             "type": "aoe",
             "map": {
               "selection_type": "RADIUS",
-              "en_predicate": "ENEMIES",
+              "en_predicate": "enemies",
               "radius": 3.5
             }
           }
@@ -101,13 +102,8 @@
           {
             "type": "damage",
             "map": {
+              "value_calculation": "frost_nova",
               "element": "Water"
-            },
-            "calc": {
-              "scaling_values": [],
-              "base_scaling": "NORMAL",
-              "attack_scaling": 0.0,
-              "base_val": 5.0
             }
           }
         ],
@@ -142,14 +138,21 @@
     "castingWeapon": "ANY_WEAPON",
     "mana_cost": 30,
     "times_to_cast": 1,
+    "charges": 0,
+    "charge_regen": 0,
+    "charge_name": "",
     "cast_time_ticks": 0,
     "cooldown_ticks": 500,
-    "style": "MAGIC",
+    "style": "magic",
     "tags": [
-      "AREA",
-      "DAMAGE"
+      "area",
+      "damage"
     ],
     "cast_type": "NORMAL",
-    "actions_needed": []
-  }
+    "actions_needed": [],
+    "scale_mana_cost_to_player_lvl": false
+  },
+  "manual_tip": false,
+  "disabled_dims": [],
+  "effect_tip": ""
 }

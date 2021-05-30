@@ -1,7 +1,6 @@
 {
   "type": "SPECIAL",
   "identifier": "big_sadist",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/big_sadist.png",
   "is_entry": false,

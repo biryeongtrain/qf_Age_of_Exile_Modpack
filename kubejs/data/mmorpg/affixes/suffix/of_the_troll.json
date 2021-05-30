@@ -7,8 +7,7 @@
     "tag_requirements": [
       {
         "included": [
-          "jewelry_family",
-          "plate"
+          "jewelry_family"
         ],
         "excluded": []
       }

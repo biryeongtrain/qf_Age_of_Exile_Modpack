@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "chance_of_frostburn",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/misc/chance_of_frostburn.png",
   "is_entry": false,

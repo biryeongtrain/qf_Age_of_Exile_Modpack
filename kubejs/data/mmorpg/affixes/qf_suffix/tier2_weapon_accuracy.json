@@ -1,0 +1,93 @@
+{
+  "guid": "suff_tier2_weapon_accuracy",
+  "loc_name": "Aiming",
+  "only_one_per_item": false,
+  "weight": 3600,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "weapon_family"
+        ],
+        "excluded": [
+		  "tier1"
+		]
+      }
+    ]
+  },
+  "tags": [],
+  "type": "suffix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 16.0,
+          "max1": 20.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "accuracy",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 252,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 13.0,
+          "max1": 16.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "accuracy",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 540,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 10.0,
+          "max1": 13.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "accuracy",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 828,
+      "tier": 3
+    },
+    "4": {
+      "mods": [
+        {
+          "min1": 7.0,
+          "max1": 10.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "accuracy",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 900,
+      "tier": 4
+    },
+	    "5": {
+      "mods": [
+        {
+          "min1": 5.0,
+          "max1": 7.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "accuracy",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 1080,
+      "tier": 5
+    }
+    }
+  }
+}

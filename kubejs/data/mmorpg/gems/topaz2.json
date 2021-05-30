@@ -7,7 +7,7 @@
       "max1": 16.8,
       "min2": 0.0,
       "max2": 0.0,
-      "stat": "thunder_resist",
+      "stat": "light_resist",
       "type": "FLAT"
     }
   ],
@@ -17,23 +17,23 @@
       "max1": 11.2,
       "min2": 0.0,
       "max2": 0.0,
-      "stat": "spell_thunder_damage",
+      "stat": "spell_light_damage",
       "type": "FLAT"
     }
   ],
   "on_weapons_stats": [
     {
-      "min1": 0.5,
-      "max1": 1.5,
-      "min2": 1.0,
-      "max2": 3.0,
-      "stat": "thunder_weapon_damage",
+      "min1": 0.7,
+      "max1": 2.1,
+      "min2": 1.4,
+      "max2": 4.2,
+      "stat": "light_weapon_damage",
       "type": "FLAT"
     }
   ],
   "item_id": "mmorpg:gems/topaz/2",
   "identifier": "topaz2",
-  "required_item_level": 0.6,
+  "required_item_level": 0.4,
   "weight": 1000,
-  "effective_level": 0.6
+  "effective_level": 0.4
 }

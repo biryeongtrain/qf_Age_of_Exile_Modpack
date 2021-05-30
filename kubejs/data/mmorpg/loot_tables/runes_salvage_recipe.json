@@ -35,6 +35,11 @@
         {
           "type": "minecraft:item",
           "weight": 1000,
+          "name": "mmorpg:runes/fey"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1000,
           "name": "mmorpg:runes/dos"
         },
         {

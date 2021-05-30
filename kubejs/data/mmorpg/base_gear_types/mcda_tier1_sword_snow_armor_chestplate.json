@@ -1,19 +1,19 @@
 {
   "id": "mcda_tier1_sword_snow_armor_chestplate",
-  "weight": 1000,
+  "weight": 500,
   "rarity": "common",
   "tier": 0,
   "implicit_stats": [],
   "base_stats": [
     {
-      "min1": 4.0,
-      "max1": 6.0,
+      "min1": 15.0,
+      "max1": 30.0,
       "stat": "armor",
       "type": "flat"
     },
     {
-      "min1": 4.0,
-      "max1": 6.0,
+      "min1": 30.0,
+      "max1": 60.0,
       "stat": "health",
       "type": "flat"
     },
@@ -32,6 +32,7 @@
     "tags": [
       "chest",
       "armor_family",
+	  "tier1",
       "strength",
       "plate",
       "armor_stat",
@@ -47,7 +48,7 @@
   "item_id": "mcda:snow_armor_chestplate",
   "gear_slot": "chest",
   "rar_group": "non_unique",
-  "weapon_type": "None",
-  "attack_style": "MELEE",
+  "weapon_type": "none",
+  "attack_style": "melee",
   "atk_speed": 1.0
 }

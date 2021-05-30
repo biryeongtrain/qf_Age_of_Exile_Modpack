@@ -5,6 +5,7 @@
     "chance_for_more": 0
   },
   "max_worn_at_once": -1,
+  "drops_after_tier": -1,
   "default_stat_percents": {
     "min": 0,
     "max": 100
@@ -25,6 +26,7 @@
     "min": 5,
     "max": 5
   },
+  "item_tier": 5,
   "item_tier_power": 2.0,
   "item_value_multi": 2.0,
   "stat_req_multi": 1.0,
@@ -35,8 +37,8 @@
   },
   "announce_in_chat": true,
   "is_unique_item": true,
-  "special_spawn_chance": 0.5,
-  "special_spawn_chest_bonus_chance": 1.0,
+  "special_spawn_chance": 0.4,
+  "special_spawn_chest_bonus_chance": 0.5,
   "rarity_type": "GEAR",
   "weight": 0,
   "text_format": "RED",

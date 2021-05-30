@@ -1,0 +1,22 @@
+{
+  "id": "cdr",
+  "weight": 1000,
+  "stats": [
+    {
+      "min1": 2.0,
+      "max1": 4.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "cdr",
+      "type": "FLAT"
+    }
+  ],
+  "tags": [
+    "attack",
+    "spell",
+    "heal",
+    "aggro",
+    "damage",
+    "projectile"
+  ]
+}

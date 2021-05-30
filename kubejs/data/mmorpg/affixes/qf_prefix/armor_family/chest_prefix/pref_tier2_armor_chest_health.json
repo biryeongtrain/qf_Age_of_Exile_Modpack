@@ -1,0 +1,94 @@
+{
+  "guid": "pref_tier2_chest_armor_health",
+  "loc_name": "Health",
+  "only_one_per_item": false,
+  "weight": 3600,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "chest"
+        ],
+        "excluded": [
+		  "tier1",
+		  "tier3"
+		]
+      }
+    ]
+  },
+  "tags": [],
+  "type": "prefix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 17.0,
+          "max1": 20.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "health",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 252,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 14.5,
+          "max1": 17.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "health",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 540,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 12.5,
+          "max1": 14.5,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "health",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 828,
+      "tier": 3
+    },
+    "4": {
+      "mods": [
+        {
+          "min1": 11.0,
+          "max1": 12.5,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "health",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 900,
+      "tier": 4
+    },
+	    "5": {
+      "mods": [
+        {
+          "min1": 10.0,
+          "max1": 11.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "health",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 1080,
+      "tier": 5
+    }
+    }
+  }
+}

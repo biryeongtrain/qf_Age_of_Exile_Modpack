@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "elemental_resist",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/elemental/elemental_resist.png",
   "is_entry": false,

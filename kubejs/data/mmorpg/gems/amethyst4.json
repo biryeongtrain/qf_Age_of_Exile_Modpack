@@ -3,53 +3,37 @@
   "text_format": "DARK_PURPLE",
   "on_armor_stats": [
     {
-      "min1": 1.0,
-      "max1": 2.0,
+      "min1": 7.2,
+      "max1": 21.599998,
       "min2": 0.0,
       "max2": 0.0,
-      "stat": "health",
-      "type": "FLAT"
-    },
-    {
-      "min1": 1.0,
-      "max1": 2.0,
-      "min2": 0.0,
-      "max2": 0.0,
-      "stat": "mana",
+      "stat": "dark_resist",
       "type": "FLAT"
     }
   ],
   "on_jewelry_stats": [
     {
-      "min1": 0.5,
-      "max1": 1.5,
+      "min1": 7.2,
+      "max1": 14.4,
       "min2": 0.0,
       "max2": 0.0,
-      "stat": "health_regen",
-      "type": "FLAT"
-    },
-    {
-      "min1": 0.5,
-      "max1": 1.5,
-      "min2": 0.0,
-      "max2": 0.0,
-      "stat": "mana_regen",
+      "stat": "spell_dark_damage",
       "type": "FLAT"
     }
   ],
   "on_weapons_stats": [
     {
-      "min1": 3.6,
-      "max1": 7.2,
-      "min2": 0.0,
-      "max2": 0.0,
-      "stat": "attack_all_dmg_leech_as_mana",
+      "min1": 0.9,
+      "max1": 2.6999998,
+      "min2": 1.8,
+      "max2": 5.3999996,
+      "stat": "dark_weapon_damage",
       "type": "FLAT"
     }
   ],
   "item_id": "mmorpg:gems/amethyst/4",
   "identifier": "amethyst4",
-  "required_item_level": 1.0,
+  "required_item_level": 0.8,
   "weight": 50,
-  "effective_level": 1.0
+  "effective_level": 0.8
 }

@@ -3,8 +3,8 @@
   "text_format": "AQUA",
   "on_armor_stats": [
     {
-      "min1": 2.0,
-      "max1": 4.0,
+      "min1": 2.4,
+      "max1": 4.8,
       "min2": 0.0,
       "max2": 0.0,
       "stat": "mana",
@@ -13,8 +13,8 @@
   ],
   "on_jewelry_stats": [
     {
-      "min1": 0.5,
-      "max1": 1.5,
+      "min1": 0.6,
+      "max1": 1.8000001,
       "min2": 0.0,
       "max2": 0.0,
       "stat": "mana_regen",
@@ -33,7 +33,7 @@
   ],
   "item_id": "mmorpg:gems/azurite/1",
   "identifier": "azurite1",
-  "required_item_level": 0.4,
+  "required_item_level": 0.2,
   "weight": 5000,
-  "effective_level": 0.4
+  "effective_level": 0.2
 }

@@ -1,7 +1,6 @@
 {
   "type": "MAJOR",
   "identifier": "steady_hand",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/game_changers/steady_hand.png",
   "is_entry": false,

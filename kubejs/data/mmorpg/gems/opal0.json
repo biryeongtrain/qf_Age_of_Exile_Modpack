@@ -33,7 +33,7 @@
   ],
   "item_id": "mmorpg:gems/opal/0",
   "identifier": "opal0",
-  "required_item_level": 0.2,
+  "required_item_level": 0.0,
   "weight": 20000,
-  "effective_level": 0.2
+  "effective_level": 0.0
 }

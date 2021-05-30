@@ -1,0 +1,46 @@
+{
+  "id": "mcdw_tier2_scythe_sickle_soul_scythe",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "min1": 2.5,
+      "max1": 3.5,
+      "min2": 3.5,
+      "max2": 7.5,
+      "stat": "fire_weapon_damage",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.1,
+    "end": 1.0
+  },
+  "tag_list": {
+    "tags": [
+      "dexterity",
+      "scythe",
+      "mage_weapon",
+      "weapon_family",
+      "melee_weapon",
+      "intelligence",
+	  "tier2"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.2,
+      "intelligence": 0.5
+    }
+  },
+  "item_id": "mcdw:sickle_soul_scythe",
+  "gear_slot": "scythe",
+  "weapon_offhand_stat_util": 0,
+  "rar_group": "non_unique",
+  "weapon_type": "scythe",
+  "attack_style": "melee",
+  "atk_speed": 0.75
+}

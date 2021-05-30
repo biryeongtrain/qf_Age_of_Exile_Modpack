@@ -1,4 +1,5 @@
 {
+  "weight": 1000,
   "identifier": "charge",
   "attached": {
     "on_cast": [
@@ -34,7 +35,8 @@
             "map": {
               "set_add": "ADD",
               "motion": "CasterLook",
-              "push_str": 0.3
+              "push_str": 0.2,
+              "ignore_y": true
             }
           }
         ],
@@ -97,7 +99,7 @@
             "type": "aoe",
             "map": {
               "selection_type": "RADIUS",
-              "en_predicate": "ENEMIES",
+              "en_predicate": "enemies",
               "radius": 1.75
             }
           }
@@ -106,13 +108,8 @@
           {
             "type": "damage",
             "map": {
+              "value_calculation": "charge",
               "element": "Physical"
-            },
-            "calc": {
-              "scaling_values": [],
-              "base_scaling": "NORMAL",
-              "attack_scaling": 2.0,
-              "base_val": 0.0
             }
           }
         ],
@@ -172,6 +169,16 @@
               }
             ],
             "ifs": []
+          },
+          {
+            "targets": [],
+            "acts": [
+              {
+                "type": "cancel_cast",
+                "map": {}
+              }
+            ],
+            "ifs": []
           }
         ]
       }
@@ -183,14 +190,22 @@
     "castingWeapon": "MELEE_WEAPON",
     "mana_cost": 10,
     "times_to_cast": 60,
+    "charges": 0,
+    "charge_regen": 0,
+    "charge_name": "",
     "cast_time_ticks": 60,
     "cooldown_ticks": 200,
-    "style": "MELEE",
+    "style": "melee",
     "tags": [
-      "AREA",
-      "DAMAGE"
+      "area",
+      "damage",
+      "movement"
     ],
     "cast_type": "NORMAL",
-    "actions_needed": []
-  }
+    "actions_needed": [],
+    "scale_mana_cost_to_player_lvl": true
+  },
+  "manual_tip": false,
+  "disabled_dims": [],
+  "effect_tip": ""
 }

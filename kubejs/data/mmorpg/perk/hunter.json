@@ -1,7 +1,6 @@
 {
   "type": "START",
   "identifier": "hunter",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/hunter.png",
   "one_of_a_kind": "start",

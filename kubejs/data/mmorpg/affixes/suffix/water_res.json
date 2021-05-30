@@ -7,9 +7,7 @@
     "tag_requirements": [
       {
         "included": [
-          "jewelry_family",
-          "armor_family",
-          "offhand_family"
+          "jewelry_family"
         ],
         "excluded": []
       }

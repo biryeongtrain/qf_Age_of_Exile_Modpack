@@ -22,8 +22,8 @@
 	}
   ],
   "level_range": {
-    "start": 0.0,
-    "end": 0.15
+    "start": 0.05,
+    "end": 1.0
   },
   "tag_list": {
     "tags": [
@@ -33,7 +33,8 @@
       "strength",
       "melee_weapon",
       "weapon_family",
-	  "sword"
+	  "tier1",
+	  "tier1"
     ]
   },
   "stat_req": {
@@ -45,8 +46,9 @@
   },
   "item_id": "mcdw:dagger_tempest_knife",
   "gear_slot": "dagger",
+  "weapon_offhand_stat_util": 25,
   "rar_group": "non_unique",
   "weapon_type": "Dagger",
-  "attack_style": "MELEE",
-  "atk_speed": 0.5
+  "attack_style": "melee",
+  "atk_speed": 2.0
 }

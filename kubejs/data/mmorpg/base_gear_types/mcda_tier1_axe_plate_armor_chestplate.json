@@ -1,0 +1,48 @@
+{
+  "id": "mcda_tier1_axe_plate_armor_chestplate",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "min1": 15.0,
+      "max1": 30.0,
+      "stat": "armor",
+      "type": "flat"
+    },
+    {
+      "min1": 30.0,
+      "max1": 60.0,
+      "stat": "health",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.05,
+    "end": 0.4
+  },
+  "tag_list": {
+    "tags": [
+      "chest",
+      "armor_family",
+	  "tier1",
+      "strength",
+      "plate",
+      "armor_stat",
+	  "axe_armor_family"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.5
+    }
+  },
+  "item_id": "mcda:plate_armor_chestplate",
+  "gear_slot": "chest",
+  "rar_group": "non_unique",
+  "weapon_type": "none",
+  "attack_style": "melee",
+  "atk_speed": 1.0
+}

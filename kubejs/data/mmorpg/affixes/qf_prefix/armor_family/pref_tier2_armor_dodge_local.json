@@ -1,0 +1,80 @@
+{
+  "guid": "pref_tier2_armor_dodge_local",
+  "loc_name": "도둑의",
+  "only_one_per_item": true,
+  "weight": 2000,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "dodge_stat"
+        ],
+        "excluded": [
+		  "tier1",
+		  "pants",
+		  "tier3"
+		]
+      }
+    ]
+  },
+  "tags": [],
+  "type": "prefix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 16.0,
+          "max1": 20.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "dodge",
+          "type": "LOCAL_INCREASE"
+        }
+      ],
+      "weight": 140,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 13.5,
+          "max1": 16.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "dodge",
+          "type": "LOCAL_INCREASE"
+        }
+      ],
+      "weight": 260,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 11.5,
+          "max1": 13.5,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "dodge",
+          "type": "LOCAL_INCREASE"
+        }
+      ],
+      "weight": 700,
+      "tier": 3
+    },
+    "4": {
+      "mods": [
+        {
+          "min1": 10.0,
+          "max1": 11.5,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "dodge",
+          "type": "LOCAL_INCREASE"
+        }
+      ],
+      "weight": 900,
+      "tier": 4
+    }
+  }
+}

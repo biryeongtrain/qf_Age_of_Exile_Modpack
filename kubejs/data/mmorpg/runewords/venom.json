@@ -23,5 +23,6 @@
     "ita",
     "nos"
   ],
-  "family": "Weapon"
+  "family": "Weapon",
+  "gear_slots": []
 }

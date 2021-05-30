@@ -24,11 +24,13 @@
     }
   ],
   "base_stats": [],
-  "gear_type": "cold_res_ring_end",
+  "gear_type": "mana_reg_ring_low",
   "item_id": "mmorpg:uniques/jewelry/bonechill_ring",
+  "set": "",
+  "replaces_name": false,
   "gear_types": [
-    "cold_res_ring_low",
-    "cold_res_ring_end"
+    "mana_reg_ring_end",
+    "mana_reg_ring_low"
   ],
   "stat_req": {
     "base_req": {},

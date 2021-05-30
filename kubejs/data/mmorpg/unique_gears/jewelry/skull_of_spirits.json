@@ -5,8 +5,8 @@
   "tier": 0,
   "unique_stats": [
     {
-      "min1": 0.1,
-      "max1": 0.2,
+      "min1": 1.0,
+      "max1": 2.0,
       "stat": "all_attributes",
       "type": "flat"
     },
@@ -32,6 +32,8 @@
   "base_stats": [],
   "gear_type": "all_res_necklace_end",
   "item_id": "mmorpg:uniques/jewelry/skull_of_spirits",
+  "set": "",
+  "replaces_name": false,
   "gear_types": [
     "all_res_necklace_end"
   ],

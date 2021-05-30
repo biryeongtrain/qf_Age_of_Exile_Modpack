@@ -1,0 +1,44 @@
+{
+  "id": "mcdw_tier2_spear_whispering_spear",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "min1": 2.5,
+      "max1": 3.5,
+      "min2": 3.5,
+      "max2": 7.5,
+      "stat": "water_weapon_damage",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.1,
+    "end": 1.0
+  },
+  "tag_list": {
+    "tags": [
+      "warrior_casting_weapon",
+      "spear",
+      "strength",
+      "weapon_family",
+      "melee_weapon",
+	  "tier2"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.75
+    }
+  },
+  "item_id": "mcdw:spear_whispering_spear",
+  "gear_slot": "spear",
+  "weapon_offhand_stat_util": 0,
+  "rar_group": "non_unique",
+  "weapon_type": "spear",
+  "attack_style": "melee",
+  "atk_speed": 0.75
+}

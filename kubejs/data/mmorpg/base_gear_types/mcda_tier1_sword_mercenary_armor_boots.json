@@ -6,14 +6,14 @@
   "implicit_stats": [],
   "base_stats": [
     {
-      "min1": 2.0,
-      "max1": 3.0,
+      "min1": 7.5,
+      "max1": 15.0,
       "stat": "armor",
       "type": "flat"
     },
     {
-      "min1": 2.0,
-      "max1": 3.0,
+      "min1": 12.5,
+      "max1": 25.0,
       "stat": "health",
       "type": "flat"
     }
@@ -25,6 +25,7 @@
   "tag_list": {
     "tags": [
       "armor_family",
+	  "tier1",
       "strength",
       "boots",
       "plate",
@@ -41,7 +42,7 @@
   "item_id": "mcda:mercenary_armor_boots",
   "gear_slot": "boots",
   "rar_group": "non_unique",
-  "weapon_type": "None",
-  "attack_style": "MELEE",
+  "weapon_type": "none",
+  "attack_style": "melee",
   "atk_speed": 1.0
 }

@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "spell_critical_hit",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/main/spell_critical_hit.png",
   "is_entry": false,

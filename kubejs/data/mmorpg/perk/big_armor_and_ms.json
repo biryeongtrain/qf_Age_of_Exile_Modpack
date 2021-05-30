@@ -1,7 +1,6 @@
 {
   "type": "SPECIAL",
   "identifier": "big_armor_and_ms",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/big_armor_and_ms.png",
   "is_entry": false,

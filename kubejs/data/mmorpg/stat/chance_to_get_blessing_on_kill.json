@@ -1,0 +1,31 @@
+{
+  "ser": "data",
+  "id": "chance_to_get_blessing_on_kill",
+  "ele": "Elemental",
+  "effect": {
+    "order": 0,
+    "side": "Source",
+    "ifs": [
+      "random_roll",
+      "ele_match_stat"
+    ],
+    "effects": [
+      "give_beneficial/10_to_source"
+    ],
+    "events": [
+      "on_mob_kill"
+    ]
+  },
+  "show": true,
+  "min": 0.0,
+  "max": 100.0,
+  "base": 0.0,
+  "is_perc": true,
+  "use_sec_val": false,
+  "scaling": "NONE",
+  "is_long": true,
+  "icon": "❁",
+  "order": 100,
+  "format": "aqua",
+  "group": "Misc"
+}

@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "fire_penetration",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/elemental/fire_penetration.png",
   "is_entry": false,

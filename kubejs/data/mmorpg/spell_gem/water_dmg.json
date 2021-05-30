@@ -2,6 +2,7 @@
   "identifier": "water_dmg",
   "mana_multi": 1.2,
   "spell_id": "",
+  "weight": 1000,
   "type": "SUPPORT_GEM",
   "req": {
     "base_req": {
@@ -31,6 +32,6 @@
     }
   ],
   "tags": [
-    "DAMAGE"
+    "damage"
   ]
 }

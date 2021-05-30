@@ -1,8 +1,11 @@
 {
   "id": "negative/5",
   "one_of_a_kind_id": "",
-  "type": "HARMFUL",
+  "type": "negative",
   "max_stacks": 5,
+  "tags": [
+    "negative"
+  ],
   "mc_stats": [],
   "stats": [],
   "spell": {
@@ -21,14 +24,9 @@
               "type": "damage",
               "map": {
                 "exile_potion_id": "negative/5",
-                "dmg_effect_type": "DOT",
+                "dmg_effect_type": "dot",
+                "value_calculation": "burn",
                 "element": "Fire"
-              },
-              "calc": {
-                "scaling_values": [],
-                "base_scaling": "NORMAL",
-                "attack_scaling": 0.0,
-                "base_val": 2.0
               }
             }
           ],

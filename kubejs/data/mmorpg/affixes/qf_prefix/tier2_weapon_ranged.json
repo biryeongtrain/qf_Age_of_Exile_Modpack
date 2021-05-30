@@ -1,0 +1,95 @@
+{
+  "guid": "pref_tier2_weapon_ranged",
+  "loc_name": "Ranged",
+  "only_one_per_item": false,
+  "weight": 1200,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "weapon_family",
+		  "pants"
+        ],
+        "excluded": [
+		  "tier1",
+		  "tier3"
+		]
+      }
+    ]
+  },
+  "tags": [],
+  "type": "prefix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 45.0,
+          "max1": 60.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "ranged_dmg",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 84,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 30.0,
+          "max1": 45.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "ranged_dmg",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 180,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 23.0,
+          "max1": 30.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "ranged_dmg",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 276,
+      "tier": 3
+    },
+    "4": {
+      "mods": [
+        {
+          "min1": 15.0,
+          "max1": 23.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "ranged_dmg",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 300,
+      "tier": 4
+    },
+	    "5": {
+      "mods": [
+        {
+          "min1": 10.0,
+          "max1": 15.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "ranged_dmg",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 360,
+      "tier": 5
+    }
+    }
+  }
+}

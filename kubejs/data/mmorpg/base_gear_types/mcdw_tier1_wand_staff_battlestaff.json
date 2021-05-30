@@ -1,0 +1,51 @@
+{
+  "id": "mcdw_tier1_wand_staff_battlestaff",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [
+    {
+      "min1": 3.0,
+      "max1": 12.0,
+      "stat": "spell_damage",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [
+    {
+      "min1": 1.9,
+      "max1": 4.4999998,
+      "min2": 4.4999998,
+      "max2": 8.4999996,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.8,
+    "end": 1.0
+  },
+  "tag_list": {
+    "tags": [
+      "wand",
+      "mage_weapon",
+      "weapon_family",
+      "melee_weapon",
+      "intelligence",
+	  "tier1"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "intelligence": 0.5
+    }
+  },
+  "item_id": "mcdw:staff_battlestaff",
+  "gear_slot": "wand",
+  "weapon_offhand_stat_util": 0,
+  "rar_group": "non_unique",
+  "weapon_type": "wand",
+  "attack_style": "magic",
+  "atk_speed": 1.0
+}

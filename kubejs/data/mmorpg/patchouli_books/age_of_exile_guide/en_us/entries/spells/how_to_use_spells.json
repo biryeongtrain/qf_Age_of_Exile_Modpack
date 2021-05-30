@@ -1,13 +1,13 @@
 {
-  "name": "주문 사용법",
+  "name": "How to use Spells",
   "category": "spells",
   "icon": "minecraft:stick",
   "sortnum": 2,
   "pages": [
 	{  
 		"type": "text",   
-		"title": "놀랄만큼 쉽습니다!",
-		"text": "[R]로 주문 선택으로 전환하고 숫자나 마우스로 주문을 선택하세요. 선택된 주문은 인벤토리 오른쪽에 표시됩니다. 적절한 무기를 들고 우클릭하면 주문이 사용됩니다. 활 같은 무기로는 쉬프트 + R 로 사용해야 합니다."
+		"title": "It's very simple!",
+		"text": "You press [R] to switch to your spell hotbar and then use keyboard number keys or mouse to select your spell. The selected spell shows in the green bar right of your hotbar. To cast it, simply use the correct weapon and right click. Weapons with a use action like bows require you to press [SHIFT+R] instead."
 	}
   ]
 }

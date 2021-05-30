@@ -1,0 +1,30 @@
+{
+  "ser": "data",
+  "id": "mark_on_basic_atk_kill",
+  "ele": "Elemental",
+  "effect": {
+    "order": 100,
+    "side": "Source",
+    "ifs": [
+      "is_is_basic_atk_true"
+    ],
+    "effects": [
+      "give_beneficial/12_to_source"
+    ],
+    "events": [
+      "on_mob_kill"
+    ]
+  },
+  "show": true,
+  "min": 0.0,
+  "max": 100.0,
+  "base": 0.0,
+  "is_perc": true,
+  "use_sec_val": false,
+  "scaling": "NONE",
+  "is_long": true,
+  "icon": "❁",
+  "order": 100,
+  "format": "aqua",
+  "group": "Misc"
+}

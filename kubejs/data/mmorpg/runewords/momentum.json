@@ -40,5 +40,6 @@
     "nos",
     "xer"
   ],
-  "family": "Weapon"
+  "family": "Weapon",
+  "gear_slots": []
 }

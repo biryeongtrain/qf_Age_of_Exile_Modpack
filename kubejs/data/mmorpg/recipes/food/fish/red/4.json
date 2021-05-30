@@ -2,7 +2,7 @@
   "type": "mmorpg:food_shapeless",
   "ingredients": [
     {
-      "item": "mmorpg:food/extract/red"
+      "item": "minecraft:coal"
     },
     {
       "item": "mmorpg:plant/plant5"

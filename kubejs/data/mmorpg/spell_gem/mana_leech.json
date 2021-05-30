@@ -2,6 +2,7 @@
   "identifier": "mana_leech",
   "mana_multi": 1.25,
   "spell_id": "",
+  "weight": 1000,
   "type": "SUPPORT_GEM",
   "req": {
     "base_req": {
@@ -18,7 +19,7 @@
       "max1": 2.0,
       "min2": 0.0,
       "max2": 0.0,
-      "stat": "all_all_dmg_leech_as_mana",
+      "stat": "all_mana_leech",
       "type": "FLAT"
     },
     {
@@ -31,6 +32,6 @@
     }
   ],
   "tags": [
-    "DAMAGE"
+    "damage"
   ]
 }

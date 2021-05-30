@@ -1,44 +1,27 @@
 {
   "id": "beneficial/15",
   "one_of_a_kind_id": "",
-  "type": "BENEFICIAL",
+  "type": "beneficial",
   "max_stacks": 1,
-  "mc_stats": [
-	{
-      "val": 0.3,
-      "uuid": "f4d02ec5-75ea-471b-be9b-b9ecb0972d1a",
-      "id": "minecraft:generic.movement_speed",
-      "type": "GLOBAL_INCREASE"
-    }
+  "tags": [
+    "positive",
+    "offensive"
   ],
+  "mc_stats": [],
   "stats": [
     {
-      "v1": 5.0,
-      "v2": 5.0,
-      "stat": "accuracy",
+      "v1": 10.0,
+      "v2": 10.0,
+      "stat": "elemental_penetration",
       "type": "FLAT",
       "scale_to_lvl": true
     },
     {
-      "v1": 3.0,
-      "v2": 3.0,
-      "stat": "bow_damage",
+      "v1": 25.0,
+      "v2": 25.0,
+      "stat": "global_critical_hit",
       "type": "FLAT",
       "scale_to_lvl": true
-    },
-    {
-      "v1": 15.0,
-      "v2": 15.0,
-      "stat": "physical_weapon_damage",
-      "type": "LOCAL_INCREASE",
-      "scale_to_lvl": true
-    },
-	    {
-      "v1": 1.0,
-      "v2": 1.0,
-      "stat": "piercing_projectiles",
-      "type": "FLAT",
-      "scale_to_lvl": false
     }
   ]
 }

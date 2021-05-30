@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "inc_area_spell_dmg",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/misc/inc_aoe.png",
   "is_entry": false,

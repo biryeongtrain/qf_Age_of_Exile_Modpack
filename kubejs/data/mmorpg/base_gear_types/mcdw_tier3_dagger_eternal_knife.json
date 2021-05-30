@@ -54,6 +54,6 @@
   "gear_slot": "dagger",
   "rar_group": "non_unique",
   "weapon_type": "Dagger",
-  "attack_style": "MELEE",
+  "attack_style": "melee",
   "atk_speed": 0.5
 }

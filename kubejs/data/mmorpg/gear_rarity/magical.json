@@ -5,6 +5,7 @@
     "chance_for_more": 15
   },
   "max_worn_at_once": -1,
+  "drops_after_tier": -1,
   "default_stat_percents": {
     "min": 0,
     "max": 100
@@ -25,6 +26,7 @@
     "min": 1,
     "max": 2
   },
+  "item_tier": 1,
   "item_tier_power": 1.25,
   "item_value_multi": 1.25,
   "stat_req_multi": 0.4,

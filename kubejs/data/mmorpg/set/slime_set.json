@@ -1,0 +1,14 @@
+{
+  "id": "slime_set",
+  "stats": {
+    "2": [
+      {
+        "v1": 5.0,
+        "v2": 0.0,
+        "stat": "absorb_ele_dmg_to_hp",
+        "type": "FLAT",
+        "scale_to_lvl": true
+      }
+    ]
+  }
+}

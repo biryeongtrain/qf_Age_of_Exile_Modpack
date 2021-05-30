@@ -1,8 +1,11 @@
 {
   "id": "negative/2",
   "one_of_a_kind_id": "",
-  "type": "HARMFUL",
+  "type": "negative",
   "max_stacks": 5,
+  "tags": [
+    "negative"
+  ],
   "mc_stats": [
     {
       "val": -0.05,
@@ -36,14 +39,9 @@
               "type": "damage",
               "map": {
                 "exile_potion_id": "negative/2",
-                "dmg_effect_type": "DOT",
+                "dmg_effect_type": "dot",
+                "value_calculation": "frostburn",
                 "element": "Water"
-              },
-              "calc": {
-                "scaling_values": [],
-                "base_scaling": "NORMAL",
-                "attack_scaling": 0.0,
-                "base_val": 1.5
               }
             }
           ],

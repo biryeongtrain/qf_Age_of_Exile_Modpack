@@ -1,14 +1,24 @@
 {
   "id": "negative/7",
   "one_of_a_kind_id": "",
-  "type": "HARMFUL",
-  "max_stacks": 5,
-  "mc_stats": [],
+  "type": "negative",
+  "max_stacks": 1,
+  "tags": [
+    "negative"
+  ],
+  "mc_stats": [
+    {
+      "val": 0.2,
+      "uuid": "bd9f32fa-c8c1-455c-92aa-4a94c2a70cd8",
+      "id": "minecraft:generic.movement_speed",
+      "type": "GLOBAL_INCREASE"
+    }
+  ],
   "stats": [
     {
-      "v1": -1.0,
-      "v2": -1.0,
-      "stat": "elemental_resist",
+      "v1": -10.0,
+      "v2": -10.0,
+      "stat": "dark_resist",
       "type": "FLAT",
       "scale_to_lvl": true
     }
@@ -29,14 +39,9 @@
               "type": "damage",
               "map": {
                 "exile_potion_id": "negative/7",
-                "dmg_effect_type": "DOT",
-                "element": "Thunder"
-              },
-              "calc": {
-                "scaling_values": [],
-                "base_scaling": "NORMAL",
-                "attack_scaling": 0.0,
-                "base_val": 2.0
+                "dmg_effect_type": "dot",
+                "value_calculation": "torment",
+                "element": "Dark"
               }
             }
           ],
@@ -55,10 +60,10 @@
             {
               "type": "particles_in_radius",
               "map": {
-                "particle_type": "mmorpg:thunder",
+                "particle_type": "minecraft:soul",
                 "motion": "None",
                 "radius": 1.0,
-                "particle_count": 20.0
+                "particle_count": 10.0
               }
             }
           ],

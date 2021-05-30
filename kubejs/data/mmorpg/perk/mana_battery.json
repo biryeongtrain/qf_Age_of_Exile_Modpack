@@ -1,7 +1,6 @@
 {
   "type": "MAJOR",
   "identifier": "mana_battery",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/game_changers/mana_battery.png",
   "is_entry": false,

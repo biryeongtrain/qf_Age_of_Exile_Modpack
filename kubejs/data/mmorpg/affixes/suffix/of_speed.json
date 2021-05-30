@@ -2,7 +2,7 @@
   "guid": "of_speed",
   "loc_name": "Of Speed",
   "only_one_per_item": true,
-  "weight": 1000,
+  "weight": 0,
   "requirements": {
     "tag_requirements": [
       {

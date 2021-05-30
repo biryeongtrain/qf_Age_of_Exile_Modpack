@@ -24,7 +24,8 @@
       "strength",
       "weapon_family",
       "melee_weapon",
-      "axe"
+      "axe",
+	  "tier1"
     ]
   },
   "stat_req": {
@@ -35,8 +36,9 @@
   },
   "item_id": "mmorpg:weapon/axe/axe3",
   "gear_slot": "axe",
+  "weapon_offhand_stat_util": 15,
   "rar_group": "non_unique",
-  "weapon_type": "Axe",
-  "attack_style": "MELEE",
+  "weapon_type": "axe",
+  "attack_style": "melee",
   "atk_speed": 1.25
 }

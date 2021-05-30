@@ -1,0 +1,34 @@
+{
+  "ser": "data",
+  "id": "chance_of_mana_reg_on_heal_crit",
+  "ele": "Physical",
+  "effect": {
+    "order": 0,
+    "side": "Source",
+    "ifs": [
+      "is_spell",
+      "restore_type_is_heal",
+      "resource_type_is_health",
+      "random_roll",
+      "is_crit_true"
+    ],
+    "effects": [
+      "give_beneficial/3_to_source"
+    ],
+    "events": [
+      "on_spend_resource"
+    ]
+  },
+  "show": true,
+  "min": 0.0,
+  "max": 100.0,
+  "base": 0.0,
+  "is_perc": true,
+  "use_sec_val": false,
+  "scaling": "NONE",
+  "is_long": true,
+  "icon": "❁",
+  "order": 100,
+  "format": "aqua",
+  "group": "Misc"
+}

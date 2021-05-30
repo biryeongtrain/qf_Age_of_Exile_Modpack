@@ -1,0 +1,32 @@
+{
+  "guid": "life_on_hit_dun",
+  "loc_name": "Of Vampires",
+  "only_one_per_item": true,
+  "weight": 1000,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [],
+        "excluded": []
+      }
+    ]
+  },
+  "tags": [],
+  "type": "dungeon_suffix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 3.0,
+          "max1": 5.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "lifesteal",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 200,
+      "tier": 1
+    }
+  }
+}

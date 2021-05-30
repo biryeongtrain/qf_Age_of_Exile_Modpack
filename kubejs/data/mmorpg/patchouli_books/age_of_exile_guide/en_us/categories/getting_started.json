@@ -1,6 +1,6 @@
 {
-  "name": "시작",
-  "description": "모험을 떠나기 전에 꼭 읽으세요!",
+  "name": "Getting Started",
+  "description": "Must read for new adventurers!",
   "icon": "minecraft:wooden_sword",
   "sortnum":0
 }

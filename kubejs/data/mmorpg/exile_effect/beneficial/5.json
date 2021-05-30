@@ -1,8 +1,12 @@
 {
   "id": "beneficial/5",
   "one_of_a_kind_id": "",
-  "type": "BENEFICIAL",
-  "max_stacks": 1,
+  "type": "beneficial",
+  "max_stacks": 3,
+  "tags": [
+    "positive",
+    "heal_over_time"
+  ],
   "mc_stats": [],
   "stats": [],
   "spell": {
@@ -19,12 +23,8 @@
           "acts": [
             {
               "type": "restore_health",
-              "map": {},
-              "calc": {
-                "scaling_values": [],
-                "base_scaling": "NORMAL",
-                "attack_scaling": 0.0,
-                "base_val": 3.0
+              "map": {
+                "value_calculation": "regenerate_tick"
               }
             }
           ],

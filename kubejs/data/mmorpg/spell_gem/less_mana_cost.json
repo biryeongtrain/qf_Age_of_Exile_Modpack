@@ -2,6 +2,7 @@
   "identifier": "less_mana_cost",
   "mana_multi": 1.0,
   "spell_id": "",
+  "weight": 1000,
   "type": "SUPPORT_GEM",
   "req": {
     "base_req": {
@@ -22,7 +23,5 @@
       "type": "FLAT"
     }
   ],
-  "tags": [
-    "DAMAGE"
-  ]
+  "tags": []
 }

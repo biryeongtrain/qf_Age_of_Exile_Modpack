@@ -23,19 +23,22 @@
       "dexterity",
       "crossbow",
       "ranged_weapon",
-      "weapon_family"
+      "weapon_family",
+	  "tier1"
     ]
   },
   "stat_req": {
     "base_req": {},
     "scaling_req": {
-      "dexterity": 0.5
+      "dexterity": 0.4,
+      "strength": 0.2
     }
   },
   "item_id": "minecraft:crossbow",
   "gear_slot": "crossbow",
+  "weapon_offhand_stat_util": 0,
   "rar_group": "non_unique",
-  "weapon_type": "CrossBow",
-  "attack_style": "RANGED",
+  "weapon_type": "crossbow",
+  "attack_style": "ranged",
   "atk_speed": 1.0
 }

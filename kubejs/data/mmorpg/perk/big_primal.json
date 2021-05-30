@@ -1,7 +1,6 @@
 {
   "type": "SPECIAL",
   "identifier": "big_primal",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/big_primal.png",
   "is_entry": false,

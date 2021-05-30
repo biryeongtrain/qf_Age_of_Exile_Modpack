@@ -1,7 +1,6 @@
 {
   "type": "SPECIAL",
   "identifier": "big_health_ms_mana_cost",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/big_health_ms_mana_cost.png",
   "is_entry": false,

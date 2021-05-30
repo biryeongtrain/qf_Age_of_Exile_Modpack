@@ -1,7 +1,6 @@
 {
   "type": "MAJOR",
   "identifier": "tormentor",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/game_changers/tormentor.png",
   "is_entry": false,

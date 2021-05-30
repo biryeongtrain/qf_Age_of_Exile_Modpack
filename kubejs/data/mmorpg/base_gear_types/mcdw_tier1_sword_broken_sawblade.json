@@ -15,8 +15,8 @@
     }
   ],
   "level_range": {
-    "start": 0.0,
-    "end": 0.15
+    "start": 0.05,
+    "end": 1.0
   },
   "tag_list": {
     "tags": [
@@ -25,7 +25,9 @@
       "strength",
       "melee_weapon",
       "weapon_family",
-	  "sword"
+	  "sword",
+	  "tier1",
+	  "tier1"
     ]
   },
   "stat_req": {
@@ -38,7 +40,8 @@
   "item_id": "mcdw:sword_broken_sawblade",
   "gear_slot": "sword",
   "rar_group": "non_unique",
+  "weapon_offhand_stat_util": 15,
   "weapon_type": "Sword",
-  "attack_style": "MELEE",
-  "atk_speed": 0.75
+  "attack_style": "melee",
+  "atk_speed": 1.25
 }

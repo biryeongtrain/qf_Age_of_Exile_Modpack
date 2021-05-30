@@ -3,8 +3,8 @@
   "text_format": "LIGHT_PURPLE",
   "on_armor_stats": [
     {
-      "min1": 1.0,
-      "max1": 2.0,
+      "min1": 1.2,
+      "max1": 2.4,
       "min2": 0.0,
       "max2": 0.0,
       "stat": "health",
@@ -13,8 +13,8 @@
   ],
   "on_jewelry_stats": [
     {
-      "min1": 0.4,
-      "max1": 1.5,
+      "min1": 0.48000002,
+      "max1": 1.8000001,
       "min2": 0.0,
       "max2": 0.0,
       "stat": "health_regen",
@@ -33,7 +33,7 @@
   ],
   "item_id": "mmorpg:gems/tourmaline/1",
   "identifier": "tourmaline1",
-  "required_item_level": 0.4,
+  "required_item_level": 0.2,
   "weight": 5000,
-  "effective_level": 0.4
+  "effective_level": 0.2
 }

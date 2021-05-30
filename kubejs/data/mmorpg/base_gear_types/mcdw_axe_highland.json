@@ -23,8 +23,8 @@
     }
   ],
   "level_range": {
-    "start": 0.0,
-    "end": 0.15
+    "start": 0.05,
+    "end": 1.0
   },
   "tag_list": {
     "tags": [
@@ -32,7 +32,8 @@
       "strength",
       "weapon_family",
       "melee_weapon",
-      "axe"
+      "axe",
+	  "tier2"
     ]
   },
   "stat_req": {
@@ -45,6 +46,6 @@
   "gear_slot": "axe",
   "rar_group": "non_unique",
   "weapon_type": "Axe",
-  "attack_style": "MELEE",
+  "attack_style": "melee",
   "atk_speed": 1.25
 }

@@ -23,7 +23,7 @@
   ],
   "level_range": {
     "start": 0.16,
-    "end": 0.60
+    "end": 1.00
   },
   "tag_list": {
     "tags": [
@@ -32,7 +32,8 @@
       "sword",
       "strength",
       "melee_weapon",
-      "weapon_family"
+      "weapon_family",
+	  "tier2"
     ]
   },
   "stat_req": {
@@ -45,7 +46,8 @@
   "item_id": "mcdw:sword_masters_katana",
   "gear_slot": "sword",
   "rar_group": "non_unique",
+  "weapon_offhand_stat_util": 15,
   "weapon_type": "Sword",
-  "attack_style": "MELEE",
-  "atk_speed": 0.5
+  "attack_style": "melee",
+  "atk_speed": 1.5
 }

@@ -1,7 +1,6 @@
 {
   "type": "START",
   "identifier": "mage",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/mage.png",
   "one_of_a_kind": "start",

@@ -1,0 +1,62 @@
+{
+  "guid": "of_focus",
+  "loc_name": "Of Focus",
+  "only_one_per_item": true,
+  "weight": 0,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "mage_weapon"
+        ],
+        "excluded": []
+      }
+    ]
+  },
+  "tags": [],
+  "type": "suffix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 4.0,
+          "max1": 8.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "spell_critical_hit",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 200,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 2.0,
+          "max1": 4.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "spell_critical_hit",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 300,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 1.0,
+          "max1": 2.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "spell_critical_hit",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 400,
+      "tier": 3
+    }
+  }
+}

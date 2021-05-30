@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "spell_nature_damage_and_dot",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/elemental/spell_nature_damage.png",
   "is_entry": false,

@@ -3,8 +3,8 @@
   "text_format": "GOLD",
   "on_armor_stats": [
     {
-      "min1": 1.0,
-      "max1": 3.0,
+      "min1": 1.2,
+      "max1": 3.6000001,
       "min2": 0.0,
       "max2": 0.0,
       "stat": "armor",
@@ -33,7 +33,7 @@
   ],
   "item_id": "mmorpg:gems/opal/1",
   "identifier": "opal1",
-  "required_item_level": 0.4,
+  "required_item_level": 0.2,
   "weight": 5000,
-  "effective_level": 0.4
+  "effective_level": 0.2
 }

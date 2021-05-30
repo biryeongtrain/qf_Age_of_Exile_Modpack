@@ -1,0 +1,49 @@
+{
+  "id": "mcda_tier2_bow_ghost_kindler_chestplate",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "min1": 12.5,
+      "max1": 30.0,
+      "stat": "dodge",
+      "type": "flat"
+    },
+    {
+      "min1": 30.0,
+      "max1": 60.0,
+      "stat": "health",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.05,
+    "end": 1.0
+  },
+  "tag_list": {
+    "tags": [
+      "dexterity",
+      "dodge_stat",
+      "chest",
+      "armor_family",
+	  "tier2",
+      "leather",
+	  "bow_armor_family"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.5
+    }
+  },
+  "item_id": "mcda:ghost_kindler_chestplate",
+  "gear_slot": "chest",
+  "weapon_offhand_stat_util": 0,
+  "rar_group": "non_unique",
+  "weapon_type": "none",
+  "attack_style": "melee",
+  "atk_speed": 1.0
+}

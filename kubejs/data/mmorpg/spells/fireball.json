@@ -1,4 +1,5 @@
 {
+  "weight": 1000,
   "identifier": "fireball",
   "attached": {
     "on_cast": [
@@ -10,7 +11,7 @@
             "map": {
               "volume": 1.0,
               "sound": "minecraft:entity.blaze.shoot",
-              "pitch": 1.0
+              "pitch": 0.6
             }
           }
         ],
@@ -55,7 +56,51 @@
               "map": {
                 "particle_type": "mmorpg:flame",
                 "motion": "None",
-                "radius": 0.15,
+                "radius": 0.1,
+                "particle_count": 1.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 1.0
+              }
+            }
+          ]
+        },
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "particle_type": "minecraft:falling_lava",
+                "motion": "None",
+                "radius": 0.5,
+                "particle_count": 1.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 1.0
+              }
+            }
+          ]
+        },
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "particle_type": "minecraft:smoke",
+                "motion": "None",
+                "radius": 0.01,
                 "particle_count": 1.0
               }
             }
@@ -80,13 +125,27 @@
             {
               "type": "damage",
               "map": {
+                "value_calculation": "fireball",
                 "element": "Fire"
-              },
-              "calc": {
-                "scaling_values": [],
-                "base_scaling": "NORMAL",
-                "attack_scaling": 0.0,
-                "base_val": 8.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "on_hit",
+              "map": {}
+            }
+          ]
+        },
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "sound",
+              "map": {
+                "volume": 1.0,
+                "sound": "minecraft:entity.generic.burn",
+                "pitch": 2.0
               }
             }
           ],
@@ -105,8 +164,8 @@
               "map": {
                 "particle_type": "minecraft:lava",
                 "motion": "None",
-                "radius": 1.0,
-                "particle_count": 5.0
+                "radius": 0.5,
+                "particle_count": 1.0
               }
             }
           ],
@@ -125,14 +184,21 @@
     "castingWeapon": "MAGE_WEAPON",
     "mana_cost": 7,
     "times_to_cast": 1,
+    "charges": 0,
+    "charge_regen": 0,
+    "charge_name": "",
     "cast_time_ticks": 0,
     "cooldown_ticks": 20,
-    "style": "MAGIC",
+    "style": "magic",
     "tags": [
-      "PROJECTILE",
-      "DAMAGE"
+      "projectile",
+      "damage"
     ],
     "cast_type": "NORMAL",
-    "actions_needed": []
-  }
+    "actions_needed": [],
+    "scale_mana_cost_to_player_lvl": false
+  },
+  "manual_tip": false,
+  "disabled_dims": [],
+  "effect_tip": ""
 }

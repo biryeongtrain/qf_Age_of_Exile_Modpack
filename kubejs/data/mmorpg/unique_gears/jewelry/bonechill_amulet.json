@@ -24,11 +24,13 @@
     }
   ],
   "base_stats": [],
-  "gear_type": "all_res_necklace_end",
+  "gear_type": "all_res_necklace_low",
   "item_id": "mmorpg:uniques/jewelry/bonechill_amulet",
+  "set": "",
+  "replaces_name": false,
   "gear_types": [
-    "all_res_necklace_low",
-    "all_res_necklace_end"
+    "all_res_necklace_end",
+    "all_res_necklace_low"
   ],
   "stat_req": {
     "base_req": {},

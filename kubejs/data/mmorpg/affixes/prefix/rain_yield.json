@@ -1,6 +1,6 @@
 {
   "guid": "rain_yield",
-  "loc_name": "Rainy",
+  "loc_name": "Rainy Harvest",
   "only_one_per_item": true,
   "weight": 1000,
   "requirements": {
@@ -20,8 +20,8 @@
     "1": {
       "mods": [
         {
-          "min1": 9.0,
-          "max1": 12.0,
+          "min1": 30.0,
+          "max1": 30.0,
           "min2": 0.0,
           "max2": 0.0,
           "stat": "bonus_rain_yield",
@@ -34,8 +34,8 @@
     "2": {
       "mods": [
         {
-          "min1": 7.0,
-          "max1": 9.0,
+          "min1": 20.0,
+          "max1": 20.0,
           "min2": 0.0,
           "max2": 0.0,
           "stat": "bonus_rain_yield",
@@ -48,8 +48,8 @@
     "3": {
       "mods": [
         {
-          "min1": 4.0,
-          "max1": 7.0,
+          "min1": 10.0,
+          "max1": 10.0,
           "min2": 0.0,
           "max2": 0.0,
           "stat": "bonus_rain_yield",

@@ -1,0 +1,17 @@
+{
+  "id": "heal_crit_chance",
+  "weight": 1000,
+  "stats": [
+    {
+      "min1": 2.0,
+      "max1": 4.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "crit_heal_chance",
+      "type": "FLAT"
+    }
+  ],
+  "tags": [
+    "heal"
+  ]
+}

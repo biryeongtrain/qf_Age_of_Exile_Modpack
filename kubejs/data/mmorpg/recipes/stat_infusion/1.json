@@ -1,20 +1,14 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "mmorpg:smithing_shapeless",
   "ingredients": [
     {
       "item": "mmorpg:mat/condensed_salvage/c1"
     },
     {
-      "item": "mmorpg:mat/salvage/salvage1"
+      "item": "mmorpg:stone/1"
     },
     {
-      "item": "mmorpg:mat/salvage/salvage1"
-    },
-    {
-      "item": "mmorpg:mat/salvage/salvage1"
-    },
-    {
-      "item": "mmorpg:mat/salvage/salvage1"
+      "item": "minecraft:diamond"
     }
   ],
   "result": {

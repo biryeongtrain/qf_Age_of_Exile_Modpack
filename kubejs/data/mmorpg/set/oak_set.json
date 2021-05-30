@@ -1,0 +1,14 @@
+{
+  "id": "oak_set",
+  "stats": {
+    "2": [
+      {
+        "v1": 25.0,
+        "v2": 0.0,
+        "stat": "heal_cleanse",
+        "type": "FLAT",
+        "scale_to_lvl": true
+      }
+    ]
+  }
+}

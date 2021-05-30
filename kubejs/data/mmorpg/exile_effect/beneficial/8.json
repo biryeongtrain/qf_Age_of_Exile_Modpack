@@ -1,8 +1,12 @@
 {
   "id": "beneficial/8",
   "one_of_a_kind_id": "",
-  "type": "BENEFICIAL",
+  "type": "beneficial",
   "max_stacks": 1,
+  "tags": [
+    "positive",
+    "defensive"
+  ],
   "mc_stats": [],
   "stats": [
     {

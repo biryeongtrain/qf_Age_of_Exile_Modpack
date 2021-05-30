@@ -1,0 +1,38 @@
+{
+  "guid": "pref_tier2_chest_armor_dmg_received",
+  "loc_name": "맷집",
+  "only_one_per_item": false,
+  "weight": 800,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "chest"
+        ],
+        "excluded": [
+		  "tier1",
+		  "tier3"
+		]
+      }
+    ]
+  },
+  "tags": [],
+  "type": "prefix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 5.0,
+          "max1": 5.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "dmg_received",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 800,
+      "tier": 1
+    }
+    }
+  }
+}

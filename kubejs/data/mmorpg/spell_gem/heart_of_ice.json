@@ -2,6 +2,7 @@
   "identifier": "heart_of_ice",
   "mana_multi": 1.0,
   "spell_id": "heart_of_ice",
+  "weight": 1000,
   "type": "SKILL_GEM",
   "req": {
     "base_req": {
@@ -13,7 +14,5 @@
   },
   "attribute": "INT",
   "stats": [],
-  "tags": [
-    "HEALING"
-  ]
+  "tags": []
 }

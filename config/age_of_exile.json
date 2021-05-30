@@ -4,7 +4,7 @@
       "ENABLE_CHAT_EXP_MSG": true,
       "ENABLE_FLOATING_DMG": true
     },
-    "OVERLAY_GUI": {
+    "OVERLAY_BARS": {
       "parts": [
         {
           "type": "HEALTH",
@@ -22,6 +22,26 @@
           "position_offset": {
             "x": -91,
             "y": -49
+          },
+          "enabled": true,
+          "icon_renderer": "LEFT"
+        },
+        {
+          "type": "SHIELD",
+          "position": "BOTTOM_CENTER",
+          "position_offset": {
+            "x": -91,
+            "y": -59
+          },
+          "enabled": true,
+          "icon_renderer": "LEFT"
+        },
+        {
+          "type": "BLOCK",
+          "position": "BOTTOM_CENTER",
+          "position_offset": {
+            "x": -91,
+            "y": -79
           },
           "enabled": true,
           "icon_renderer": "LEFT"
@@ -81,7 +101,7 @@
     "PLAYER_GUI_TYPE": "RPG"
   },
   "Server": {
-    "ALL_PLAYERS_ARE_TEAMED_PVE_MODE": true,
+    "ALL_PLAYERS_ARE_TEAMED_PVE_MODE": false,
     "LOG_REGISTRY_ENTRIES": false,
     "GET_STARTER_ITEMS": true,
     "ALWAYS_SCALE_MOB_LEVEL_TO_PLAYER": false,
@@ -90,16 +110,17 @@
     "REQUIRE_TEAM_FOR_TEAM_DUNGEONS": true,
     "REGEN_HUNGER_COST": 10.0,
     "EXP_LOSS_ON_DEATH": 0.05000000074505806,
-    "EXP_GAIN_MULTI": 1.0,
-    "PARTY_RADIUS": 200.0,
-    "CHANCE_TO_CORRUPT_ITEM_AT_MAX_LEVEL": 20.0,
-    "START_CORRUPT_AT_LVL": 30.0,
+    "EXP_GAIN_MULTI": 10.0,
+    "PARTY_RADIUS": 100.0,
+    "RANDOM_SKILL_GEM_SALVAGE_CHANCE": 30.0,
+    "CHANCE_TO_CORRUPT_ITEM_AT_MAX_LEVEL": 70.0,
+    "START_CORRUPT_AT_LVL": 100.0,
     "LEVEL_DISTANCE_PENALTY_PER_LVL": 0.10000000149011612,
     "LEVEL_DISTANCE_PENALTY_MIN_MULTI": 0.009999999776482582,
     "LEVELS_NEEDED_TO_START_LVL_PENALTY": 5,
-    "MAX_RUNEWORD_GEARS_ON_PLAYER": 1,
-    "MAX_UNIQUE_GEARS_ON_PLAYER": 4,
-    "MAX_CHARACTERS": 8,
+    "MAX_RUNEWORD_GEARS_ON_PLAYER": 2,
+    "MAX_UNIQUE_GEARS_ON_PLAYER": 3,
+    "MAX_LOADOUTS": 3,
     "EXTRA_MOB_STATS_PER_LEVEL": 0.019999999552965164,
     "VANILLA_MOB_DMG_AS_EXILE_DMG": 0.5,
     "VANILLA_MOB_DMG_AS_EXILE_DMG_AT_MAX_LVL": 0.75,
@@ -110,8 +131,8 @@
   },
   "Favor": {
     "ENABLE_FAVOR_SYSTEM": true,
-    "FAVOR_GAIN_PER_CHEST_LOOTED": 30.0,
-    "STARTING_FAVOR": 100
+    "FAVOR_GAIN_PER_CHEST_LOOTED": 45.0,
+    "STARTING_FAVOR": 200
   },
   "LevelRewards": {
     "levelRewards": [
@@ -153,10 +174,10 @@
     "EXTRA_INSTABILITY_MULTI_AT_MAX_LEVEL": 1.0
   },
   "DropRates": {
-    "GEAR_DROPRATE": 7.0,
-    "GEM_DROPRATE": 0.5,
-    "RUNE_DROPRATE": 0.25,
-    "SKILL_GEM_DROPRATE": 1.0,
+    "GEAR_DROPRATE": 9.0,
+    "GEM_DROPRATE": 0.75,
+    "RUNE_DROPRATE": 0.5,
+    "SKILL_GEM_DROPRATE": 8.0,
     "CURRENCY_DROPRATE": 0.75,
     "LVLING_REWARD_DROPRATE": 0.1
   },

@@ -9,7 +9,9 @@
         "included": [
           "dodge_stat"
         ],
-        "excluded": []
+        "excluded": [
+		  "tier2"
+		]
       }
     ]
   },
@@ -19,8 +21,8 @@
     "1": {
       "mods": [
         {
-          "min1": 25.0,
-          "max1": 50.0,
+          "min1": 22.0,
+          "max1": 25.0,
           "min2": 0.0,
           "max2": 0.0,
           "stat": "dodge",
@@ -34,7 +36,7 @@
       "mods": [
         {
           "min1": 20.0,
-          "max1": 25.0,
+          "max1": 22.0,
           "min2": 0.0,
           "max2": 0.0,
           "stat": "dodge",
@@ -61,7 +63,7 @@
     "4": {
       "mods": [
         {
-          "min1": 5.0,
+          "min1": 8.0,
           "max1": 10.0,
           "min2": 0.0,
           "max2": 0.0,

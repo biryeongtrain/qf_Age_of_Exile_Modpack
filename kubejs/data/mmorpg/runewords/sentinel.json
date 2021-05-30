@@ -24,5 +24,8 @@
     "ano",
     "toq"
   ],
-  "family": "Armor"
+  "family": "NONE",
+  "gear_slots": [
+    "chest"
+  ]
 }

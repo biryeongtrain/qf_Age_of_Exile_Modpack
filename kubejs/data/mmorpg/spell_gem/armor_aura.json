@@ -2,6 +2,7 @@
   "identifier": "armor_aura",
   "mana_multi": 1.0,
   "spell_id": "armor_aura",
+  "weight": 1000,
   "type": "SKILL_GEM",
   "req": {
     "base_req": {
@@ -13,7 +14,5 @@
   },
   "attribute": "STR",
   "stats": [],
-  "tags": [
-    "AURA"
-  ]
+  "tags": []
 }

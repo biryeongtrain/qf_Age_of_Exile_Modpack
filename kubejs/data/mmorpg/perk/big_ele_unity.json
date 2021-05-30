@@ -1,7 +1,6 @@
 {
   "type": "SPECIAL",
   "identifier": "big_ele_unity",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/big_ele_unity.png",
   "is_entry": false,

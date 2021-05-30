@@ -15,5 +15,8 @@
     "har",
     "xer"
   ],
-  "family": "Armor"
+  "family": "NONE",
+  "gear_slots": [
+    "helmet"
+  ]
 }

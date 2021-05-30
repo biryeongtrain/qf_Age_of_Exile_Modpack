@@ -7,11 +7,11 @@
     "tag_requirements": [
       {
         "included": [
-          "armor_family",
-          "shield",
           "jewelry_family"
         ],
-        "excluded": []
+        "excluded": [
+		  "tier2"
+		]
       }
     ]
   },

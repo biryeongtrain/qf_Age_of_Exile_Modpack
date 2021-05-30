@@ -1,7 +1,6 @@
 {
   "type": "START",
   "identifier": "battle_mage",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/battle_mage.png",
   "one_of_a_kind": "start",

@@ -81,28 +81,6 @@
       ],
       "weight": 400,
       "tier": 3
-    },
-    "4": {
-      "mods": [
-        {
-          "min1": 0.0,
-          "max1": 1.0,
-          "min2": 0.0,
-          "max2": 0.0,
-          "stat": "mana",
-          "type": "FLAT"
-        },
-        {
-          "min1": 1.0,
-          "max1": 1.2,
-          "min2": 0.0,
-          "max2": 0.0,
-          "stat": "armor",
-          "type": "FLAT"
-        }
-      ],
-      "weight": 500,
-      "tier": 4
     }
   }
 }

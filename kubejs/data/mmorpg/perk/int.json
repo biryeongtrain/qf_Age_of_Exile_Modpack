@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "int",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/core/intelligence.png",
   "is_entry": false,

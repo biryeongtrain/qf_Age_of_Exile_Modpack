@@ -1,0 +1,94 @@
+{
+  "guid": "pref_tier2_chest_armor_mana",
+  "loc_name": "Mana",
+  "only_one_per_item": false,
+  "weight": 3600,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "chest"
+        ],
+        "excluded": [
+		  "tier1",
+		  "tier3"
+		]
+      }
+    ]
+  },
+  "tags": [],
+  "type": "prefix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 25.0,
+          "max1": 30.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "mana",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 252,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 22.5,
+          "max1": 25.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "mana",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 540,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 19.5,
+          "max1": 22.5,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "mana",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 828,
+      "tier": 3
+    },
+    "4": {
+      "mods": [
+        {
+          "min1": 17.0,
+          "max1": 19.5,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "mana",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 900,
+      "tier": 4
+    },
+	    "5": {
+      "mods": [
+        {
+          "min1": 15.0,
+          "max1": 17.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "mana",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 1080,
+      "tier": 5
+    }
+    }
+  }
+}

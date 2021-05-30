@@ -1,7 +1,6 @@
 {
   "type": "START",
   "identifier": "templar",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/templar.png",
   "one_of_a_kind": "start",

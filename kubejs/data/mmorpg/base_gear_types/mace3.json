@@ -1,0 +1,53 @@
+{
+  "id": "mace3",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [
+    {
+      "min1": 5.0,
+      "max1": 11.0,
+      "stat": "increase_healing",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [
+    {
+      "min1": 3.2,
+      "max1": 6.6000001,
+      "min2": 6.6000001,
+      "max2": 9.2000003,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.1,
+    "end": 1.0
+  },
+  "tag_list": {
+    "tags": [
+      "strength",
+      "mace",
+      "mage_weapon",
+      "weapon_family",
+      "melee_weapon",
+      "intelligence",
+	  "tier2"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "vitality": 0.5,
+      "intelligence": 0.25
+    }
+  },
+  "item_id": "mmorpg:weapon/mace/mace3",
+  "gear_slot": "mace",
+  "weapon_offhand_stat_util": 15,
+  "rar_group": "non_unique",
+  "weapon_type": "mace",
+  "attack_style": "melee",
+  "atk_speed": 0.8
+}

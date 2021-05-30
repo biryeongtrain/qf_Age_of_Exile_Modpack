@@ -1,4 +1,5 @@
 {
+  "weight": 1000,
   "identifier": "awaken_mana",
   "attached": {
     "on_cast": [
@@ -71,12 +72,8 @@
         "acts": [
           {
             "type": "restore_mana",
-            "map": {},
-            "calc": {
-              "scaling_values": [],
-              "base_scaling": "NORMAL",
-              "attack_scaling": 0.0,
-              "base_val": 30.0
+            "map": {
+              "value_calculation": "awaken_mana"
             }
           }
         ],
@@ -95,13 +92,20 @@
     "castingWeapon": "ANY_WEAPON",
     "mana_cost": 0,
     "times_to_cast": 1,
+    "charges": 0,
+    "charge_regen": 0,
+    "charge_name": "",
     "cast_time_ticks": 0,
     "cooldown_ticks": 6000,
-    "style": "MAGIC",
+    "style": "magic",
     "tags": [
-      "HEALING"
+      "heal"
     ],
     "cast_type": "NORMAL",
-    "actions_needed": []
-  }
+    "actions_needed": [],
+    "scale_mana_cost_to_player_lvl": false
+  },
+  "manual_tip": false,
+  "disabled_dims": [],
+  "effect_tip": ""
 }

@@ -2,6 +2,7 @@
   "identifier": "frost_armor",
   "mana_multi": 1.0,
   "spell_id": "frost_armor",
+  "weight": 1000,
   "type": "SKILL_GEM",
   "req": {
     "base_req": {

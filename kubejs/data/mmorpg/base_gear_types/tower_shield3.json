@@ -22,7 +22,8 @@
       "strength",
       "plate",
       "offhand_family",
-      "armor_stat"
+      "armor_stat",
+	  "tier1"
     ]
   },
   "stat_req": {
@@ -33,8 +34,9 @@
   },
   "item_id": "minecraft:shield",
   "gear_slot": "shield",
+  "weapon_offhand_stat_util": 0,
   "rar_group": "non_unique",
-  "weapon_type": "None",
-  "attack_style": "MELEE",
+  "weapon_type": "none",
+  "attack_style": "melee",
   "atk_speed": 1.0
 }

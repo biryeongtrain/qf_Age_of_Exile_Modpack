@@ -1,7 +1,6 @@
 {
   "type": "SPECIAL",
   "identifier": "big_gladiator",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/big_gladiator.png",
   "is_entry": false,

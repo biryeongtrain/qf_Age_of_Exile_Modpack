@@ -1,7 +1,6 @@
 {
   "type": "SPECIAL",
   "identifier": "big_lord_of_arcane",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/big_lord_of_arcane.png",
   "is_entry": false,

@@ -1,0 +1,219 @@
+{
+  "origin.origins.human.name": "평범한 인간",
+  "origin.origins.human.description": "평범한 인간. 평범한 마인크래프트의 세계가 기다립니다.",
+
+  "origin.origins.merling.name": "어인족",
+  "origin.origins.merling.description": "원래 바다에 살던 족속으로 물 밖에서 오래 있기 힘듭니다.",
+
+  "origin.origins.arachnid.name": "거미족",
+  "origin.origins.arachnid.description": "벽을 타는 능력과 거미줄로 적을 가두는 능력으로 완벽한 사냥꾼이 된 족속입니다.",
+
+  "origin.origins.blazeborn.name": "블레이즈족",
+  "origin.origins.blazeborn.description": "블레이즈의 후손들로 네더의 위험에 면역입니다.",
+
+  "origin.origins.avian.name": "조류족",
+  "origin.origins.avian.description": "조류족은 오래전에 비행 능력을 상실했습니다. 이 평화로운 족속은 이제 이곳저곳으로 활강하며 이동합니다.",
+
+  "origin.origins.phantom.name": "팬텀족",
+  "origin.origins.phantom.description": "인간과 팬텀의 혼혈로 인간 형태와 팬텀 형태를 자유로이 오갈 수 있습니다.",
+
+  "origin.origins.feline.name": "묘족",
+  "origin.origins.feline.description": "고양이 같은 외모로 크리퍼를 쫓아낼 수 있습니다. 항상 안전하게 착지할 수 있습니다.",
+
+  "origin.origins.elytrian.name": "날개족",
+  "origin.origins.elytrian.description": "바람을 타고 날아다니는 날개족은 머리 위에 충분한 공간이 없을 때 불편해합니다.",
+
+  "origin.origins.enderian.name": "엔더족",
+  "origin.origins.enderian.description": "엔더드래곤의 자손들로 순간이동 능력이 있지만 물에 취약합니다.",
+
+  "origin.origins.shulk.name": "셜커족",
+  "origin.origins.shulk.description": "셜커로부터 물려받은 단단한 껍질에 보호받고 있습니다.",
+
+  "power.origins.water_breathing.name": "아가미족",
+  "power.origins.water_breathing.description": "물 속에서 숨을 쉴 수 있지만, 육지에서는 아닙니다.",
+
+  "power.origins.aqua_affinity.name": "친수성",
+  "power.origins.aqua_affinity.description": "물 속에서도 육지에서처럼 블록을 부술 수 있습니다.",
+
+  "power.origins.water_vision.name": "젖은 눈",
+  "power.origins.water_vision.description": "물 속에서도 완벽하게 볼 수 있습니다.",
+
+  "power.origins.swim_speed.name": "지느러미",
+  "power.origins.swim_speed.description": "물 속에서 더 빨리 움직입니다.",
+
+  "power.origins.like_water.name": "부레",
+  "power.origins.like_water.description": "물 속에서 원할 때만 가라앉습니다.",
+
+  "power.origins.fragile.name": "연약",
+  "power.origins.fragile.description": "인간보다 체력이 3칸 적습니다.",
+
+  "power.origins.webbing.name": "거미줄",
+  "power.origins.webbing.description": "적을 근접공격하면 거미줄에 가둡니다.",
+
+  "power.origins.climbing.name": "벽타기",
+  "power.origins.climbing.description": "사다리뿐만 아니라 벽도 오를 수 있습니다.",
+
+  "power.origins.carnivore.name": "육식성",
+  "power.origins.carnivore.description": "채소를 먹을 수 없고 오직 고기만 먹을 수 있습니다.",
+
+  "power.origins.fire_immunity.name": "화염면역",
+  "power.origins.fire_immunity.description": "모든 종류의 화염 피해에 면역입니다.",
+
+  "power.origins.nether_spawn.name": "네더출신",
+  "power.origins.nether_spawn.description": "네더에서 스폰합니다.",
+
+  "power.origins.burning_wrath.name": "불타는 분노",
+  "power.origins.burning_wrath.description": "불이 붙은 상태에서 공격력이 높아집니다.",
+
+  "power.origins.hotblooded.name": "끓는 피",
+  "power.origins.hotblooded.description": "몸의 열기에 독이 파괴되어 독과 굶주림 효과에 면역입니다.",
+
+  "power.origins.water_vulnerability.name": "공수병",
+  "power.origins.water_vulnerability.description": "물에 닿으면 피해를 입습니다.",
+
+  "power.origins.tailwind.name": "순풍",
+  "power.origins.tailwind.description": "남들보다 빨리 달립니다.",
+
+  "power.origins.slow_falling.name": "깃털",
+  "power.origins.slow_falling.description": "천천히 낙하하며 웅크리면 빠르게 낙하합니다.",
+
+  "power.origins.vegetarian.name": "초식성",
+  "power.origins.vegetarian.description": "고기를 먹지 않습니다.",
+
+  "power.origins.fresh_air.name": "맑은 공기",
+  "power.origins.fresh_air.description": "맑은 공기로 숨쉬기 위해 86 이상의 고도에서만 잘 수 있습니다.",
+
+  "power.origins.phasing.name": "위상이동",
+  "power.origins.phasing.description": "팬텀 형태에서 흑요석을 제외한 고체를 통과할 수 있습니다.",
+
+  "power.origins.invisibility.name": "투명",
+  "power.origins.invisibility.description": "팬텀 형태에서 투명입니다.",
+
+  "power.origins.hunger_over_time.name": "빠른 대사",
+  "power.origins.hunger_over_time.description": "팬텀 형태에서 빨리 배고파집니다.",
+
+  "power.origins.burn_in_daylight.name": "햇빛 알레르기",
+  "power.origins.burn_in_daylight.description": "투명상태가 아니라면 햇빛에 피해를 입습니다.",
+
+  "power.origins.fall_immunity.name": "곡예",
+  "power.origins.fall_immunity.description": "절대 낙하 피해를 입지 않습니다.",
+
+  "power.origins.sprint_jump.name": "강한 발목",
+  "power.origins.sprint_jump.description": "달리는 중에 더 높이 뛸 수 있습니다.",
+
+  "power.origins.nine_lives.name": "아홉 목숨",
+  "power.origins.nine_lives.description": "인간보다 체력이 1칸 적습니다.",
+
+  "power.origins.cat_vision.name": "야행성",
+  "power.origins.cat_vision.description": "물 속이 아니라면 어둠 속에서도 약하게 볼 수 있습니다.",
+
+  "power.origins.weak_arms.name": "약한 팔",
+  "power.origins.weak_arms.description": "힘 효과를 받고 있지 않다면, 인접한 돌 블록이 두 개 이하인 돌 블록만 부술 수 있습니다.",
+
+  "power.origins.scare_creepers.name": "고양이 형상",
+  "power.origins.scare_creepers.description": "크리퍼들이 당신을 두려워하며 공격받지 않는 한 폭발하지 않습니다.",
+
+  "power.origins.launch_into_air.name": "바람의 선물",
+  "power.origins.launch_into_air.description": "30초마다 20블록 높이를 날아오를 수 있습니다.",
+
+  "power.origins.elytra.name": "날개",
+  "power.origins.elytra.description": "겉날개를 장착하지 않아도 사용할 수 있습니다.",
+
+  "power.origins.light_armor.name": "기동성",
+  "power.origins.light_armor.description": "사슬갑옷 이상의 방어력을 가지는 중갑을 장착할 수 없습니다.",
+
+  "power.origins.claustrophobia.name": "폐소공포증",
+  "power.origins.claustrophobia.description": "천장이 낮은 곳에 오래 머무르면 느리고 약해집니다.",
+
+  "power.origins.more_kinetic_damage.name": "약골",
+  "power.origins.more_kinetic_damage.description": "비행 중에 떨어지거나 블록에 충돌하면 더 큰 피해를 입습니다.",
+
+  "power.origins.aerial_combatant.name": "공습",
+  "power.origins.aerial_combatant.description": "비행 중에 더 큰 피해를 줍니다.",
+
+  "power.origins.throw_ender_pearl.name": "순간이동",
+  "power.origins.throw_ender_pearl.description": "원할 때마다 엔더 진주를 던져 피해를 받지 않고 순간이동 할 수 있습니다.",
+
+  "power.origins.pumpkin_hate.name": "호박공포증",
+  "power.origins.pumpkin_hate.description": "당연하게도 호박을 두려워합니다.",
+
+  "power.origins.extra_reach.name": "날씬함",
+  "power.origins.extra_reach.description": "멀리있는 블록이나 엔티티까지 팔이 닿습니다.",
+
+  "power.origins.shulker_inventory.name": "비축물",
+  "power.origins.shulker_inventory.description": "죽은 후에도 유지되는 9개의 인벤토리를 갖습니다.",
+
+  "power.origins.natural_armor.name": "갑피",
+  "power.origins.natural_armor.description": "갑옷 없이도 단단한 피부에 보호받습니다.",
+
+  "power.origins.more_exhaustion.name": "대식가",
+  "power.origins.more_exhaustion.description": "빨리 배고파지므로 더 많이 먹어야 합니다.",
+
+  "power.origins.no_shield.name": "서투름",
+  "power.origins.no_shield.description": "신체 구조상 방패를 들어올릴 수 없습니다.",
+
+  "power.origins.strong_arms.name": "강한 팔",
+  "power.origins.strong_arms.description": "곡괭이 없이도 돌을 부술 수 있습니다.",
+
+  "power.origins.translucent.name": "반투명",
+  "power.origins.translucent.description": "신체가 반투명합니다.",
+
+  "power.origins.end_spawn.name": "엔드출신",
+  "power.origins.end_spawn.description": "엔드에서 스폰합니다.",
+
+  "power.origins.master_of_webs.name": "거미줄의 주인",
+  "power.origins.master_of_webs.description": "거미줄에서 자유롭게 움직일 수 있습니다. 적을 근접공격하면 거미줄에 가둡니다. 거미가 아닌 생물이 거미줄에 닿으면 감지할 수 있습니다. 실로 거미줄을 만들 수 있습니다.",
+
+  "power.origins.lay_eggs.name": "난생",
+  "power.origins.lay_eggs.description": "아침에 잠에서 깰 때 알을 낳습니다.",
+
+  "category.origins": "태생",
+  "key.origins.primary_active": "수동 능력(1)",
+  "key.origins.secondary_active": "수동 능력(2)",
+  "key.origins.view_origin": "태생 보기",
+
+  "text.autoconfig.origins.title": "Origins 설정",
+  "text.autoconfig.origins.option.xOffset": "쿨다운 바 오프셋 X",
+  "text.autoconfig.origins.option.yOffset": "쿨다운 바 오프셋 Y",
+  "text.autoconfig.origins.option.phantomizedOverlayStrength": "팬텀 형태 오버레이 강도",
+
+  "item.origins.orb_of_origin": "태생의 구슬",
+
+  "enchantment.origins.water_protection": "물로부터 보호",
+
+  "container.shulker_inventory_power": "셜커 인벤토리",
+
+  "origins.gui.select": "선택",
+  "origins.gui.close": "닫기",
+  "origins.gui.choose": "선택",
+  "origins.gui.choose_origin.title": "%s을 선택하세요.",
+  "origins.gui.view_origin.title": "이것이 당신의 %s입니다.",
+  "origins.gui.view_origin.empty": "태생을 선택할 수 없습니다.",
+  "origins.gui.view_origin.not_installed": "서버에 Origins가 설치되지 않았습니다.",
+  "origins.gui.impact.impact": "능력",
+  "origins.gui.impact.none": "없음",
+  "origins.gui.impact.low": "약함",
+  "origins.gui.impact.medium": "중간",
+  "origins.gui.impact.high": "강함",
+  "origins.gui.version_mismatch": "서버에 설치된 Origins의 버전이(v%1$s) 클라이언트에 설치된 Origins의 버전과(v%2$s) 호환되지 않습니다.",
+
+  "origin.origins.random.name": "무작위",
+  "origin.origins.random.description": "다음 중에서 무작위로 선택됩니다:",
+
+  "layer.origins.origin.name": "태생",
+  "layer.origins.origin.missing_origin.name": "불명",
+  "layer.origins.origin.missing_origin.description": "태생을 알 수 없습니다.",
+
+  "death.attack.no_water_for_gills": "%1$s가 가 말라죽었습니다.",
+  "death.attack.no_water_for_gills.player": "%1$s는 %2$s와 싸우는 사이 말라죽었습니다.",
+  "death.attack.hurt_by_water": "%1$s가 물 속에 너무 오래 있었습니다.",
+  "death.attack.hurt_by_water.player": "%1$s가 %2$s에게 물고문 당했습니다.",
+  "death.attack.genericDamageOverTime": "%1$s가 지속피해에 당했습니다.",
+  "death.attack.genericDamageOverTime.player": "%1$s가 %2$s와 싸우다 지속피해에 죽었습니다.",
+
+  "commands.origin.origin_not_found": "태생 불명: %s",
+  "commands.origin.set.success.single": "Set origin of %s in layer %s to %s.",
+  "commands.origin.set.success.multiple": "Set origin of %s targets in layer %s to %s.",
+
+  "origins.avian_sleep_fail": "맑은 공기가 있어야 잘 수 있습니다."
+}

@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "mana_on_hit",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/misc/mana_on_attack_hit.png",
   "is_entry": false,

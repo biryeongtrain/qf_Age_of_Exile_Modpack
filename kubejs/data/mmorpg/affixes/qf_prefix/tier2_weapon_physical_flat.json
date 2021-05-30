@@ -1,0 +1,95 @@
+{
+  "guid": "pref_tier2_weapon_physical_flat",
+  "loc_name": "Enchanted : Power",
+  "only_one_per_item": false,
+  "weight": 1000,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "weapon_family",
+		  "pants"
+        ],
+        "excluded": [
+		  "tier1",
+		  "tier3"
+		]
+      }
+    ]
+  },
+  "tags": [],
+  "type": "prefix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 8.0,
+          "max1": 10.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "physical_weapon_damage",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 70,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 5.0,
+          "max1": 8.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "physical_weapon_damage",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 150,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 3.0,
+          "max1": 5.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "physical_weapon_damage",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 230,
+      "tier": 3
+    },
+    "4": {
+      "mods": [
+        {
+          "min1": 2.0,
+          "max1": 3.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "physical_weapon_damage",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 250,
+      "tier": 4
+    },
+	    "5": {
+      "mods": [
+        {
+          "min1": 1.0,
+          "max1": 2.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "physical_weapon_damage",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 300,
+      "tier": 5
+    }
+    }
+  }
+}

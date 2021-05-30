@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "red_mana_reserved",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/misc/red_mana_reserved.png",
   "is_entry": false,

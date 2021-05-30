@@ -6,14 +6,14 @@
   "implicit_stats": [],
   "base_stats": [
     {
-      "min1": 2.0,
-      "max1": 3.0,
+      "min1": 7.5,
+      "max1": 15.0,
       "stat": "dodge",
       "type": "flat"
     },
     {
-      "min1": 1.5,
-      "max1": 3.0,
+      "min1": 15.0,
+      "max1": 30.0,
       "stat": "health",
       "type": "flat"
     }
@@ -27,6 +27,7 @@
       "dexterity",
       "dodge_stat",
       "armor_family",
+	  "tier1",
       "helmet",
       "leather",
 	  "dagger_armor_family"
@@ -41,7 +42,7 @@
   "item_id": "mcda:climbing_gear_helmet",
   "gear_slot": "helmet",
   "rar_group": "non_unique",
-  "weapon_type": "None",
-  "attack_style": "MELEE",
+  "weapon_type": "none",
+  "attack_style": "melee",
   "atk_speed": 1.0
 }

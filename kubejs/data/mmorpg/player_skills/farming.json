@@ -3,7 +3,88 @@
   "id": "farming",
   "exp_per_action": 0,
   "order": 2,
-  "dropTables": [],
+  "dropTables": [
+    {
+      "loot_chance_per_action_exp": 0.1,
+      "tag": "",
+      "req": "NONE",
+      "tier": "TIER0",
+      "drop_rewards": [
+        {
+          "weight": 100,
+          "item_id": "mmorpg:lure/fish/0",
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        }
+      ]
+    },
+    {
+      "loot_chance_per_action_exp": 0.1,
+      "tag": "",
+      "req": "NONE",
+      "tier": "TIER1",
+      "drop_rewards": [
+        {
+          "weight": 100,
+          "item_id": "mmorpg:lure/fish/1",
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        }
+      ]
+    },
+    {
+      "loot_chance_per_action_exp": 0.1,
+      "tag": "",
+      "req": "NONE",
+      "tier": "TIER2",
+      "drop_rewards": [
+        {
+          "weight": 100,
+          "item_id": "mmorpg:lure/fish/2",
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        }
+      ]
+    },
+    {
+      "loot_chance_per_action_exp": 0.1,
+      "tag": "",
+      "req": "NONE",
+      "tier": "TIER3",
+      "drop_rewards": [
+        {
+          "weight": 100,
+          "item_id": "mmorpg:lure/fish/3",
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        }
+      ]
+    },
+    {
+      "loot_chance_per_action_exp": 0.1,
+      "tag": "",
+      "req": "NONE",
+      "tier": "TIER4",
+      "drop_rewards": [
+        {
+          "weight": 100,
+          "item_id": "mmorpg:lure/fish/4",
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        }
+      ]
+    }
+  ],
   "stat_rewards": [
     {
       "lvl_req": 5,
@@ -177,24 +258,24 @@
   ],
   "block_break_exp": [
     {
-      "exp": 15.0,
+      "exp": 45.0,
       "block_id": "mmorpg:plant3"
     },
     {
-      "exp": 10.0,
+      "exp": 30.0,
+      "block_id": "mmorpg:plant2"
+    },
+    {
+      "exp": 15.0,
       "block_id": "mmorpg:plant1"
     },
     {
-      "exp": 20.0,
-      "block_id": "mmorpg:plant5"
-    },
-    {
-      "exp": 17.0,
+      "exp": 60.0,
       "block_id": "mmorpg:plant4"
     },
     {
-      "exp": 12.0,
-      "block_id": "mmorpg:plant2"
+      "exp": 75.0,
+      "block_id": "mmorpg:plant5"
     }
   ],
   "item_craft_exp": [],

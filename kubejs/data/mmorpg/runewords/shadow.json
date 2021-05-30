@@ -24,5 +24,6 @@
     "oru",
     "mos"
   ],
-  "family": "Armor"
+  "family": "Armor",
+  "gear_slots": []
 }

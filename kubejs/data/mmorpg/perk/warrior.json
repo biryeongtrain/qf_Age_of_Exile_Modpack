@@ -1,7 +1,6 @@
 {
   "type": "START",
   "identifier": "warrior",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/warrior.png",
   "one_of_a_kind": "start",

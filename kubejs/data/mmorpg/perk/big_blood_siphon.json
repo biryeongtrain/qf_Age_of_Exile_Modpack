@@ -1,7 +1,6 @@
 {
   "type": "SPECIAL",
   "identifier": "big_blood_siphon",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/big_blood_siphon.png",
   "is_entry": false,

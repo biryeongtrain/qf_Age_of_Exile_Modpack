@@ -9,7 +9,9 @@
         "included": [
           "dodge_stat"
         ],
-        "excluded": []
+        "excluded": [
+		  "tier2"
+		]
       }
     ]
   },

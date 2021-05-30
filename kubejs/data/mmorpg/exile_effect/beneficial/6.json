@@ -1,8 +1,12 @@
 {
   "id": "beneficial/6",
   "one_of_a_kind_id": "",
-  "type": "BENEFICIAL",
+  "type": "beneficial",
   "max_stacks": 1,
+  "tags": [
+    "positive",
+    "defensive"
+  ],
   "mc_stats": [],
   "stats": [
     {
@@ -37,7 +41,7 @@
               "type": "aoe",
               "map": {
                 "selection_type": "RADIUS",
-                "en_predicate": "ENEMIES",
+                "en_predicate": "enemies",
                 "radius": 2.0
               }
             }

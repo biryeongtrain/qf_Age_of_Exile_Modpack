@@ -1,0 +1,134 @@
+{
+  "guid": "suff_tier2_armor_nature_dark_res",
+  "loc_name": "그림자",
+  "only_one_per_item": true,
+  "weight": 960,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "armor_family"
+        ],
+        "excluded": [
+		  "tier1",
+		  "tier3"
+		]
+      }
+    ]
+  },
+  "tags": [],
+  "type": "suffix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 20.0,
+          "max1": 25.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "dark_resist",
+          "type": "FLAT"
+        },
+		{
+          "min1": 20.0,
+          "max1": 25.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "nature_resist",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 67,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 15.5,
+          "max1": 20.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "dark_resist",
+          "type": "FLAT"
+        },
+		{
+          "min1": 15.5,
+          "max1": 20.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "nature_resist",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 144,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 11.5,
+          "max1": 15.5,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "dark_resist",
+          "type": "FLAT"
+        },
+		{
+          "min1": 11.5,
+          "max1": 15.5,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "nature_resist",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 221,
+      "tier": 3
+    },
+    "4": {
+      "mods": [
+        {
+          "min1": 8.0,
+          "max1": 11.5,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "dark_resist",
+          "type": "FLAT"
+        },
+		{
+          "min1": 8.0,
+          "max1": 11.5,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "nature_resist",
+          "type": "FLAT"
+        }
+		
+      ],
+      "weight": 240,
+      "tier": 4
+    },
+    "5": {
+      "mods": [
+        {
+          "min1": 5.0,
+          "max1": 8.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "dark_resist",
+          "type": "FLAT"
+        },
+		{
+          "min1": 5.0,
+          "max1": 8.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "nature_resist",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 288,
+      "tier": 5
+    }
+  }
+}

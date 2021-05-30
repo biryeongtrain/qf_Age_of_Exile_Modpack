@@ -1,0 +1,8 @@
+{
+  "stat_scalings": [],
+  "id": "execute",
+  "base_scaling_type": "NORMAL",
+  "atk_scaling_type": "DOUBLE_AT_MAX_LVL",
+  "attack_scaling": 2.0,
+  "base_val": 0.0
+}

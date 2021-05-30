@@ -1,0 +1,48 @@
+{
+  "id": "mcda_tier2_dag_shadow_walker_armor_chestplate",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "min1": 12.5,
+      "max1": 30.0,
+      "stat": "dodge",
+      "type": "flat"
+    },
+    {
+      "min1": 30.0,
+      "max1": 60.0,
+      "stat": "health",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.4,
+    "end": 0.8
+  },
+  "tag_list": {
+    "tags": [
+      "dexterity",
+      "dodge_stat",
+      "chest",
+      "armor_family",
+      "leather",
+	  "dagger_armor_family",
+	  "tier2"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.5
+    }
+  },
+  "item_id": "mcda:shadow_walker_armor_chestplate",
+  "gear_slot": "chest",
+  "rar_group": "non_unique",
+  "weapon_type": "none",
+  "attack_style": "melee",
+  "atk_speed": 1.0
+}

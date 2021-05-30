@@ -1,7 +1,6 @@
 {
   "type": "MAJOR",
   "identifier": "refined_taste",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/game_changers/refined_taste.png",
   "is_entry": false,

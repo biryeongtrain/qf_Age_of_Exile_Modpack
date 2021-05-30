@@ -1,42 +1,24 @@
 {
   "id": "beneficial/16",
   "one_of_a_kind_id": "",
-  "type": "BENEFICIAL",
-  "max_stacks": 1,
-  "mc_stats": [
-	{
-      "val": 0.3,
-      "uuid": "f4d02ec5-75ea-471b-be9b-b9ecb0972d1a",
-      "id": "minecraft:generic.movement_speed",
-      "type": "GLOBAL_INCREASE"
-    }
+  "type": "beneficial",
+  "max_stacks": 10,
+  "tags": [
+    "positive"
   ],
+  "mc_stats": [],
   "stats": [
     {
-      "v1": -15.0,
-      "v2": -15.0,
-      "stat": "armor",
-      "type": "GLOBAL_INCREASE",
-      "scale_to_lvl": true
-    },
-    {
-      "v1": -25.0,
-      "v2": -25.0,
-      "stat": "health",
-      "type": "GLOBAL_INCREASE",
+      "v1": 2.0,
+      "v2": 2.0,
+      "stat": "lifesteal",
+      "type": "FLAT",
       "scale_to_lvl": false
     },
     {
-      "v1": 30.0,
-      "v2": 30.0,
-      "stat": "physical_weapon_damage",
-      "type": "GLOBAL_INCREASE",
-      "scale_to_lvl": false
-    },
-	    {
-      "v1": 20.0,
-      "v2": 20.0,
-      "stat": "critical_hit",
+      "v1": 2.0,
+      "v2": 2.0,
+      "stat": "move_speed",
       "type": "FLAT",
       "scale_to_lvl": false
     }

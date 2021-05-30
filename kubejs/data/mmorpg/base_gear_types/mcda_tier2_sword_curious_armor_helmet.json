@@ -1,0 +1,48 @@
+{
+  "id": "mcda_tier2_sword_curious_armor_helmet",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "min1": 7.5,
+      "max1": 15.0,
+      "stat": "armor",
+      "type": "flat"
+    },
+    {
+      "min1": 12.5,
+      "max1": 25.0,
+      "stat": "health",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.4,
+    "end": 0.8
+  },
+  "tag_list": {
+    "tags": [
+      "armor_family",
+      "strength",
+      "helmet",
+      "plate",
+      "armor_stat",
+	  "sword_armor_family",
+	  "tier2"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.5
+    }
+  },
+  "item_id": "mcda:curious_armor_helmet",
+  "gear_slot": "helmet",
+  "rar_group": "non_unique",
+  "weapon_type": "none",
+  "attack_style": "melee",
+  "atk_speed": 1.0
+}

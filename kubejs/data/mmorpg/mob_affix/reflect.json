@@ -1,0 +1,16 @@
+{
+  "id": "reflect",
+  "weight": 200,
+  "rarity": "common",
+  "tier": 0,
+  "format": "GOLD",
+  "icon": "",
+  "stats": [
+    {
+      "min1": 15.0,
+      "max1": 15.0,
+      "stat": "damage_reflected",
+      "type": "flat"
+    }
+  ]
+}

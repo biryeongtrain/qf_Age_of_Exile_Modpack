@@ -11,11 +11,11 @@
   ],
   "on_jewelry_stats": [
     {
-      "min1": 25.0,
-      "max1": 50.0,
+      "min1": 5.0,
+      "max1": 10.0,
       "min2": 0.0,
       "max2": 0.0,
-      "stat": "mana_burn_resist",
+      "stat": "mana",
       "type": "FLAT"
     }
   ],

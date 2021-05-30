@@ -23,17 +23,17 @@
   ],
   "on_weapons_stats": [
     {
-      "min1": 0.5,
-      "max1": 1.5,
-      "min2": 1.0,
-      "max2": 3.0,
+      "min1": 0.8,
+      "max1": 2.4,
+      "min2": 1.6,
+      "max2": 4.8,
       "stat": "fire_weapon_damage",
       "type": "FLAT"
     }
   ],
   "item_id": "mmorpg:gems/ruby/3",
   "identifier": "ruby3",
-  "required_item_level": 8.0,
+  "required_item_level": 0.6,
   "weight": 250,
-  "effective_level": 8.0
+  "effective_level": 0.6
 }

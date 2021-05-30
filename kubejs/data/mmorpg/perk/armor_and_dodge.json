@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "armor_and_dodge",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/main/armor.png",
   "is_entry": false,

@@ -1,7 +1,7 @@
 {
   "guid": "double_drop_chance_pre",
-  "loc_name": "Plentiful",
-  "only_one_per_item": false,
+  "loc_name": "Double Drops",
+  "only_one_per_item": true,
   "weight": 1000,
   "requirements": {
     "tag_requirements": [
@@ -19,8 +19,8 @@
     "1": {
       "mods": [
         {
-          "min1": 9.0,
-          "max1": 12.0,
+          "min1": 20.0,
+          "max1": 20.0,
           "min2": 0.0,
           "max2": 0.0,
           "stat": "double_drop_chance",
@@ -33,8 +33,8 @@
     "2": {
       "mods": [
         {
-          "min1": 7.0,
-          "max1": 9.0,
+          "min1": 15.0,
+          "max1": 15.0,
           "min2": 0.0,
           "max2": 0.0,
           "stat": "double_drop_chance",
@@ -47,8 +47,8 @@
     "3": {
       "mods": [
         {
-          "min1": 3.0,
-          "max1": 7.0,
+          "min1": 10.0,
+          "max1": 10.0,
           "min2": 0.0,
           "max2": 0.0,
           "stat": "double_drop_chance",

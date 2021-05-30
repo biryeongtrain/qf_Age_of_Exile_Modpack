@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "dodge",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/main/dodge.png",
   "is_entry": false,

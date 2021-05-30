@@ -1,0 +1,8 @@
+{
+  "stat_scalings": [],
+  "id": "regenerate_tick",
+  "base_scaling_type": "NORMAL",
+  "atk_scaling_type": "DOUBLE_AT_MAX_LVL",
+  "attack_scaling": 0.0,
+  "base_val": 1.0
+}

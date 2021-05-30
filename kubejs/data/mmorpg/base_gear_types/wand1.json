@@ -31,7 +31,8 @@
       "mage_weapon",
       "weapon_family",
       "melee_weapon",
-      "intelligence"
+      "intelligence",
+	  "tier1"
     ]
   },
   "stat_req": {
@@ -42,8 +43,9 @@
   },
   "item_id": "mmorpg:weapon/wand/wand1",
   "gear_slot": "wand",
+  "weapon_offhand_stat_util": 0,
   "rar_group": "non_unique",
-  "weapon_type": "Wand",
-  "attack_style": "MAGIC",
+  "weapon_type": "wand",
+  "attack_style": "magic",
   "atk_speed": 1.0
 }

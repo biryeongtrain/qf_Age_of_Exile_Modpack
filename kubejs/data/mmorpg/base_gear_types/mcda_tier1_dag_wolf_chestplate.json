@@ -6,14 +6,14 @@
   "implicit_stats": [],
   "base_stats": [
     {
-      "min1": 3.0,
-      "max1": 6.0,
+      "min1": 12.5,
+      "max1": 30.0,
       "stat": "dodge",
       "type": "flat"
     },
     {
-      "min1": 2.5,
-      "max1": 5.0,
+      "min1": 30.0,
+      "max1": 60.0,
       "stat": "health",
       "type": "flat"
     }
@@ -28,6 +28,7 @@
       "dodge_stat",
       "chest",
       "armor_family",
+	  "tier1",
       "leather",
 	  "dagger_armor_family"
     ]
@@ -41,7 +42,7 @@
   "item_id": "mcda:wolf_armor_chestplate",
   "gear_slot": "chest",
   "rar_group": "non_unique",
-  "weapon_type": "None",
-  "attack_style": "MELEE",
+  "weapon_type": "none",
+  "attack_style": "melee",
   "atk_speed": 1.0
 }

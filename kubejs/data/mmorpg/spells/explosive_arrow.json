@@ -1,4 +1,5 @@
 {
+  "weight": 1000,
   "identifier": "explosive_arrow",
   "attached": {
     "on_cast": [
@@ -58,13 +59,8 @@
             {
               "type": "damage",
               "map": {
+                "value_calculation": "direct_arrow_hit",
                 "element": "Physical"
-              },
-              "calc": {
-                "scaling_values": [],
-                "base_scaling": "NORMAL",
-                "attack_scaling": 0.0,
-                "base_val": 2.0
               }
             }
           ],
@@ -139,7 +135,7 @@
               "type": "aoe",
               "map": {
                 "selection_type": "RADIUS",
-                "en_predicate": "ENEMIES",
+                "en_predicate": "enemies",
                 "radius": 2.0
               }
             }
@@ -148,13 +144,8 @@
             {
               "type": "damage",
               "map": {
+                "value_calculation": "explosive_arrow_eoe",
                 "element": "Physical"
-              },
-              "calc": {
-                "scaling_values": [],
-                "base_scaling": "NORMAL",
-                "attack_scaling": 0.0,
-                "base_val": 3.0
               }
             }
           ],
@@ -195,14 +186,21 @@
     "castingWeapon": "RANGED",
     "mana_cost": 10,
     "times_to_cast": 1,
+    "charges": 0,
+    "charge_regen": 0,
+    "charge_name": "",
     "cast_time_ticks": 0,
     "cooldown_ticks": 200,
-    "style": "RANGED",
+    "style": "ranged",
     "tags": [
-      "PROJECTILE",
-      "DAMAGE"
+      "projectile",
+      "damage"
     ],
     "cast_type": "USE_ITEM",
-    "actions_needed": []
-  }
+    "actions_needed": [],
+    "scale_mana_cost_to_player_lvl": false
+  },
+  "manual_tip": false,
+  "disabled_dims": [],
+  "effect_tip": ""
 }

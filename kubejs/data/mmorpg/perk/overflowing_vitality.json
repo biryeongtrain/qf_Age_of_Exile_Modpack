@@ -1,7 +1,6 @@
 {
   "type": "MAJOR",
   "identifier": "overflowing_vitality",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/game_changers/overflowing_vitality.png",
   "is_entry": false,
@@ -10,7 +9,7 @@
     {
       "v1": 0.5,
       "v2": 0.0,
-      "stat": "convert_hp_to_phys_dmg",
+      "stat": "transfer_health_to_physical_weapon_damage",
       "type": "FLAT",
       "scale_to_lvl": false
     },

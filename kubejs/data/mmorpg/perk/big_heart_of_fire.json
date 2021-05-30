@@ -1,7 +1,6 @@
 {
   "type": "SPECIAL",
   "identifier": "big_heart_of_fire",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/big_heart_of_fire.png",
   "is_entry": false,
@@ -24,7 +23,7 @@
     {
       "v1": 2.0,
       "v2": 0.0,
-      "stat": "spell_fire_dmg_leech_as_health",
+      "stat": "fire_health_leech",
       "type": "FLAT",
       "scale_to_lvl": false
     }

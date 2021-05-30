@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "flat_ms_mana_regen",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/main/health.png",
   "is_entry": false,

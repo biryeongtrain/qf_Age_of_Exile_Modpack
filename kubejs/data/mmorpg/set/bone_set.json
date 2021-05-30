@@ -1,0 +1,14 @@
+{
+  "id": "bone_set",
+  "stats": {
+    "2": [
+      {
+        "v1": 25.0,
+        "v2": 0.0,
+        "stat": "ranged_crit_dmg_to_undead",
+        "type": "FLAT",
+        "scale_to_lvl": true
+      }
+    ]
+  }
+}

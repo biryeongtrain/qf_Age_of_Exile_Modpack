@@ -1,7 +1,6 @@
 {
   "type": "SPECIAL",
   "identifier": "big_ele_protection",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/big_ele_protection.png",
   "is_entry": false,

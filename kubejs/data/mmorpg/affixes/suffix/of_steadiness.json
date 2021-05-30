@@ -2,7 +2,7 @@
   "guid": "of_steadiness",
   "loc_name": "Of Steadiness",
   "only_one_per_item": true,
-  "weight": 1000,
+  "weight": 0,
   "requirements": {
     "tag_requirements": [
       {

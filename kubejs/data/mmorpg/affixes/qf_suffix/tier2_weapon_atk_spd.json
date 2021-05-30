@@ -1,0 +1,93 @@
+{
+  "guid": "pref_tier2_weapon_atk_speed",
+  "loc_name": "Alacrity",
+  "only_one_per_item": false,
+  "weight": 2400,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "weapon_family"
+        ],
+        "excluded": [
+		  "tier1"
+		]
+      }
+    ]
+  },
+  "tags": [],
+  "type": "suffix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 32.0,
+          "max1": 40.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "attack_speed",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 168,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 25.0,
+          "max1": 32.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "attack_speed",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 360,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 18.0,
+          "max1": 25.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "attack_speed",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 552,
+      "tier": 3
+    },
+    "4": {
+      "mods": [
+        {
+          "min1": 13.0,
+          "max1": 18.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "attack_speed",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 600,
+      "tier": 4
+    },
+	    "5": {
+      "mods": [
+        {
+          "min1": 5.0,
+          "max1": 13.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "attack_speed",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 720,
+      "tier": 5
+    }
+    }
+  }
+}

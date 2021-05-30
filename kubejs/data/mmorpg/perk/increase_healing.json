@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "increase_healing",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/restoration/increase_healing.png",
   "is_entry": false,

@@ -8,11 +8,11 @@
       "item": "minecraft:coal"
     },
     "s": {
-      "item": "minecraft:red_dye"
+      "item": "mmorpg:plant/life"
     }
   },
   "result": {
     "item": "mmorpg:gear_mat/essences/life",
-    "count": 16
+    "count": 8
   }
 }

@@ -1,13 +1,13 @@
 {
-  "name": "주문 획득법",
+  "name": "How to get Spells",
   "category": "spells",
   "icon": "minecraft:blaze_powder",
   "sortnum": 0,
   "pages": [
 	{  
 		"type": "text",   
-		"title": "특성 트리",
-		"text": "[H]로 GUI를 열어 '특성'을 확인하세요. 여러 종류의 마법과 특성을 선택할 수 있습니다. 레벨을 올려 새로운 특성을 찍으면 여러 주문을 사용할 수 있습니다."
+		"title": "The Skill Tree",
+		"text": "Go to your main menu [H] and open the Skill Tree. Choose between various Schools of Magic and unlock perks. Some perks give you spells! You can get more points by leveling up."
 	}
   ]
 }

@@ -23,5 +23,8 @@
     "wir",
     "oru"
   ],
-  "family": "Jewelry"
+  "family": "NONE",
+  "gear_slots": [
+    "necklace"
+  ]
 }

@@ -1,8 +1,12 @@
 {
   "id": "beneficial/9",
   "one_of_a_kind_id": "",
-  "type": "BENEFICIAL",
+  "type": "beneficial",
   "max_stacks": 1,
+  "tags": [
+    "positive",
+    "offensive"
+  ],
   "mc_stats": [],
   "stats": [
     {
@@ -17,7 +21,7 @@
       "v2": 20.0,
       "stat": "chance_of_poison",
       "type": "FLAT",
-      "scale_to_lvl": true
+      "scale_to_lvl": false
     }
   ]
 }

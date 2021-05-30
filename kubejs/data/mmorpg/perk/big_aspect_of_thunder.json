@@ -1,7 +1,6 @@
 {
   "type": "SPECIAL",
   "identifier": "big_aspect_of_thunder",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/big_aspect_of_thunder.png",
   "is_entry": false,
@@ -10,7 +9,7 @@
     {
       "v1": 5.0,
       "v2": 0.0,
-      "stat": "spell_thunder_damage",
+      "stat": "spell_light_damage",
       "type": "FLAT",
       "scale_to_lvl": false
     },
@@ -24,7 +23,7 @@
     {
       "v1": 5.0,
       "v2": 0.0,
-      "stat": "mana_on_kill",
+      "stat": "health_on_attack_hit",
       "type": "FLAT",
       "scale_to_lvl": false
     }

@@ -1,0 +1,32 @@
+{
+  "guid": "physical_wep_dmg_dun",
+  "loc_name": "Tyrannical",
+  "only_one_per_item": true,
+  "weight": 1000,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [],
+        "excluded": []
+      }
+    ]
+  },
+  "tags": [],
+  "type": "dungeon_prefix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 1.0,
+          "max1": 2.0,
+          "min2": 2.0,
+          "max2": 3.0,
+          "stat": "physical_weapon_damage",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 200,
+      "tier": 1
+    }
+  }
+}

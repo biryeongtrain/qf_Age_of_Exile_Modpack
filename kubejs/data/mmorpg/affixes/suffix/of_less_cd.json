@@ -7,7 +7,6 @@
     "tag_requirements": [
       {
         "included": [
-          "wand",
           "jewelry_family"
         ],
         "excluded": []

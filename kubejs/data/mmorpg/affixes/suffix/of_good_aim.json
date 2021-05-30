@@ -2,7 +2,7 @@
   "guid": "of_good_aim",
   "loc_name": "Of Good Aim",
   "only_one_per_item": true,
-  "weight": 1000,
+  "weight": 0,
   "requirements": {
     "tag_requirements": [
       {

@@ -2,6 +2,7 @@
   "identifier": "teleport",
   "mana_multi": 1.0,
   "spell_id": "teleport",
+  "weight": 1000,
   "type": "SKILL_GEM",
   "req": {
     "base_req": {
@@ -13,7 +14,5 @@
   },
   "attribute": "INT",
   "stats": [],
-  "tags": [
-    "DAMAGE"
-  ]
+  "tags": []
 }

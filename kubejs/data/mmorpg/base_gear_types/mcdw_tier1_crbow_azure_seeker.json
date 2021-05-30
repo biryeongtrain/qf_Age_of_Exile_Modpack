@@ -23,8 +23,8 @@
 	}
   ],
   "level_range": {
-    "start": 0.0,
-    "end": 0.15
+    "start": 0.05,
+    "end": 1.0
   },
   "tag_list": {
     "tags": [
@@ -33,7 +33,8 @@
       "ranger_casting_weapon",
       "ranged_weapon",
       "weapon_family",
-      "crossbow"
+      "crossbow",
+	  "tier1"
     ]
   },
   "stat_req": {
@@ -47,6 +48,6 @@
   "gear_slot": "crossbow",
   "rar_group": "non_unique",
   "weapon_type": "Crossbow",
-  "attack_style": "RANGED",
+  "attack_style": "ranged",
   "atk_speed": 1.0
 }

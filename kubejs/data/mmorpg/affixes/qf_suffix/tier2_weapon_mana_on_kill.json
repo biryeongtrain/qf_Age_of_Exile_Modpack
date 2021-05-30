@@ -1,0 +1,93 @@
+{
+  "guid": "pref_tier2_weapon_mana_on_kill",
+  "loc_name": "- Mana Theif",
+  "only_one_per_item": false,
+  "weight": 2500,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "weapon_family"
+        ],
+        "excluded": [
+		  "tier1"
+		]
+      }
+    ]
+  },
+  "tags": [],
+  "type": "suffix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 7.0,
+          "max1": 10.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "mana_on_kill",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 175,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 5.0,
+          "max1": 7.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "mana_on_kill",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 375,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 3.0,
+          "max1": 5.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "mana_on_kill",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 575,
+      "tier": 3
+    },
+    "4": {
+      "mods": [
+        {
+          "min1": 2.0,
+          "max1": 3.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "mana_on_kill",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 625,
+      "tier": 4
+    },
+	    "5": {
+      "mods": [
+        {
+          "min1": 1.0,
+          "max1": 2.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "mana_on_kill",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 750,
+      "tier": 5
+    }
+    }
+  }
+}

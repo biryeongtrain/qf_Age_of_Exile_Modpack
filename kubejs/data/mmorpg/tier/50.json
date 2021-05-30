@@ -1,0 +1,8 @@
+{
+  "hp_multi": 5.0,
+  "dmg_multi": 3.0,
+  "stat_multi": 1.5,
+  "loot_multi": 1.5,
+  "higher_rar_chance": 5.0,
+  "id_rank": 50
+}

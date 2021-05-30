@@ -1,0 +1,30 @@
+{
+  "id": "dark_mob_affix",
+  "weight": 2000,
+  "rarity": "common",
+  "tier": 0,
+  "format": "DARK_PURPLE",
+  "icon": "",
+  "stats": [
+    {
+      "min1": 75.0,
+      "max1": 75.0,
+      "stat": "convert_dark_to_phys",
+      "type": "flat"
+    },
+    {
+      "min1": 1.0,
+      "max1": 1.0,
+      "min2": 1.0,
+      "max2": 1.0,
+      "stat": "dark_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "min1": 10.0,
+      "max1": 10.0,
+      "stat": "extra_mob_drops",
+      "type": "flat"
+    }
+  ]
+}

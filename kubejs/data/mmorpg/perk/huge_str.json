@@ -1,7 +1,6 @@
 {
   "type": "SPECIAL",
   "identifier": "huge_str",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/huge_str.png",
   "is_entry": false,

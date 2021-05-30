@@ -1,7 +1,6 @@
 {
   "type": "SPECIAL",
   "identifier": "big_eagle",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/talent_icons/big_eagle.png",
   "is_entry": false,

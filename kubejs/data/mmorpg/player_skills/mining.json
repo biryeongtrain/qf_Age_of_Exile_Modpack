@@ -5,7 +5,8 @@
   "order": 1,
   "dropTables": [
     {
-      "loot_chance_per_action_exp": 0.5,
+      "loot_chance_per_action_exp": 1.0,
+      "tag": "",
       "req": "NONE",
       "tier": "TIER0",
       "drop_rewards": [
@@ -20,7 +21,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.5,
+      "loot_chance_per_action_exp": 1.0,
+      "tag": "",
       "req": "NONE",
       "tier": "TIER1",
       "drop_rewards": [
@@ -35,7 +37,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.5,
+      "loot_chance_per_action_exp": 1.0,
+      "tag": "",
       "req": "NONE",
       "tier": "TIER2",
       "drop_rewards": [
@@ -50,7 +53,8 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.5,
+      "loot_chance_per_action_exp": 1.0,
+      "tag": "",
       "req": "NONE",
       "tier": "TIER3",
       "drop_rewards": [
@@ -65,13 +69,94 @@
       ]
     },
     {
-      "loot_chance_per_action_exp": 0.5,
+      "loot_chance_per_action_exp": 1.0,
+      "tag": "",
       "req": "NONE",
       "tier": "TIER4",
       "drop_rewards": [
         {
           "weight": 100,
           "item_id": "mmorpg:stone/4",
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        }
+      ]
+    },
+    {
+      "loot_chance_per_action_exp": 0.1,
+      "tag": "",
+      "req": "NONE",
+      "tier": "TIER0",
+      "drop_rewards": [
+        {
+          "weight": 100,
+          "item_id": "mmorpg:lure/ink/0",
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        }
+      ]
+    },
+    {
+      "loot_chance_per_action_exp": 0.1,
+      "tag": "",
+      "req": "NONE",
+      "tier": "TIER1",
+      "drop_rewards": [
+        {
+          "weight": 100,
+          "item_id": "mmorpg:lure/ink/1",
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        }
+      ]
+    },
+    {
+      "loot_chance_per_action_exp": 0.1,
+      "tag": "",
+      "req": "NONE",
+      "tier": "TIER2",
+      "drop_rewards": [
+        {
+          "weight": 100,
+          "item_id": "mmorpg:lure/ink/2",
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        }
+      ]
+    },
+    {
+      "loot_chance_per_action_exp": 0.1,
+      "tag": "",
+      "req": "NONE",
+      "tier": "TIER3",
+      "drop_rewards": [
+        {
+          "weight": 100,
+          "item_id": "mmorpg:lure/ink/3",
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        }
+      ]
+    },
+    {
+      "loot_chance_per_action_exp": 0.1,
+      "tag": "",
+      "req": "NONE",
+      "tier": "TIER4",
+      "drop_rewards": [
+        {
+          "weight": 100,
+          "item_id": "mmorpg:lure/ink/4",
           "count": {
             "min": 1,
             "max": 3
@@ -226,7 +311,7 @@
       "block_id": "minecraft:emerald_ore"
     },
     {
-      "exp": 5.0,
+      "exp": 10.0,
       "block_id": "minecraft:lapis_ore"
     },
     {
@@ -234,15 +319,15 @@
       "block_id": "minecraft:redstone_ore"
     },
     {
-      "exp": 1.0,
+      "exp": 2.0,
       "block_id": "minecraft:coal_ore"
     },
     {
-      "exp": 1.0,
+      "exp": 3.0,
       "block_id": "minecraft:nether_gold_ore"
     },
     {
-      "exp": 1.0,
+      "exp": 3.0,
       "block_id": "minecraft:nether_quartz_ore"
     }
   ],

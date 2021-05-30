@@ -1,0 +1,64 @@
+{
+  "guid": "light_wep_dmg",
+  "loc_name": "Holy",
+  "only_one_per_item": true,
+  "weight": 1000,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "weapon_family"
+        ],
+        "excluded": [
+		  "tier2"
+		]
+      }
+    ]
+  },
+  "tags": [],
+  "type": "prefix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 1.5,
+          "max1": 2.0,
+          "min2": 2.5,
+          "max2": 2.0,
+          "stat": "light_weapon_damage",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 200,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 1.0,
+          "max1": 1.25,
+          "min2": 1.25,
+          "max2": 1.5,
+          "stat": "light_weapon_damage",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 300,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 0.25,
+          "max1": 0.5,
+          "min2": 0.5,
+          "max2": 1.0,
+          "stat": "light_weapon_damage",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 400,
+      "tier": 3
+    }
+  }
+}

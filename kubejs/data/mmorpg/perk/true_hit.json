@@ -1,7 +1,6 @@
 {
   "type": "MAJOR",
   "identifier": "true_hit",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/game_changers/true_hit.png",
   "is_entry": false,

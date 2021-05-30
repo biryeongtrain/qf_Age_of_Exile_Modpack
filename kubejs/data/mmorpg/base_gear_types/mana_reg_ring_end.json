@@ -6,10 +6,10 @@
   "implicit_stats": [],
   "base_stats": [
     {
-      "min1": 4.0,
-      "max1": 8.0,
+      "min1": 10.0,
+      "max1": 20.0,
       "stat": "mana",
-      "type": "flat"
+      "type": "local_increase"
     }
   ],
   "level_range": {
@@ -19,7 +19,8 @@
   "tag_list": {
     "tags": [
       "ring",
-      "jewelry_family"
+      "jewelry_family",
+	  "tier1"
     ]
   },
   "stat_req": {
@@ -28,8 +29,9 @@
   },
   "item_id": "mmorpg:jewelry/ring/mana_reg_ring_end",
   "gear_slot": "ring",
+  "weapon_offhand_stat_util": 0,
   "rar_group": "non_unique",
-  "weapon_type": "None",
-  "attack_style": "MELEE",
+  "weapon_type": "none",
+  "attack_style": "melee",
   "atk_speed": 1.0
 }

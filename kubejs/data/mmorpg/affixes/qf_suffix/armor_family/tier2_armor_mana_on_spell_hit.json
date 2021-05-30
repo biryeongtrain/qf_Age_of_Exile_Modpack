@@ -1,0 +1,94 @@
+{
+  "guid": "suff_tier2_armor_mana_on_spell_hit",
+  "loc_name": "주문도둑",
+  "only_one_per_item": false,
+  "weight": 3600,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "armor_family"
+        ],
+        "excluded": [
+		  "tier1",
+		  "tier3"
+		]
+      }
+    ]
+  },
+  "tags": [],
+  "type": "suffix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "min1": 4.0,
+          "max1": 5.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "mana_on_spell_hit",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 49,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "min1": 3.0,
+          "max1": 4.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "mana_on_spell_hit",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 105,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "min1": 2.5,
+          "max1": 3.0,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "mana_on_spell_hit",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 161,
+      "tier": 3
+    },
+    "4": {
+      "mods": [
+        {
+          "min1": 1.5,
+          "max1": 2.5,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "mana_on_spell_hit",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 175,
+      "tier": 4
+    },
+	    "5": {
+      "mods": [
+        {
+          "min1": 1.0,
+          "max1": 1.5,
+          "min2": 0.0,
+          "max2": 0.0,
+          "stat": "mana_on_spell_hit",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 210,
+      "tier": 5
+    }
+    }
+  }
+}

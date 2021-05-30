@@ -25,7 +25,7 @@
       "max1": 2.0,
       "min2": 0.0,
       "max2": 0.0,
-      "stat": "health_on_attack_hit",
+      "stat": "lifesteal",
       "type": "FLAT"
     }
   ],

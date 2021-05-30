@@ -1,7 +1,6 @@
 {
   "type": "STAT",
   "identifier": "spell_damage",
-  "spell": "",
   "lock_under_adv": "",
   "icon": "mmorpg:textures/gui/stat_icons/main/spell_damage.png",
   "is_entry": false,

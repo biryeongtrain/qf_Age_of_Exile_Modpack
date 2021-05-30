@@ -1,8 +1,11 @@
 {
   "id": "negative/4",
   "one_of_a_kind_id": "",
-  "type": "HARMFUL",
+  "type": "negative",
   "max_stacks": 1,
+  "tags": [
+    "negative"
+  ],
   "mc_stats": [],
   "stats": [
     {
