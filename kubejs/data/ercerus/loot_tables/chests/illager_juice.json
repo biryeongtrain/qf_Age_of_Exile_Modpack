@@ -1,0 +1,88 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 3,
+                "max": 5
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:10815232,display:{Name:\"{\\\"text\\\":\\\"Sweet Berry Juice\\\",\\\"italic\\\":false}\"},HideFlags:32}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:sweet_berries",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:brown_mushroom",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:apple",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:15657124,display:{Name:\"{\\\"text\\\":\\\"Apple Juice\\\",\\\"italic\\\":false}\"},HideFlags:32}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:beetroot",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:11946060,display:{Name:\"{\\\"text\\\":\\\"Beetroot Juice\\\",\\\"italic\\\":false}\"},HideFlags:32}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:10,Duration:120,Amplifier:1,ShowIcon:true}],CustomPotionColor:15518533,display:{Name:\"{\\\"text\\\":\\\"Golden Apple Juice\\\",\\\"italic\\\":false}\"}}"
+                        }
+                    ],
+                    "weight": 1,
+                    "quality": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:16748041,display:{Name:\"{\\\"text\\\":\\\"Carrot Juice\\\",\\\"italic\\\":false}\"},HideFlags:32}"
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}
