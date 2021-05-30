@@ -1,5 +1,0 @@
-{
-    "transform": true,
-    "vertexSource": "lumiext:shaders/material/entity_hi_res.vert",
-    "fragmentSource": "lumiext:shaders/material/iron_golem.frag"
-}

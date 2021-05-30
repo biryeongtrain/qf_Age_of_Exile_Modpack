@@ -1,7 +1,0 @@
-{
-    "blendMode": "translucent",
-    "disableAo": true,
-    "emissive": true,
-    "vertexSource": "lumi:shaders/material/water.vert",
-    "fragmentSource": "lumi:shaders/material/water.frag"
-}
