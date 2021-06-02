@@ -1,0 +1,9 @@
+{
+    "type": "origins:effect_immunity",
+    "name": "면역",
+    "description": "거미는 독과 실명에 면역입니다.",
+    "effects": [
+        "minecraft:poison",
+        "minecraft:blindness"
+    ]
+}

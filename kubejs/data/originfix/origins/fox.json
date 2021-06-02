@@ -1,0 +1,20 @@
+{
+    "powers": [
+    	"originpowerfix:pounce",
+    	"moborigins:careful_gatherer",
+		"moborigins:better_berries",
+		"origins:more_exhaustion",
+		"moborigins:item_collector",
+		"origins:no_shield",
+		"originpowerfix:fragile",
+		"originpowerfix:tailwind",
+		"originpowerfix:night_eyes",
+		"originpowerfix:pounce_aerialdamage",
+		"origins:light_armor"
+    ],
+    "icon": "minecraft:sweet_berries",
+    "order": 7,
+    "impact": 2,
+	"name": "여우",
+	"description": "작고 약삭빠른 동물입니다. 공중에서 오는 공격을 조심하세요!"
+}
