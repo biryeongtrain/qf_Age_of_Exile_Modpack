@@ -1,0 +1,55 @@
+{
+  "type": "origins:conditioned_attribute",
+  "name": "늑대인간",
+    "description": "보름달이 뜨면 그 무엇도 늑대인간을 막을 수 없습니다...",
+  "modifiers": [
+    {
+      "attribute": "generic.movement_speed",
+      "operation": "addition",
+      "value": 0.05,
+      "name": "full moon wolf bonus"
+    },
+    {
+      "attribute": "generic.max_health",
+      "operation": "addition",
+      "value": 100.0,
+      "name": "full moon wolf bonus"
+    },
+    {
+      "attribute": "generic.knockback_resistance",
+      "operation": "addition",
+      "value": 1.0,
+      "name": "full moon wolf bonus"
+    },
+    {
+      "attribute": "generic.armor",
+      "operation": "addition",
+      "value": 15.0,
+      "name": "full moon wolf bonus"
+    },
+    {
+      "attribute": "generic.armor_toughness",
+      "operation": "addition",
+      "value": 10.0,
+      "name": "full moon wolf bonus"
+    },
+    {
+      "attribute": "generic.attack_damage",
+      "operation": "addition",
+      "value": 10.0,
+      "name": "full moon wolf bonus"
+    }
+  ],
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:daytime",
+        "inverted": true
+      },
+      {
+        "type": "moborigins:is_full_moon"
+      }
+    ]
+  }
+}

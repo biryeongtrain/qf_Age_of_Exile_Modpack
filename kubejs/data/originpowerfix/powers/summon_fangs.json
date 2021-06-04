@@ -1,0 +1,23 @@
+{
+  "type": "origins:active_self",
+  "name": "송곳니 소환",
+    "description": "주문을 외워, 바라보는 방향으로 송곳니를 소환합니다.",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+      "type": "moborigins:summon_fangs"
+    },
+      {
+    "type": "origins:execute_command",
+    "command": "playsound minecraft:entity.evoker.prepare_attack voice @s",
+    "permission_level": 4
+  }
+]
+  },
+  "cooldown": 200,
+  "hud_render": {
+    "sprite_location": "moborigins:textures/gui/ability_bars.png",
+    "bar_index": "1"
+  }
+}

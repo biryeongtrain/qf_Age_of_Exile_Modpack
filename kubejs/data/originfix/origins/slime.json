@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "origins:launch_into_air",
+    "moborigins:slime_color",
+    "moborigins:split",
+    "moborigins:small_weak",
+    "origins:fall_immunity"
+  ],
+  "icon": "minecraft:slime_ball",
+  "order": 20,
+  "impact": 2
+}

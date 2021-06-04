@@ -1,0 +1,42 @@
+{
+  "type": "origins:action_on_item_use",
+  "name": "로얄 젤리",
+  "description": "꿀을 섭취하면 잠깐 체력을 크게 회복하고 빨라집니다.",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+      "type": "origins:execute_command",
+      "command": "/execute run effect give @s minecraft:regeneration 7 2 true",
+      "permission_level": 4
+      },
+      {
+      "type": "origins:execute_command",
+      "command": "/execute run effect give @s minecraft:speed 5 4 true",
+      "permission_level": 4
+      },
+      {
+      "type": "origins:execute_command",
+      "command": "/execute run effect give @s minecraft:absorption 30 1 true",
+      "permission_level": 4
+      },
+      {
+      "type": "origins:execute_command",
+      "command": "/execute run effect give @s minecraft:instant_health 1 0 true",
+      "permission_level": 4
+      },
+      {
+      "type": "origins:execute_command",
+      "command": "playsound minecraft:entity.bee.pollinate voice @s",
+      "permission_level": 4
+      }
+]
+},
+  "hidden": false,
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:honey_bottle"
+    }
+  }
+  }

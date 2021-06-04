@@ -1,0 +1,32 @@
+{
+  "type": "origins:stacking_status_effect",
+  "name": "토템의 가호",
+    "description": "토템을 들고 있을 때, 우민은 강해집니다.",
+    "min_stacks": -10,
+    "max_stacks": 10,
+    "duration_per_stack": 10,
+    "effects": [
+        {
+            "effect": "minecraft:strength",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        },
+        {
+            "effect": "minecraft:unluck",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        }
+    ],
+    "condition": {
+  "type": "origins:equipped_item",
+  "equipment_slot": "offhand",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:totem_of_undying"
+    }
+  }
+}
+}
