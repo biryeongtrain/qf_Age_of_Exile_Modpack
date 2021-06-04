@@ -4,7 +4,8 @@
 		"origins:sprint_jump",
 		"origins:scare_creepers",
 		"origins:cat_vision",
-		"origins:no_shield"
+		"origins:no_shield",
+		"origins:more_exhaustion"
 	],
 	"icon": {
 		"item": "minecraft:orange_wool"
