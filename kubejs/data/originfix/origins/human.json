@@ -1,0 +1,12 @@
+{
+	"name": "인간",
+    "description": "무궁무진한 잠재력을 지니고 있습니다.",
+	"powers": [
+		"originstat:humanstat"
+	],
+	"icon": {
+		"item": "minecraft:player_head"
+	},
+	"order": 0,
+	"impact": 0
+}

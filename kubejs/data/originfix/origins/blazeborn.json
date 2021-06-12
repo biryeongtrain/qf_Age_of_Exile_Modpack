@@ -1,0 +1,21 @@
+{
+	"name": "블레이즈",
+    "description": "지옥에서 살아남은 블레이즈는 오히려 차가운 것을 두려워합니다.",
+	"powers": [
+		"originstat:blazestat",
+		"originpowerfix:fireball",
+		"origins:fire_immunity",
+		"origins:burning_wrath",
+		"origins:hotblooded",
+		"origins:water_vulnerability",
+		"origins:flame_particles",
+		"origins:fall_immunity",
+		"origins:damage_from_snowballs",
+		"origins:damage_from_potions"
+	],
+	"icon": {
+		"item": "minecraft:blaze_powder"
+	},
+	"order": 2,
+	"impact": 3
+}

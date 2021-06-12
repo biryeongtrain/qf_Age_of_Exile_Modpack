@@ -1,0 +1,12 @@
+{
+	"type": "origins:night_vision",
+	"strength": 1.0,
+	"condition": {
+		"type": "origins:submerged_in",
+		"fluid": "minecraft:water",
+		"inverted": true
+	},
+   "hidden": true,
+	"name": "어둠속에서",
+	"description": "당신은 야행성입니다."
+}

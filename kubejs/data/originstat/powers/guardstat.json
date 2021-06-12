@@ -1,0 +1,35 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact spell_water_damage GLOBAL_INCREASE origin_aoe1 9 9"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact mana GLOBAL_INCREASE origin_aoe2 5 5"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact all_nature_damage FLAT origin_aoe3 -20 -20"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact nature_resist FLAT origin_aoe4 -25 -25"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact water_mana_leech FLAT origin_aoe5 10 10"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact water_health_leech FLAT origin_aoe6 10 10"
+      }
+      ]
+    },
+    "interval": 60,
+    "name": "능력치",
+    "description": "총 §b물 주문피해§r +9%\n§a자연 피해§r -20%\n§a자연 저항§r -25%\n총 마나 +5%\n§b§l물 속성 공격시 체력,마나 흡수 +10%"
+}

@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"originstat:spiderstat",
+		"origins:master_of_webs",
+		"originpowerfix:poison_immun",
+		"origins:climbing",
+		"origins:arthropod"
+	],
+	"icon": {
+		"item": "minecraft:cobweb"
+	},
+	"order": 2,
+	"impact": 1,
+	"name": "거미",
+    "description": "벽을 타는 능력과 거미줄로 적을 가두는 사냥꾼입니다."
+}

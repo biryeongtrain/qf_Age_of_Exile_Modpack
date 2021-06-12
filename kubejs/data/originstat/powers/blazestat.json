@@ -1,0 +1,35 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact spell_fire_damage GLOBAL_INCREASE origin_aoe1 10 10"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact mana GLOBAL_INCREASE origin_aoe2 5 5"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact all_water_damage FLAT origin_aoe3 -20 -20"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact water_resist FLAT origin_aoe4 -25 -25"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact fire_dot_damage FLAT origin_aoe5 20 20"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact chance_of_burn FLAT origin_aoe6 33 33"
+      }
+      ]
+    },
+    "interval": 60,
+    "name": "능력치",
+    "description": "총 §c불 주문피해§r +10% \n§c불 도트피해§r +20%\n총 마나 +5%\n§b물 피해§r -20%\n§b물 저항§r -25% \n§c§l33% 확률로 상대를 점화"
+}

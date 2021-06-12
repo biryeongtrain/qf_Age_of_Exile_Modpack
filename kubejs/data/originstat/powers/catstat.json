@@ -1,0 +1,35 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact critical_damage GLOBAL_INCREASE origin_aoe1 7 7"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact critical_damage FLAT origin_aoe2 10 10"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact critical_hit FLAT origin_aoe3 10 10"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact spell_damage GLOBAL_INCREASE origin_aoe4 -7 -7"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact armor GLOBAL_INCREASE origin_aoe5 -10 -10"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact dmg_when_target_is_low_hp FLAT origin_aoe6 33 33"
+      }
+      ]
+    },
+    "interval": 60,
+    "name": "능력치",
+    "description": "§6치명피해§r +10% \n총 §6치명피해§r +7%\n§6치명확률§r +10%\n총 주문피해 -7%\n총 방어력 -10%\n§6§l체력이 낮은 적에게 피해 +33%"
+}

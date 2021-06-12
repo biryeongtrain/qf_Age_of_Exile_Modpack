@@ -1,0 +1,35 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact dmg_when_target_near_full_hp FLAT origin_aoe1 33 33"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact nature_weapon_damage GLOBAL_INCREASE origin_aoe2 7 7"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact nature_weapon_damage FLAT origin_aoe3 4 4"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact all_fire_damage FLAT origin_aoe4 -7 -7"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact fire_resist FLAT origin_aoe5 -10 -10"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact physical_weapon_damage GLOBAL_INCREASE origin_aoe6 3 3"
+      }
+      ]
+    },
+    "interval": 60,
+    "name": "능력치",
+    "description": "기본 §a자연 무기피해§r +5 \n총 §a자연 무기피해§r +7%\n총 물리무기피해 +3%\n§c화염 피해§r -7%\n§c화염 저항§r -7% \n§f§l최대체력인 적에게 피해 +33%"
+}

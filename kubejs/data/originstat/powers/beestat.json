@@ -1,0 +1,35 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact spell_light_damage GLOBAL_INCREASE origin_aoe1 7 7"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact mana GLOBAL_INCREASE origin_aoe2 5 5"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact all_dark_damage FLAT origin_aoe3 -10 -10"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact dark_resist FLAT origin_aoe4 -15 -15"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact spell_light_damage FLAT origin_aoe5 5 5"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact inc_aoe FLAT origin_aoe6 15 15"
+      }
+      ]
+    },
+    "interval": 60,
+    "name": "능력치",
+    "description": "§e빛 주문피해§r +5 \n총 §e빛 주문피해§r +7%\n총 마나 +5%\n§d어둠 피해§r -20%\n§d어둠 저항§r -25% \n§f§l광역 스킬 범위 +15%"
+}

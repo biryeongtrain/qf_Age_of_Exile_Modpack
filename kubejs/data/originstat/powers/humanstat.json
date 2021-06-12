@@ -1,0 +1,35 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact health GLOBAL_INCREASE origin_aoe1 1 1"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact mana GLOBAL_INCREASE origin_aoe2 1 1"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact all_all_damage GLOBAL_INCREASE origin_aoe3 1 1"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact armor GLOBAL_INCREASE origin_aoe4 1 1"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact elemental_resist GLOBAL_INCREASE origin_aoe5 1 1"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact mana_regen GLOBAL_INCREASE origin_aoe6 33 33"
+      }
+      ]
+    },
+    "interval": 60,
+    "name": "인간의 잠재력",
+    "description": "총 체력, 마나, 모든 피해, 방어력, 속성 저항력 +1% \n총 마나 재생 +33%"
+}

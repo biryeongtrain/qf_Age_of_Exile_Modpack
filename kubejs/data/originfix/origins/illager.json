@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "originstat:illagerstat",
+    "originpowerfix:summon_fangs",
+    "moborigins:better_potions",
+    "originpowerfix:emerald",
+    "moborigins:pillager_aligned",
+    "origins:no_shield",
+    "moborigins:illager"
+  ],
+  "icon": "minecraft:totem_of_undying",
+  "name": "우민",
+  "description": "우민들은 어두운 숲에서 불경한 성물을 숭배하고 수수께끼의 마법을 사용한다고 합니다...",
+  "order": 4,
+  "impact": 1
+}

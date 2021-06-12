@@ -1,0 +1,15 @@
+  {
+  "powers": [
+    "originstat:wolfstat",
+    "originpowerfix:full_moon",
+    "moborigins:alpha_wolf",
+    "originpowerfix:alpha_wolf",
+    "origins:carnivore",
+    "origins:no_shield"
+  ],
+  "icon": "minecraft:bone",
+  "order": 2,
+  "impact": 2,
+  "name": "늑대",
+  "description": "늑대 우두머리의 울음소리가 퍼지면 누구도 살아남을 수 없습니다."
+}

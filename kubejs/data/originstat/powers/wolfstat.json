@@ -1,0 +1,35 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact physical_weapon_damage GLOBAL_INCREASE origin_aoe1 6 6"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact health FLAT origin_aoe2 70 70"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact health GLOBAL_INCREASE origin_aoe3 5 5"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact health_regen FLAT origin_aoe4 25 25"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact mana GLOBAL_INCREASE origin_aoe5 -25 -25"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact physical_health_leech FLAT origin_aoe6 10 10"
+      }
+      ]
+    },
+    "interval": 60,
+    "name": "능력치",
+    "description": "총 물리무기피해§r +6% \n기본 체력 +70\n총 체력 +5%\n기본 체력 재생 +25\n총 마나 -25% \n§4§l물리 피해 흡혈 +10%"
+}

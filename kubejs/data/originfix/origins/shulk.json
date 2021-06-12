@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"originstat:shulkerstat",
+		"originpowerfix:shulker_close",
+		"origins:strong_arms",
+		"origins:strong_arms_break_speed"
+	],
+	"icon": {
+		"item": "minecraft:shulker_shell"
+	},
+	"order": 1,
+	"impact": 1,
+	"name": "셜커",
+    "description": "셜커는 껍질로 인해 단단합니다. 껍질은 닫으면 더 단단해집니다!"
+}

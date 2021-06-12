@@ -1,0 +1,35 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact ranged_dmg GLOBAL_INCREASE origin_aoe1 8 8"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact armor FLAT origin_aoe2 -20 -20"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact critical_damage FLAT origin_aoe3 15 15"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact physical_weapon_damage GLOBAL_INCREASE origin_aoe4 -10 -10"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact faster_projectiles FLAT origin_aoe5 20 20"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact accuracy GLOBAL_INCREASE origin_aoe6 7 7"
+      }
+      ]
+    },
+    "interval": 60,
+    "name": "능력치",
+    "description": "총 §f원거리 무기 피해§r +8% \n총 §6치명피해§r +15%\n방어력 -20\n총 물리무기피해 -10\n총 정확도 +7%\n§f§l투사체 속도 +20%"
+}

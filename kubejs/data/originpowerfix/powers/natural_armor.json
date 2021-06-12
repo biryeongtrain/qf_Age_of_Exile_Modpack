@@ -1,0 +1,25 @@
+{
+  "type": "origins:attribute",
+  "name": "셜커 껍질",
+    "description": "셜커는 껄질로 인해 체력, 방어력이 높습니다.",
+  "modifiers": [
+    {
+    "name": "Natural Armor health bonus",
+    "attribute": "minecraft:generic.armor",
+    "value": 4.0,
+    "operation": "addition"
+  },
+  {
+    "name": "Natural Armor health bonus",
+    "attribute": "minecraft:generic.armor_toughness",
+    "value": 2.0,
+    "operation": "addition"
+  },
+  {
+    "name": "Natural Armor health bonus",
+    "attribute": "minecraft:generic.max_health",
+    "value": 30.0,
+    "operation": "addition"
+  }
+]
+}

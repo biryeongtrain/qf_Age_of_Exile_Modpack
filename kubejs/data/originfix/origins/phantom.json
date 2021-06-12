@@ -1,0 +1,22 @@
+{
+	"powers": [
+		"originstat:phantomstat",
+		"origins:phantomize",
+		"origins:translucent",
+		"origins:phasing",
+		"origins:invisibility",
+		"origins:burn_in_daylight",
+		"origins:climbing",
+		"origins:fall_immunity",
+		"originpowerfix:ender_eye",
+		"origins:like_water",
+   		"origins:elytra"
+	],
+	"icon": {
+		"item": "minecraft:phantom_membrane"
+	},
+	"order": 3,
+	"impact": 3,
+	"name": "팬텀족",
+    "description": "인간과 팬텀의 혼혈로 인간 상태와 팬텀 형태를 자유로이 오갈 수 있습니다."
+}

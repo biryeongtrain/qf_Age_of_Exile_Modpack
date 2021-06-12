@@ -1,0 +1,35 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact armor FLAT origin_aoe1 5 5"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact armor GLOBAL_INCREASE origin_aoe2 3 3"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact health FLAT origin_aoe3 130 130"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact health GLOBAL_INCREASE origin_aoe4 8 8"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact health_regen GLOBAL_INCREASE origin_aoe5 33 33"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact elemental_resist GLOBAL_INCREASE origin_aoe6 7 7"
+      }
+      ]
+    },
+    "interval": 60,
+    "name": "능력치",
+    "description": "기본체력 +130\n총 체력 +7%\n기본 방어도 +5\n총 방어력 +3%\n총 체력재생 +33%\n§f§l총 속성저항 +7%"
+}

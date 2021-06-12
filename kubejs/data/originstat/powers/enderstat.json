@@ -1,0 +1,35 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact physical_weapon_damage GLOBAL_INCREASE origin_aoe1 5 5"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact dark_weapon_damage GLOBAL_INCREASE origin_aoe2 7 7"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact dark_weapon_damage FLAT origin_aoe3 7 7"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact water_resist FLAT origin_aoe4 -15 -15"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact light_resist FLAT origin_aoe5 -15 -15"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact ranged_dmg_received FLAT origin_aoe6 -15 -15"
+      }
+      ]
+    },
+    "interval": 60,
+    "name": "능력치",
+    "description": "기본 §d어둠 무기피해§r +7 \n총 §d어둠 무기피해§r +7%\n총 물리무기피해 +5%\n§b물 저항§r -15%\n§e빛 저항§r -15% \n§f§l받는 투사체 피해 -15%"
+}

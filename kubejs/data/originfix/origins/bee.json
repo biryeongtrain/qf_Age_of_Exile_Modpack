@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "originstat:beestat",
+    "originpowerfix:honey",
+    "originpowerfix:stinger",
+    "moborigins:queen_bee",
+    "origins:fall_immunity",
+    "origins:vegetarian",
+    "origins:elytra"
+  ],
+  "icon": "minecraft:honeycomb",
+  "order": 3,
+  "impact": 1,
+  "name": "꿀벌",
+  "description": "꽃을 수분하고 꿀을 모으는 작은 생물이지만, 귀여운 모습에 숨겨둔 무기를 조심하세요."
+}

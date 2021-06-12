@@ -1,0 +1,31 @@
+{
+  "type": "origins:active_self",
+  "name": "엑티브 - 단단해지기",
+    "description": "껍질을 닫아, 방어력과 체력이 증가하지만, 움직이지 못합니다.",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+      "type": "origins:execute_command",
+      "command": "/execute run effect give @s minecraft:resistance 7 3 true",
+      "permission_level": 4
+      },
+      {
+      "type": "origins:execute_command",
+      "command": "/execute run effect give @s minecraft:slowness 6 255 true",
+      "permission_level": 4
+      },
+      {
+      "type": "origins:execute_command",
+      "command": "/execute run effect give @s mmorpg:foods/def_gray 7 3 true",
+      "permission_level": 4
+      }
+]
+  },
+  "cooldown": 400,
+  "hud_render": {
+    "sprite_location": "moborigins:textures/gui/ability_bars.png",
+    "should_render": true,
+    "bar_index": "1"
+  }
+}

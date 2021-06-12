@@ -1,0 +1,29 @@
+{
+  "name": "가디언",
+    "description": "유적을 지키는 가디언은 마법이 깃든 피부를 가지고 있다고 합니다. 몇몇 개체는 엘더 가디언으로 진화한다고 합니다.",
+  "powers": [
+    "originstat:guardstat",
+    "moborigins:guardian_spikes",
+    "moborigins:guardian_ally",
+    "moborigins:surface_weakness",
+    "moborigins:slippery",
+    "origins:water_breathing",
+    "origins:water_vision",
+    "origins:aqua_affinity",
+    "origins:swim_speed",
+    "origins:like_water",
+    "origins:aquatic",
+    "origins:conduit_power_on_land",
+    "origins:air_from_potions"
+  ],
+  "upgrades": [
+    {
+      "condition": "moborigins:killed_elder",
+      "origin": "moborigins:elder_guardian",
+      "announcement": "text.moborigins.become_elder"
+    }
+  ],
+  "icon": "minecraft:prismarine_shard",
+  "order": 6,
+  "impact": 3
+}
