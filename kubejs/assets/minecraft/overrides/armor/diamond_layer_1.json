@@ -10,19 +10,19 @@
 			"predicate": {
 				"name": "asd"
 			},
-			"texture": "example:textures/models/armor/kraken_layer_1"
+			"texture": "kubejs:textures/models/armor/kraken_layer_1"
 		},
 		{
 			"predicate": {
 				"name": "Kraken Chestplate"
 			},
-			"texture": "example:textures/models/armor/kraken_layer_1"
+			"texture": "kubejs:textures/models/armor/kraken_layer_1"
 		},
 		{
 			"predicate": {
 				"name": "Kraken Boots"
 			},
-			"texture": "example:textures/models/armor/kraken_layer_1"
+			"texture": "kubejs:textures/models/armor/kraken_layer_1"
 		}
 	]
 }
