@@ -10,19 +10,19 @@
 			"predicate": {
 				"name": "asd"
 			},
-			"texture": "example:textures/models/armor/kraken_layer_2"
+			"texture": "kubejs:textures/models/armor/kraken_layer_2"
 		},
 		{
 			"predicate": {
 				"name": "Kraken Leggings"
 			},
-			"texture": "example:textures/models/armor/kraken_layer_2"
+			"texture": "kubejs:textures/models/armor/kraken_layer_2"
 		},
 		{
 			"predicate": {
 				"name": "갑옷2"
 			},
-			"texture": "example:textures/models/armor/kraken_layer_2"
+			"texture": "kubejs:textures/models/armor/kraken_layer_2"
 		}
 	]
 }
