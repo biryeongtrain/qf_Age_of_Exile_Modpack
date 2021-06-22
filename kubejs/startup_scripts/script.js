@@ -7,14 +7,19 @@ onEvent('item.registry', event => {
     event.create('staff0').displayName('고목의 지팡이').type('axe').tier('iron').attackSpeed(1.5).miningSpeed(1.5).attackDamage(5).maxDamage(700)
     event.create('staff1').displayName('청록의 지팡이').type('axe').tier('iron').attackSpeed(1.5).miningSpeed(1.5).attackDamage(5).maxDamage(700)
     event.create('staff2').displayName('빙하의 지팡이').type('axe').tier('iron').attackSpeed(1.5).miningSpeed(1.5).attackDamage(5).maxDamage(700)
-
+    
+    ///크라켄갑옷
+    event.create('kraken_chestplate').displayName('크라켄1').type('chestplate').tier('diamond').maxDamage(700)
+    event.create('kraken_leggings').displayName('크라켄2').type('leggings').tier('diamond').maxDamage(700)
+    event.create('kraken_boots').displayName('크라켄3').type('boots').tier('diamond').maxDamage(700)
+    
     // eldritch weapons
     event.create('eldritch_staff').displayName('고대의 지팡이').glow(true).type('axe').tier('iron').maxDamage(700)
     event.create('eldritch_sword').displayName('고대의 검').glow(true).type('sword').tier('iron').maxDamage(700)
     event.create('eldritch_scythe').displayName('고대의 낫').type('sword').tier('iron').maxDamage(700)
     event.create('eldritch_axe').displayName('고대의 도끼').glow(true).type('axe').tier('iron').maxDamage(700)
 
-
+    
 
     // currency
 
