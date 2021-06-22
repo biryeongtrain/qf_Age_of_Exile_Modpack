@@ -1,0 +1,223 @@
+{
+    "pools": [
+    	{
+	      "name": "KrakenLoot1",
+	      
+	      "rolls": 1,
+	      "entries": [
+	        {
+	          "type": "item",
+	          "name": "minecraft:ink_sac",
+	          "weight": 1,
+	          "functions": [
+	            {
+	              "function": "set_count",
+	              "count": {
+	                "min": 13,
+	                "max": 19
+	              }
+	            }
+	          ]
+	        }
+	      ]
+	    },
+	    {
+	      "name": "KrakenLoot2",
+	      
+	      "rolls": 1,
+	      "entries": [
+	        {
+	          "type": "item",
+	          "name": "minecraft:cod",
+	          "weight": 1,
+	          "functions": [
+	            {
+	              "function": "set_count",
+	              "count": {
+	                "min": 4,
+	                "max": 6
+	              }
+	            }
+	          ]
+	        },
+	        {
+	          "type": "item",
+	          "name": "minecraft:salmon",
+	          "weight": 1,
+	          "functions": [
+	            {
+	              "function": "set_count",
+	              "count": {
+	                "min": 4,
+	                "max": 6
+	              }
+	            }
+	          ]
+	        },
+	        {
+	          "type": "item",
+	          "name": "minecraft:tropical_fish",
+	          "weight": 1,
+	          "functions": [
+	            {
+	              "function": "set_count",
+	              "count": {
+	                "min": 4,
+	                "max": 6
+	              }
+	            }
+	          ]
+	        }
+	      ]
+	    },
+        {
+        	"name": "KrakenLoot3",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:shield",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 1
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.movement_speed",
+                                    "operation": "multiply_total",
+                                    "amount": -0.10,
+                                    "name": "Movement",
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "attribute": "generic.max_health",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 15,
+                                        "max": 17
+                                    },
+                                    "name": "Health",
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "attribute": "generic.attack_damage",
+                                    "operation": "multiply_total",
+                                    "amount": -0.05,
+                                    "name": "Damage",
+                                    "slot": "offhand"
+                                }
+                            ]
+                        },
+                        {
+                        	"function": "set_nbt",
+		  					"tag": "{display:{Name:'{\"translate\":\"item.dungeonsmod.kraken1.name\"}'}}"
+                        },
+                        {
+                        	"function": "set_nbt",
+		  					"tag": "{display:{Lore:['{\"translate\":\"item.dungeonsmod.kraken1.lore\"}']}}"
+                        },
+                        {
+                        	"function": "set_nbt",
+		  					"tag": "{Enchantments:[{id:'minecraft:unbreaking',lvl:2s}]}"
+                        }
+
+                    ]
+                }
+            ]
+        },
+        {
+        	"name": "KrakenLoot4",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "kubejs:kraken_chestplate",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 1
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                        	"function": "set_nbt",
+		  					"tag": "{display:{Name:'[{\"text\":\"Kraken Chestplate\",\"italic\":false}]'}}"
+                        }
+
+                    ]
+                }
+            ]
+        },
+        {
+        	"name": "KrakenLoot4",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "kubejs:kraken_leggings",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 1
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                        	"function": "set_nbt",
+		  					"tag": "{display:{Name:'[{\"text\":\"Kraken Leggings\",\"italic\":false}]'}}"
+                        }
+
+                    ]
+                }
+            ]
+        },
+        {
+        	"name": "KrakenLoot4",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "kubejs:kraken_boots",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 1
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                        	"function": "set_nbt",
+		  					"tag": "{display:{Name:'[{\"text\":\"Kraken Boots\",\"italic\":false}]'}}"
+                        }
+
+                    ]
+                }
+            ]
+        }
+    ]
+}
