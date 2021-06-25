@@ -1,0 +1,35 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact attack_speed FLAT origin_aoe1 -5 -5"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact armor GLOBAL_INCREASE origin_aoe2 5 5"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact health FLAT origin_aoe3 60 60"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact health GLOBAL_INCREASE origin_aoe4 10 10"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact health_regen GLOBAL_INCREASE origin_aoe5 50 50"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact elemental_resist GLOBAL_INCREASE origin_aoe6 7 7"
+      }
+      ]
+    },
+    "interval": 200,
+    "name": "능력치",
+    "description": "체력/방어력이 크게 증가하고, 이동속도와 공격속도가 조금 감소합니다.\n§f§l특수 능력치 : 총 속성저항 +7%"
+}

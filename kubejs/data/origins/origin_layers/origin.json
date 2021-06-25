@@ -1,0 +1,21 @@
+{
+    "replace": true,
+    "origins": [
+    "originfix:arachnid",
+    "originfix:blazeborn",
+    "originfix:enderian",
+    "originfix:feline",
+    "originfix:human",
+    "originfix:phantom",
+    "originfix:illager",
+    "originfix:shulk",
+    "originfix:guardian",
+    "originfix:elder_guardian",
+    "originfix:bee",
+    "originfix:fox"
+    ],
+    "allow_random": true,
+  "exclude_random": [
+    "origins:human"
+  ]
+}

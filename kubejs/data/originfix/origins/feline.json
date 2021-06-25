@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"originstat:catstat",
+		"origins:fall_immunity",
+		"origins:sprint_jump",
+		"originpowerfix:fox_night",
+		"origins:scare_creepers",
+		"origins:no_shield",
+		"originpowerfix:night_eyes",
+		"origins:carnivore"
+	],
+	"icon": {
+		"item": "minecraft:orange_wool"
+	},
+	"order": 3,
+	"impact": 2,
+		"name": "고양이",
+  "description": "단또 단또~"
+}

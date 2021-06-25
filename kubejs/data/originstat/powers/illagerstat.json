@@ -1,0 +1,35 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact dodge GLOBAL_INCREASE origin_aoe1 -20 -20"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact physical_weapon_damage GLOBAL_INCREASE origin_aoe2 3 3"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact health FLAT origin_aoe3 100 100"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact mana FLAT origin_aoe4 100 100"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact armor GLOBAL_INCREASE origin_aoe5 -20 -20"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact axe_damage GLOBAL_INCREASE origin_aoe6 15 15"
+      }
+      ]
+    },
+    "interval": 60,
+    "name": "능력치",
+    "description": "체력,마나,피해량이 증가하고, 방어력과 회피가 감소합니다.\n§f§l특수 능력치 : 도끼 피해 +15%"
+}

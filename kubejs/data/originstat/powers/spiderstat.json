@@ -1,0 +1,35 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact dmg_when_target_near_full_hp FLAT origin_aoe1 33 33"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact nature_weapon_damage GLOBAL_INCREASE origin_aoe2 7 7"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact nature_weapon_damage FLAT origin_aoe3 4 4"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact all_fire_damage FLAT origin_aoe4 -7 -7"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact fire_resist FLAT origin_aoe5 -10 -10"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact physical_weapon_damage GLOBAL_INCREASE origin_aoe6 3 3"
+      }
+      ]
+    },
+    "interval": 60,
+    "name": "능력치",
+    "description": "§a자연속성의 무기 피해량§r이 늘어나고, §c화염속성§r에 취약해집니다.\n§f§l특수 능력치 : 최대체력인 적에게 피해 +33%"
+}

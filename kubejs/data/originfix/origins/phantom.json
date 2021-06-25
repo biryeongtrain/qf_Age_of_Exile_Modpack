@@ -1,0 +1,22 @@
+{
+	"powers": [
+		"originstat:phantomstat",
+		"origins:phantomize",
+		"origins:translucent",
+		"origins:phasing",
+		"origins:invisibility",
+		"origins:burn_in_daylight",
+		"origins:climbing",
+		"origins:fall_immunity",
+		"originpowerfix:ender_eye",
+		"origins:like_water",
+   		"origins:elytra"
+	],
+	"icon": {
+		"item": "minecraft:phantom_membrane"
+	},
+	"order": 3,
+	"impact": 3,
+	"name": "팬텀족",
+    "description": "홍어"
+}

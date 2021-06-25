@@ -1,0 +1,38 @@
+{
+  "type": "origins:conditioned_attribute",
+  "hidden":true,
+  "name": "셜커바닐라스텟",
+    "description": "방어력/체력증가/이속감소",
+  "modifiers": [
+    {
+      "attribute": "generic.movement_speed",
+      "operation": "addition",
+      "value": -0.01,
+      "name": "full moon wolf bonus"
+    },
+    {
+      "attribute": "generic.max_health",
+      "operation": "addition",
+      "value": 10.0,
+      "name": "full moon wolf bonus"
+    },
+    {
+      "attribute": "generic.knockback_resistance",
+      "operation": "addition",
+      "value": 0.5,
+      "name": "full moon wolf bonus"
+    },
+    {
+      "attribute": "generic.armor",
+      "operation": "addition",
+      "value": 10.0,
+      "name": "full moon wolf bonus"
+    },
+    {
+      "attribute": "generic.armor_toughness",
+      "operation": "addition",
+      "value": 5.0,
+      "name": "full moon wolf bonus"
+    }
+  ]
+}

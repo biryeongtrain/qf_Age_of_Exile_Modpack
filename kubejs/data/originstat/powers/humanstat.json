@@ -1,0 +1,35 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact health GLOBAL_INCREASE origin_aoe1 1 1"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact mana GLOBAL_INCREASE origin_aoe2 1 1"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact all_all_damage GLOBAL_INCREASE origin_aoe3 1 1"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact armor GLOBAL_INCREASE origin_aoe4 1 1"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact elemental_resist GLOBAL_INCREASE origin_aoe5 1 1"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact mana_regen GLOBAL_INCREASE origin_aoe6 40 40"
+      }
+      ]
+    },
+    "interval": 60,
+    "name": "인간의 잠재력",
+    "description": "모든 능력치가 골고루 증가합니다."
+}

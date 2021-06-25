@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.movement_speed",
+    "value": 0.03,
+    "operation": "addition"
+  },
+      "name": "가벼움",
+    "description": "몸무게가 가벼워 더 빨리 이동할 수 있습니다."
+}

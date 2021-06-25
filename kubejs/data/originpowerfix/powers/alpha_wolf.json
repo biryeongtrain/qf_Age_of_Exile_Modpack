@@ -1,0 +1,65 @@
+{
+  "type": "origins:active_self",
+  "name": "사냥 개시",
+    "description": "자신과 주변 늑대의 사냥본능을 깨웁니다.",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+      "type": "origins:execute_command",
+      "command": "/execute at @s run effect give @e[type=minecraft:wolf,distance=..7] minecraft:resistance 120 0",
+      "permission_level": 4
+      },
+      {
+      "type": "origins:execute_command",
+      "command": "/execute at @s run effect give @e[type=minecraft:wolf,distance=..7] minecraft:strength 120 2",
+      "permission_level": 4
+      },
+      {
+      "type": "origins:execute_command",
+      "command": "/execute at @s run effect give @e[type=minecraft:wolf,distance=..7] minecraft:speed 120 1",
+      "permission_level": 4
+      },
+      {
+      "type": "origins:execute_command",
+      "command": "/execute at @s run effect give @e[type=minecraft:wolf,distance=..7] minecraft:regeneration 120 0",
+      "permission_level": 4
+      },
+      {
+      "type": "origins:execute_command",
+      "command": "/execute run effect give @s minecraft:regeneration 120 1 true",
+      "permission_level": 4
+      },
+      {
+      "type": "origins:execute_command",
+      "command": "/execute run effect give @s minecraft:speed 120 2 true",
+      "permission_level": 4
+      },
+      {
+      "type": "origins:execute_command",
+      "command": "/execute run effect give @s minecraft:strength 120 1 true",
+      "permission_level": 4
+      },
+      {
+      "type": "origins:execute_command",
+      "command": "/execute run effect give @s minecraft:resistance 120 0 true",
+      "permission_level": 4
+      },
+      {
+      "type": "origins:execute_command",
+      "command": "/execute run effect give @s minecraft:night_vision 120 0 true",
+      "permission_level": 4
+      },
+      {
+      "type": "origins:execute_command",
+      "command": "playsound minecraft:entity.wolf.howl voice @s",
+      "permission_level": 4
+      }
+]
+  },
+  "cooldown": 8400,
+  "hud_render": {
+    "sprite_location": "moborigins:textures/gui/ability_bars.png",
+    "bar_index": "1"
+  }
+}

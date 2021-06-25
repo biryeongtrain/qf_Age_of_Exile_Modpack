@@ -1,0 +1,18 @@
+{
+    "powers": [
+    	"originstat:foxstat",
+    	"originpowerfix:pounce",
+    	"moborigins:careful_gatherer",
+		"moborigins:better_berries",
+		"origins:no_shield",
+		"origins:more_exhaustion",
+		"originpowerfix:night_eyes",
+		"originpowerfix:fox_night",
+		"originpowerfix:pounce_aerialdamage"
+    ],
+    "icon": "minecraft:sweet_berries",
+    "order": 1,
+    "impact": 2,
+	"name": "여우",
+	"description": "캥캥이"
+}

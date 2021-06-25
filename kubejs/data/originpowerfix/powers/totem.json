@@ -1,0 +1,20 @@
+{
+    "type": "origins:recipe",
+    "name": "토템 되살리기",
+    "description": "금 블록과 죽은 토템을 조합하여 되살릴 수 있습니다.\n경험치가 필요하지 않습니다.",
+    "recipe": {
+        "id": "origins:asd",
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+            {
+                "item": "deadtotems:dead_totem"
+            },
+            {
+                "item": "minecraft:gold_block"
+            }
+        ],
+        "result": {
+            "item": "minecraft:totem_of_undying"
+        }
+    }
+}

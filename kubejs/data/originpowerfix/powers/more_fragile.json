@@ -1,0 +1,12 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Fragile health reduction",
+    "attribute": "minecraft:generic.max_health",
+    "value": -12.0,
+    "operation": "addition"
+  },
+  "hidden":true,
+   "name": "더욱 연약함",
+    "description": "인간보다 체력이 6칸 적습니다."
+}

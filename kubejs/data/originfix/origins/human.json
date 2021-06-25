@@ -1,0 +1,12 @@
+{
+	"name": "인간",
+    "description": "능력치의 자세한 수치는 인게임에서 확인할 수 있습니다.\n태생을 잘못 선택해도 한번 무료로 바꿀 수 있습니다.",
+	"powers": [
+		"originstat:humanstat"
+	],
+	"icon": {
+		"item": "minecraft:player_head"
+	},
+	"order": 0,
+	"impact": 0
+}

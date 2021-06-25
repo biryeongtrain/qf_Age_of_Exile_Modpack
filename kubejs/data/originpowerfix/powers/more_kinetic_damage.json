@@ -1,0 +1,23 @@
+{
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "name": "More kinetic damage taken",
+    "value": 1,
+    "operation": "multiply_base"
+  },
+  "damage_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:name",
+        "name": "fall"
+      },
+      {
+        "type": "origins:name",
+        "name": "flyIntoWall"
+      }
+    ]
+  },
+  "name": "버드 스트라이크",
+    "description": "운동에너지로 받는 피해량이 증가합니다."
+}

@@ -1,0 +1,35 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact physical_weapon_damage GLOBAL_INCREASE origin_aoe1 6 6"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact health FLAT origin_aoe2 70 70"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact health GLOBAL_INCREASE origin_aoe3 5 5"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact health_regen FLAT origin_aoe4 25 25"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact mana GLOBAL_INCREASE origin_aoe5 -25 -25"
+      },
+      {
+        "type": "origins:execute_command",
+      "command": "age_of_exile stat give @s exact physical_health_leech FLAT origin_aoe6 10 10"
+      }
+      ]
+    },
+    "interval": 60,
+    "name": "능력치",
+    "description": "무기 피해량과 체력,체력 재생이 증가하고, 마나가 감소합니다.\n§f§l특수 능력치 : 물리 피해 흡혈 +10%"
+}

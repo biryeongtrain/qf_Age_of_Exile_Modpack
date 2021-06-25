@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "originstat:illagerstat",
+    "moborigins:better_potions",
+    "originpowerfix:totem",
+    "originpowerfix:emerald",
+    "moborigins:pillager_aligned",
+    "origins:no_shield",
+    "moborigins:illager"
+  ],
+  "icon": "minecraft:iron_axe",
+  "name": "변명자",
+  "description": "우민챠",
+  "order": 4,
+  "impact": 1
+}

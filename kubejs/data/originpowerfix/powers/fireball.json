@@ -1,0 +1,15 @@
+{
+    "type": "origins:fire_projectile",
+    "name": "화염구",
+    "description": "작은 화염구를 쏩니다. 화염저항을 지닌 적에겐 피해를 주지 못합니다.",
+    "entity_type": "minecraft:small_fireball",
+    "cooldown": 15,
+    "hud_render": {
+        "should_render": true
+    },
+    "tag": "{pickup:0b}",
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+    }
+}

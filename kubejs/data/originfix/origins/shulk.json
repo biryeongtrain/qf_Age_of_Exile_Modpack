@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"originstat:shulkerstat",
+		"originstat:shulkerstat_vanilla",
+		"origins:shulker_inventory",
+		"origins:strong_arms",
+		"origins:strong_arms_break_speed"
+	],
+	"icon": {
+		"item": "minecraft:shulker_shell"
+	},
+	"order": 1,
+	"impact": 1,
+	"name": "셜커",
+    "description": "탱커임"
+}
