@@ -8,7 +8,7 @@
  -  $[RandomPatches](https://www.curseforge.com/minecraft/mc-mods/randompatches-fabric) - 버그 픽스 ( Github 꼭 참조 할 것 )
  -   [Carpet](https://www.curseforge.com/minecraft/mc-mods/carpet)
  -   [Carpet Extra](https://www.curseforge.com/minecraft/mc-mods/carpet-extra)
- -  $ [Overworld Two](https://www.curseforge.com/minecraft/mc-mods/overworld-two)
+ -  $[Overworld Two](https://www.curseforge.com/minecraft/mc-mods/overworld-two)
  -   [Krypton](https://github.com/astei/krypton) - 네트워크 패킷 최적화
  - [Hydrogen](https://modrinth.com/mod/hydrogen) - RAM 최적화 ( 크래시 문제시 제거 1순위)
  -   [FerriteCore](https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric) - Maybe works with Hydrogen but Keep that in mind which can incompatible with Hydrogen
@@ -28,18 +28,18 @@
 -   [WorldBorderFix](https://modrinth.com/mod/WorldBorderFix) - 디멘션 마다 월드보더 설정 가능
 -   [FabricCrossDimTPFix](https://modrinth.com/mod/FabricCrossDimTPFix)
 -   [Illegal Stack Fixer](https://www.curseforge.com/minecraft/mc-mods/illegal-stack-fixer)
--  $ [Chunk Saving Fix](https://www.curseforge.com/minecraft/mc-mods/chunk-saving-fix)
+-   [Chunk Saving Fix](https://www.curseforge.com/minecraft/mc-mods/chunk-saving-fix)
 - [Couplings](https://www.curseforge.com/minecraft/mc-mods/couplings) - Can Open with Double Door 
 - [ChestRefill](https://modrinth.com/mod/chestrefill) - refill loot items 
 -  [Right click Harvest](https://www.curseforge.com/minecraft/mc-mods/right-click-harvest)
 -   [Better Signs & Frames](https://www.curseforge.com/minecraft/mc-mods/better-signs-and-frames)
 -   [Baila](https://github.com/TheEpicBlock/baila) - ServerSide Waila
 -   [Suitably Stackable Stew](https://www.curseforge.com/minecraft/mc-mods/suitably-stackable-stew)
--  $ [I Am Very Smart](https://www.curseforge.com/minecraft/mc-mods/i-am-very-smart)
+-   [I Am Very Smart](https://www.curseforge.com/minecraft/mc-mods/i-am-very-smart)
 -   [Monsters in the Closet](https://www.curseforge.com/minecraft/mc-mods/monsters-in-the-closet) - Highlight Mobs when you can't sleep
 -   [Clumps](https://www.curseforge.com/minecraft/mc-mods/clumps)
 -   [HealthCare](https://modrinth.com/mod/healthcare) - Floating Entity Health Bar
--  $[Playtime Tracker](https://modrinth.com/mod/playtime-tracker)
+-   [Playtime Tracker](https://modrinth.com/mod/playtime-tracker)
 -   [Egg Of Capitalism](https://modrinth.com/mod/egg-of-capitalism)
 -   [Easy Painter](https://modrinth.com/mod/easy_painter)
 
@@ -50,7 +50,7 @@
 ### Tree/Leaf removal/decay
 -   [Fabric Tree Chopper](https://www.curseforge.com/minecraft/mc-mods/fabric-tree-chopper)
 -   [Leaf Decay](https://www.curseforge.com/minecraft/mc-mods/leaf-decay)
--  $ [BetterSleeping](https://www.curseforge.com/minecraft/mc-mods/bettersleeping)
+-   [BetterSleeping](https://www.curseforge.com/minecraft/mc-mods/bettersleeping)
 -  $ [Lucid](https://www.modrinth.com/mod/lucid)
 -   [Freedom of Insomnia](https://modrinth.com/mod/freedomofinsomnia)
 ## Tweaks
@@ -65,7 +65,7 @@
 -   [Expanded Trident Enchanting](https://modrinth.com/mod/expanded-trident-enchanting)
 -   [Infinity Fix](https://modrinth.com/mod/infinity_fix)
 -   [Snowball and Egg Knockback](https://www.curseforge.com/minecraft/mc-mods/snowball-and-egg-knockback-fabric)
-- $ [You can't damage me!](https://modrinth.com/mod/YouCantDamageMe) - Can Configure PVP damage 
+-   [You can't damage me!](https://modrinth.com/mod/YouCantDamageMe) - Can Configure PVP damage 
 -   [Freezma](https://www.curseforge.com/minecraft/mc-mods/freezma) - Iceball can freeze entity.
 -   [Set Bonuses](https://modrinth.com/mod/set-bonuses)
 -   [Environmental Creepers](https://www.curseforge.com/minecraft/mc-mods/environmental-creepers) - Can configure Creeper's config
@@ -75,7 +75,7 @@
 -   [Camp Fires Cook Mobs](https://www.curseforge.com/minecraft/mc-mods/camp-fires-cook-mobs)
 -   [Custom Piglin Bartering](https://www.curseforge.com/minecraft/mc-mods/custom-piglin-bartering) - 피글린 거래 품목 설정
 -   [Mob Blindness](https://modrinth.com/mod/mob-blindness) - 몹도 실명효과에 따른 행동 추가
-- $ [Creepers Burn](https://modrinth.com/mod/CreepersBurn)
+-   [Creepers Burn](https://modrinth.com/mod/CreepersBurn)
 -   [Per Player Spawns](https://www.curseforge.com/minecraft/mc-mods/fabric-per-player-spawns) - 유저마다 균등하게 근처 소환되는 몹 수 설정
 -   [Proper Mobcap Modifier](https://www.curseforge.com/minecraft/mc-mods/proper-mobcap-modifier-fabric) - 몹캡(2)
 -   [Horse Stonks](https://modrinth.com/mod/horse-stonks) - 말 교배 시 열성 유전자 방지
@@ -90,16 +90,16 @@
 -   [Speed Carts](https://www.curseforge.com/minecraft/mc-mods/speed-carts) - 기존 파워레일보다 더 빠르게 가능 ( 표지판으로 속도 지정 가능 )
 ### Game Mechanics Tweaks
 -   [Fluid Physics](https://www.curseforge.com/minecraft/mc-mods/fluid-physics) - 현실적인 액체 이동, 펌프질 가능, 비오면 강에 물 채워짐 등등...
-- $ [Anvil Fix](https://www.curseforge.com/minecraft/mc-mods/anvil-fix) - 넘 비쌉니다 방지
+-   [No Expensive](https://www.curseforge.com/minecraft/mc-mods/noexpensive) - 넘 비쌉니다 방지
 - $ [Piston Control](https://www.curseforge.com/minecraft/mc-mods/piston-control) - 피스톤이 할 수 있는 일 추가 ( 링크 참조 )
 -   [Lengthy Ladders](https://www.curseforge.com/minecraft/mc-mods/lengthy-ladders) - 사다리 땅까지 블록없이 이을 수 있음
 -   [Lapis Reserve](https://www.curseforge.com/minecraft/mc-mods/lapis-reserve) - 인첸테이블에서 청금속 안떨어짐
 -   [persistent entities](https://modrinth.com/mod/persistent-entities) - 몹 디스폰, 아이템 디스폰 시간 조절가능
 -   [Fence Player Upper](https://www.curseforge.com/minecraft/mc-mods/fenceplayerupper) - 팬스 넘어다님
-- $ [Bedrock Blocks](https://www.curseforge.com/minecraft/mc-mods/bedrockblocks) - 특정유저만 부술 수 있는 블록 종류 설정 가능
+-   [Bedrock Blocks](https://www.curseforge.com/minecraft/mc-mods/bedrockblocks) - 특정유저만 부술 수 있는 블록 종류 설정 가능
 - $ [Lid Space](https://www.curseforge.com/minecraft/mc-mods/lid-space) - 상자 버그 수정 ( 열려있는거)
 -   [SlipperyWalls](https://www.curseforge.com/minecraft/mc-mods/slipperywalls) - 거미가 상식적으로 말이 안되는 블록 타고오는거 방지
-- $ [Sewing Machine Utilities](https://www.curseforge.com/minecraft/mc-mods/sewing-machine-utilities) - 유틸인데 다 봐야함
+-   [Sewing Machine Utilities](https://www.curseforge.com/minecraft/mc-mods/sewing-machine-utilities) - 유틸인데 다 봐야함
 -   [Dispenser Configurator](https://www.curseforge.com/minecraft/mc-mods/dispenser-configurator) - 디스펜서로 할 수 있는게 많아짐
 -   [Blastproof Netherite](https://www.curseforge.com/minecraft/mc-mods/blastproof-netherite) 
 -   [Discerning Furnace](https://www.curseforge.com/minecraft/mc-mods/discerning-furnace) - 좆같은 원목같은거 재료칸 비어있으면 재료칸으로 감
