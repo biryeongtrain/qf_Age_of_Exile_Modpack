@@ -1,3 +1,5 @@
+$ = 1.16 호환 모드
+% = 1.16 전 호환 모드
 
 # 사용 할 모드들
 
@@ -123,21 +125,21 @@
 
 # 11-27 추가 사항
 ### New Game Mechanics
--   [Flora Doubling](https://www.curseforge.com/minecraft/mc-mods/flora-doubling-fabric) - 뼛가루로 꽃 높은 꽃으로 만들 수 있음.
-- [Carpet EssentialsAddons](https://github.com/Super-Santa/EssentialAddons) - 보류
--   [Chain Suspension](https://www.curseforge.com/minecraft/mc-mods/chain-suspension) - 중력받는 블록 체인으로 안 떨어지게 가능
+-   $[Flora Doubling](https://www.curseforge.com/minecraft/mc-mods/flora-doubling-fabric) - 뼛가루로 꽃 높은 꽃으로 만들 수 있음.
+- $[Carpet EssentialsAddons](https://github.com/Super-Santa/EssentialAddons) - 보류
+-   $[Chain Suspension](https://www.curseforge.com/minecraft/mc-mods/chain-suspension) - 중력받는 블록 체인으로 안 떨어지게 가능
 -   [Harmful Stonecutters](https://www.curseforge.com/minecraft/mc-mods/harmful-stonecutters) - 석제절단기 위에 올라가면 데미지 입음
--   [Splash Concrete](https://www.curseforge.com/minecraft/mc-mods/splash-concrete) - 콘크리트 물병 던져도 됨
+-   %[Splash Concrete](https://www.curseforge.com/minecraft/mc-mods/splash-concrete) - 콘크리트 물병 던져도 됨
 -   [Unforgiving Void](https://www.curseforge.com/minecraft/mc-mods/unforgiving-void) - 공허로 떨어졌을때 어떻게 될지 조절 가능
 -   [Home Camp](https://www.curseforge.com/minecraft/mc-mods/home-camp) - 모닥불 쉬프트 우클릭 시 리스폰 포인트 지정 가능
 -   [StitchedSnow](https://www.curseforge.com/minecraft/mc-mods/stitchedsnow) - 눈이 더 자연스럽게 쌓임
 -   [Notchify](https://www.curseforge.com/minecraft/mc-mods/notchify) - 인첸트 사과 네더별이랑 39레벨로 만들 수 있음
 -   [Compostable Rotten Flesh](https://www.curseforge.com/minecraft/mc-mods/compostable-rotten-flesh) - 썩은 고기 비료로 사용가능
 -   [SlimyFloor](https://www.curseforge.com/minecraft/mc-mods/slimyfloor) - 슬라임 청크 진입시 청각적 효과 발생
--   [FabricSit](https://modrinth.com/mod/sit) - 앉는 모드
--   [Good Ol' Regen](https://modrinth.com/mod/good-ol-regen) - 체력 재생 수준 설정 가능
+-   $[FabricSit](https://modrinth.com/mod/sit) - 앉는 모드
+-   $[Good Ol' Regen](https://modrinth.com/mod/good-ol-regen) - 체력 재생 수준 설정 가능
 -   [No More Magic Milk](https://modrinth.com/mod/no-magic-milk) - 우유가 없앨 수 있는 디버프 설정 가능
--   [Snow Under Trees](https://www.curseforge.com/minecraft/mc-mods/snow-under-trees-fabric)
+-   $[Snow Under Trees](https://www.curseforge.com/minecraft/mc-mods/snow-under-trees-fabric)
 -   [ServShred](https://modrinth.com/mod/servshred) - VeinMiner 서버사이드
 -   [Strains of Ascension](https://github.com/StoneLabs/strains-of-ascension) - 지하로 가면 갈 수록 생기는 여러가지 어드벤쳐 요소 제공 ( 설치 전 꼭 위키 숙지 후 세팅 할 것. 인게임에서 아티팩트 성능 꼭 확인 후 조정할 것)
 -   [Mechanical Factory](https://modrinth.com/mod/mechafact) - 바닐라 타일엔티티로 자동화 가능하게 만드는 모드. 위키 꼭 확인 할 것
@@ -145,46 +147,46 @@
 -   [Dispenser Cauldron](https://modrinth.com/mod/fabric-dispenser-cauldron) - 디스펜서랑 호환가능하게 함 
 -   [NBT Crafting](https://www.curseforge.com/minecraft/mc-mods/nbt-crafting)
 -   [Anvil Crushing Recipes](https://www.curseforge.com/minecraft/mc-mods/anvil-crushing-recipes)
--   [Glowing Potion](https://modrinth.com/mod/glowpot) - 발광 포션 제작 가능 - 조합법 : 투명 포션에 발광 잉크
+-   $[Glowing Potion](https://modrinth.com/mod/glowpot) - 발광 포션 제작 가능 - 조합법 : 투명 포션에 발광 잉크
 -   [Gimme bundles!](https://www.curseforge.com/minecraft/mc-mods/gimme-bundles) - 주머니 제작 가능. 토끼 가죽 2 4 6 7 8 9, 실 1 3 , 5 공백
--   [Configured Keep Inventory](https://www.curseforge.com/minecraft/mc-mods/configured-keep-inventory) - 사망 시 인벤토리 유지 설정
--   [Text Coloriser Plugin](https://www.curseforge.com/minecraft/mc-mods/text-coloriser-plugin) - 색 채팅 가능
--   [SetPlayerData](https://www.curseforge.com/minecraft/mc-mods/setplayerdata) - /data 명령어 사용가능
+-   $[Configured Keep Inventory](https://www.curseforge.com/minecraft/mc-mods/configured-keep-inventory) - 사망 시 인벤토리 유지 설정, 1.17 불가시 대안 : [Conditional Keep Inventory](https://modrinth.com/mod/conditional_keep_inventory)
+-   $[Text Coloriser Plugin](https://www.curseforge.com/minecraft/mc-mods/text-coloriser-plugin) - 색 채팅 가능 1.17 불가시 대안 : [Styled Chat](https://modrinth.com/mod/styled-chat)
+-   $[SetPlayerData](https://www.curseforge.com/minecraft/mc-mods/setplayerdata) - /data 명령어 사용가능
 -   [FabricTailor](https://www.curseforge.com/minecraft/mc-mods/fabrictailor) - 스킨 변경 ( 권한 OP 전용으로 꼭 할것. 해당 모드는 특정 모드 전용임)
--   [Gestus](https://www.curseforge.com/minecraft/mc-mods/gestus) - 감정표현 가능
+-   $[Gestus](https://www.curseforge.com/minecraft/mc-mods/gestus) - 감정표현 가능
 -   [Image2Map](https://www.curseforge.com/minecraft/mc-mods/image2map) - 이미지 지도로 가져 올 수 있음.
--   [Chat History](https://www.curseforge.com/minecraft/mc-mods/chat-history) - 접속 시 이전 채팅 히스토리 보여짐
+-   $[Chat History](https://www.curseforge.com/minecraft/mc-mods/chat-history) - 접속 시 이전 채팅 히스토리 보여짐
 -   [Command Aliases](https://www.curseforge.com/minecraft/mc-mods/commandaliases) - 특정 명령어들을 하나로 엮을 수 있음. 
 -   [ItemFlexer](https://www.curseforge.com/minecraft/mc-mods/itemflexer)
--   [Tagboard](https://www.curseforge.com/minecraft/mc-mods/tagboard)
+-   $[Tagboard](https://www.curseforge.com/minecraft/mc-mods/tagboard)
 -   [GlobalSpawn](https://www.curseforge.com/minecraft/mc-mods/globalspawn)
 -   [Vanish](https://www.curseforge.com/minecraft/mc-mods/vanish) - 관리용 모드
 -   [Hat command](https://github.com/AquUpd/hat-command)
 -   [Who's pet is this?](https://www.curseforge.com/minecraft/mc-mods/whos-pet-is-this)
--  [GraphiX](https://modrinth.com/mod/graphix) - Luckperm 필수
--   [Pingspam](https://modrinth.com/mod/pingspam) - 디코마냥 부를 수 있음
--   [Roll](https://www.curseforge.com/minecraft/mc-mods/roll-fabric) - 주사위
+-   $[GraphiX](https://modrinth.com/mod/graphix) - Luckperm 필수
+-   $[Pingspam](https://modrinth.com/mod/pingspam) - 디코마냥 부를 수 있음
+-   $[Roll](https://www.curseforge.com/minecraft/mc-mods/roll-fabric) - 주사위
 -   [MobDisguises](https://modrinth.com/mod/mobdisguises)
 -   [DisguiseLib](https://modrinth.com/mod/disguiselib)
--   [Fabric Death Messages](https://modrinth.com/mod/death-messages)
+-   $[Fabric Death Messages](https://modrinth.com/mod/death-messages)
 -   [capit_alists' gameplay commands](https://www.curseforge.com/minecraft/mc-mods/useful-commands) - 데미지 주거나 힐하거나 그런 명령어 [이 모드](https://modrinth.com/mod/damagefunction)랑 명령어가 겹치는데 넣을때 데미지를 갑옷으로 경감 할 수 있는 유형의 데미지로 주는 걸로 다운받아라
 -   [Editable Player NBT Hack](https://modrinth.com/mod/editableplayernbthack)
 -   [SwitchableResourcepacks](https://modrinth.com/mod/switchableresourcepacks) - 특정 상황에서 리소스팩 변경가능 **This mod was a request from the wonderful folks behind the Legacy Edition Battle project** Check them out [here](https://www.planetminecraft.com/project/legacy-edition-battle/), or their [github page](https://github.com/DBTDerpbox/Legacy-Edition-Battle).
 -  [Json Chat Mod](https://modrinth.com/mod/jsonchat) - JSON Format 으로 채팅
 ### Join Messages/MOTD
--   [EasyMOTD](https://www.curseforge.com/minecraft/mc-mods/easymotd)
+-   %[EasyMOTD](https://www.curseforge.com/minecraft/mc-mods/easymotd)
 -   [Spawnbook](https://github.com/maxheyn/spawnbook) - 처음 접속시 플레이어에게 줄 가이드북 설정 가능
 ### Teleportation/Homes
 -   [Interdimensional](https://modrinth.com/mod/interdimensional) - 커스텀 디멘션
 -   [Lootstrap](https://www.curseforge.com/minecraft/mc-mods/lootstrap) - 접속 보상
--   [SimpleServerSorter](https://www.curseforge.com/minecraft/mc-mods/simpleserversorter) - 아이템 정렬 기능
+-   $[SimpleServerSorter](https://www.curseforge.com/minecraft/mc-mods/simpleserversorter) - 아이템 정렬 기능
 -   [Inv View](https://www.curseforge.com/minecraft/mc-mods/inv-view)
 -   [InvSync](https://modrinth.com/mod/invsync)
 -   [Badlion Client Disabler](https://www.modrinth.com/mod/TAH3qgEe)  - 지도등등 기능 비활성화
 -   [Erroring Entity Remover](https://www.curseforge.com/minecraft/mc-mods/erroring-entity-remover) - 문제생긴 엔티티 삭제기능
 - [Not Enough Crash](https://www.curseforge.com/minecraft/mc-mods/not-enough-crashes) - 크래시 방지 기능
 -   [Servux](https://www.curseforge.com/minecraft/mc-mods/servux)
--   [ReloadAnnouncer](https://www.curseforge.com/minecraft/mc-mods/reloadannouncer)
+-   %[ReloadAnnouncer](https://www.curseforge.com/minecraft/mc-mods/reloadannouncer)
 -   $[FabricExporter](https://modrinth.com/mod/fabricexporter) - 투표시스템, 투표참가자에게 보상지급
 -   [Fabric Restart](https://www.curseforge.com/minecraft/mc-mods/fabric-restart) - 정기 리부팅 등등 기능 제공
 -   [Holograms](https://modrinth.com/mod/holograms)
