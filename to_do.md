@@ -147,8 +147,8 @@ $ = 1.16 호환 모드
 -   [Dispenser Cauldron](https://modrinth.com/mod/fabric-dispenser-cauldron) - 디스펜서랑 호환가능하게 함 
 -   [NBT Crafting](https://www.curseforge.com/minecraft/mc-mods/nbt-crafting)
 -   [Anvil Crushing Recipes](https://www.curseforge.com/minecraft/mc-mods/anvil-crushing-recipes)
--   $[Glowing Potion](https://modrinth.com/mod/glowpot) - 발광 포션 제작 가능 - 조합법 : 투명 포션에 발광 잉크
--   [Gimme bundles!](https://www.curseforge.com/minecraft/mc-mods/gimme-bundles) - 주머니 제작 가능. 토끼 가죽 2 4 6 7 8 9, 실 1 3 , 5 공백
+-   $[Glowing Potion](https://modrinth.com/mod/glowpot) - 발광 포션 제작 가능 - 조합법 : 투명 포션에 발광 잉크 
+-   [Gimme bundles!](https://www.curseforge.com/minecraft/mc-mods/gimme-bundles) - 주머니 제작 가능. 토끼 가죽 2 4 6 7 8 9, 실 1 3 , 5 공백 - 데팩
 -   $[Configured Keep Inventory](https://www.curseforge.com/minecraft/mc-mods/configured-keep-inventory) - 사망 시 인벤토리 유지 설정, 1.17 불가시 대안 : [Conditional Keep Inventory](https://modrinth.com/mod/conditional_keep_inventory)
 -   $[Text Coloriser Plugin](https://www.curseforge.com/minecraft/mc-mods/text-coloriser-plugin) - 색 채팅 가능 1.17 불가시 대안 : [Styled Chat](https://modrinth.com/mod/styled-chat)
 -   $[SetPlayerData](https://www.curseforge.com/minecraft/mc-mods/setplayerdata) - /data 명령어 사용가능
