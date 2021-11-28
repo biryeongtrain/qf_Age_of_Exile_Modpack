@@ -54,7 +54,7 @@ $ = 1.16 호환 모드
 -   [Fabric Tree Chopper](https://www.curseforge.com/minecraft/mc-mods/fabric-tree-chopper)
 -   [Leaf Decay](https://www.curseforge.com/minecraft/mc-mods/leaf-decay)
 -   [BetterSleeping](https://www.curseforge.com/minecraft/mc-mods/bettersleeping)
--  $ [Lucid](https://www.modrinth.com/mod/lucid)
+-  $ [Lucid-lite](https://www.modrinth.com/mod/lucid-lite)
 -   [Freedom of Insomnia](https://modrinth.com/mod/freedomofinsomnia)
 ## Tweaks
 ### Combat
