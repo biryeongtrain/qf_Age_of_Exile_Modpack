@@ -59,13 +59,13 @@
 ### Combat
 -   ~~[Headshot](https://www.curseforge.com/minecraft/mc-mods/headshot)~~
 -   [Better Impaling](https://www.curseforge.com/minecraft/mc-mods/better-impaling)
--   [PvP toggle](https://github.com/manyrandomthings/pvp-toggle)
--   [Axes Are Weapons](https://modrinth.com/mod/axes-are-weapons) - Axe Loses 1 Dura when it hits entity. ( Before : 2 dura )
+-   ✔[PvP toggle](https://github.com/manyrandomthings/pvp-toggle)
+-   ✔[Axes Are Weapons](https://modrinth.com/mod/axes-are-weapons) - Axe Loses 1 Dura when it hits entity. ( Before : 2 dura )
 -   ~~[Expanded Axe Enchanting](https://modrinth.com/mod/expanded-axe-enchanting)~~
 -   ~~[Expanded Armor Enchanting](https://modrinth.com/mod/expanded-armor-enchanting)~~
 -   ~~[Expanded Weapon Enchanting](https://modrinth.com/mod/expanded-weapon-enchanting)~~
 -   ~~[Expanded Trident Enchanting](https://modrinth.com/mod/expanded-trident-enchanting)~~
--   [Infinities](https://www.curseforge.com/minecraft/mc-mods/infinities)
+-   ✔[Bow Infinity fix](https://www.curseforge.com/minecraft/mc-mods/bow-infinity-fix)
 -   ~~[Snowball and Egg Knockback](https://www.curseforge.com/minecraft/mc-mods/snowball-and-egg-knockback-fabric)~~
 -   ~~[You can't damage me!](https://modrinth.com/mod/YouCantDamageMe) - Can Configure PVP damage~~ 
 -   ~~[Freezma](https://www.curseforge.com/minecraft/mc-mods/freezma) - Iceball can freeze entity.~~
@@ -74,23 +74,23 @@
 -   ~~[Beacons For All](https://www.curseforge.com/minecraft/mc-mods/beacons-for-all-fabric) - Beacons Buff affects all mob ( can customize )~~
 -   ~~[Farsighted Mobs](https://www.curseforge.com/minecraft/mc-mods/farsighted-mobs) - Mob can Detect 24 Blocks ~~
 -   [Custom Spawns](https://www.curseforge.com/minecraft/mc-mods/custom-spawns) - 몹캡 설정 (1)
--   ~~[Camp Fires Cook Mobs](https://www.curseforge.com/minecraft/mc-mods/camp-fires-cook-mobs)~~
--   ~~[Custom Piglin Bartering](https://www.curseforge.com/minecraft/mc-mods/custom-piglin-bartering) - 피글린 거래 품목 설정~~
+-   ✔[Camp Fires Cook Mobs](https://www.curseforge.com/minecraft/mc-mods/camp-fires-cook-mobs)
+-   ✔[Custom Piglin Bartering](https://www.curseforge.com/minecraft/mc-mods/custom-piglin-bartering) - 피글린 거래 품목 설정
 -   ~~[Mob Blindness](https://modrinth.com/mod/mob-blindness) - 몹도 실명효과에 따른 행동 추가~~
 -   ~~[Creepers Burn](https://modrinth.com/mod/CreepersBurn)~~
 -   ~~[Per Player Spawns](https://www.curseforge.com/minecraft/mc-mods/fabric-per-player-spawns) - 유저마다 균등하게 근처 소환되는 몹 수 설정~~
--   ~~[Proper Mobcap Modifier](https://www.curseforge.com/minecraft/mc-mods/proper-mobcap-modifier-fabric) - 몹캡(2)~~
+-   ✔[Proper Mobcap Modifier](https://www.curseforge.com/minecraft/mc-mods/proper-mobcap-modifier-fabric) - 몹캡(2)
 -   ~~[Horse Stonks](https://modrinth.com/mod/horse-stonks) - 말 교배 시 열성 유전자 방지~~
--   [Hauling Hogs](https://www.curseforge.com/minecraft/mc-mods/hauling-hogs) - 돼지에 창고 달 수 있음
+-   ✔[Hauling Hogs](https://www.curseforge.com/minecraft/mc-mods/hauling-hogs) - 돼지에 창고 달 수 있음
 -   ~~[unsaddleeeee](https://www.curseforge.com/minecraft/mc-mods/unsaddleeeee) - 스트라이더, 돼지 안죽여도 안장 풀 수 있음~~
--   ~~[Mobs Attempt Parkour](https://www.curseforge.com/minecraft/mc-mods/mobs-attempt-parkour) - 몹들 추적 AI에 점프 메커니즘 추가~~
+-   ✔[Mobs Attempt Parkour](https://www.curseforge.com/minecraft/mc-mods/mobs-attempt-parkour) - 몹들 추적 AI에 점프 메커니즘 추가
 -   ~~[Fishy Bears](https://modrinth.com/mod/fishy-bears) - 곰들이 낚시를 함~~
 -   ~~[More Mob Drops](https://modrinth.com/mod/more_mob_drops) - 상식적으로 몹드랍 추가~~
 -  ~~[Mob Spawning Light Level](https://modrinth.com/mod/mob-spawning-light-level) - 몹이 스폰되는 밝기 설정 가능~~
--   ~~[Economical Villager Trading](https://www.curseforge.com/minecraft/mc-mods/economical-villager-trading)~~
--   [Wandering Collector](https://modrinth.com/mod/wandering-collector) - 플레이어가 떨어뜨린 아이템을 떠상이 가져옴
+-   ✔[Economical Villager Trading](https://www.curseforge.com/minecraft/mc-mods/economical-villager-trading)
+-   ✔[Wandering Collector](https://modrinth.com/mod/wandering-collector) - 플레이어가 떨어뜨린 아이템을 떠상이 가져옴
 -   ~~[Roundaround's Villager Converting](https://modrinth.com/mod/roundaround-villager-converting) - 줘패서 좀비 치료가능~~
--   ~~[Speed Carts](https://www.curseforge.com/minecraft/mc-mods/speed-carts) - 기존 파워레일보다 더 빠르게 가능 ( 표지판으로 속도 지정 가능 )~~
+-   ✔[Speed Carts](https://www.curseforge.com/minecraft/mc-mods/speed-carts) - 기존 파워레일보다 더 빠르게 가능 ( 표지판으로 속도 지정 가능 )
 ### Game Mechanics Tweaks
 -   ~~[Fluid Physics](https://www.curseforge.com/minecraft/mc-mods/fluid-physics) - 현실적인 액체 이동, 펌프질 가능, 비오면 강에 물 채워짐 등등...~~
 -   [No Expensive](https://www.curseforge.com/minecraft/mc-mods/noexpensive) - 넘 비쌉니다 방지
