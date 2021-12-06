@@ -1,24 +1,26 @@
 # 사용 할 모드들 - 1.18
 
+추가모드 : 한챗/mods커맨드/테라리스
+
 ## Performance
 
  - ~~[Starlight](https://modrinth.com/mod/starlight) - 밝기 관련 픽스~~
- -   ~~[Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium) - 전반적 계산 방식 최적화 ( HopperOptimiztaions 사용 시 해당 모드 제작자 포크 버전 사용할 것~~
+ -  ✔[Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium) - 전반적 계산 방식 최적화 ( HopperOptimiztaions 사용 시 해당 모드 제작자 포크 버전 사용할 것
  -   ~~[Fast Furnace for Fabric](https://www.curseforge.com/minecraft/mc-mods/fast-furnace-for-fabric) - 화로 연산 최적화 ~~
  -  ~~$[RandomPatches](https://www.curseforge.com/minecraft/mc-mods/randompatches-fabric) - 버그 픽스 ( Github 꼭 참조 할 것 )~~
  -   [Carpet](https://www.curseforge.com/minecraft/mc-mods/carpet)
  -   [Carpet Extra](https://www.curseforge.com/minecraft/mc-mods/carpet-extra)
  -  ~~$[Overworld Two](https://www.curseforge.com/minecraft/mc-mods/overworld-two)~~
- -   [Krypton](https://github.com/astei/krypton) - 네트워크 패킷 최적화
+ -   ✔[Krypton](https://github.com/astei/krypton) - 네트워크 패킷 최적화
  - ~~[Hydrogen](https://modrinth.com/mod/hydrogen) - RAM 최적화 ( 크래시 문제시 제거 1순위)~~
- -   ~~[FerriteCore](https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric) - Maybe works with Hydrogen but Keep that in mind which can incompatible with Hydrogen~~
- -   ~~[Recipe Cache](https://www.curseforge.com/minecraft/mc-mods/recipe-cache) - Caches recipe lookup for crafting and furnaces to lessen server lag caused by crafting stacks of items and large amounts of furnaces ticking~~
+ -   ✔[FerriteCore](https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric) - Maybe works with Hydrogen but Keep that in mind which can incompatible with Hydrogen
+ -  ✔[Recipe Cache](https://www.curseforge.com/minecraft/mc-mods/recipe-cache) - Caches recipe lookup for crafting and furnaces to lessen server lag caused by crafting stacks of items and large amounts of furnaces ticking
  -  ~~[hopperOptimizations](https://github.com/2No2Name/hopperOptimizations)(requires lithium fork) ~~
 ### Affects behaviour
 
 -   ~~[World Specific View Distance](https://modrinth.com/mod/worldspecificviewdistance)~~
--   [Alternate Current](https://modrinth.com/mod/alternate-current) - 레드스톤 가루 최적화
--   [ServerCore](https://modrinth.com/mod/servercore) 
+-   ✔[Alternate Current](https://modrinth.com/mod/alternate-current) - 레드스톤 가루 최적화
+-   ✔[ServerCore](https://modrinth.com/mod/servercore) 
 
 ## Bugfixes
 
