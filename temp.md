@@ -1,6 +1,6 @@
 # 사용 할 모드들 - 1.18
 
-추가모드 : 한챗/mods커맨드/테라리스
+추가모드 : 한챗/mods커맨드/테라리스/Polymer
 
 ## Performance
 
@@ -49,12 +49,12 @@
 - [MAmbience](https://www.curseforge.com/minecraft/mc-mods/mambience)
 -   ~~[Immersive Cursedness](https://modrinth.com/mod/lyiXgXNm) - Serverside Immersive Portals~~
 -   ~~[Invisible Armor Stands](https://modrinth.com/mod/invisible-armor-stands) - Can toggle Armor Stands to Invisible~~
+-   ✔[Armor Stand Editor](https://www.curseforge.com/minecraft/mc-mods/armor-stand-editor)
 ### Tree/Leaf removal/decay
--   [Falling Tree](https://www.curseforge.com/minecraft/mc-mods/falling-tree)
--   ~~[Leaf Decay](https://www.curseforge.com/minecraft/mc-mods/leaf-decay)~~
--   ~~[BetterSleeping](https://www.curseforge.com/minecraft/mc-mods/bettersleeping)~~
+-   ✔[Falling Tree](https://www.curseforge.com/minecraft/mc-mods/falling-tree)
+-   ✔[BetterSleeping](https://modrinth.com/mod/WRzU60Pt)~~
 -  ~~$[Lucid-lite](https://www.modrinth.com/mod/lucid-lite)~~
--   [Freedom of Insomnia](https://modrinth.com/mod/freedomofinsomnia)
+-   ✔[Freedom of Insomnia](https://modrinth.com/mod/freedomofinsomnia)
 ## Tweaks
 ### Combat
 -   ~~[Headshot](https://www.curseforge.com/minecraft/mc-mods/headshot)~~
@@ -69,7 +69,7 @@
 -   ~~[Snowball and Egg Knockback](https://www.curseforge.com/minecraft/mc-mods/snowball-and-egg-knockback-fabric)~~
 -   ~~[You can't damage me!](https://modrinth.com/mod/YouCantDamageMe) - Can Configure PVP damage~~ 
 -   ~~[Freezma](https://www.curseforge.com/minecraft/mc-mods/freezma) - Iceball can freeze entity.~~
--   [Set Bonuses](https://modrinth.com/mod/set-bonuses)
+-   ✔[Set Bonuses](https://modrinth.com/mod/set-bonuses)
 -   ~~[Environmental Creepers](https://www.curseforge.com/minecraft/mc-mods/environmental-creepers) - Can configure Creeper's config~~
 -   ~~[Beacons For All](https://www.curseforge.com/minecraft/mc-mods/beacons-for-all-fabric) - Beacons Buff affects all mob ( can customize )~~
 -   ~~[Farsighted Mobs](https://www.curseforge.com/minecraft/mc-mods/farsighted-mobs) - Mob can Detect 24 Blocks ~~
@@ -145,8 +145,8 @@
 -   ~~[Mechanical Factory](https://modrinth.com/mod/mechafact) - 바닐라 타일엔티티로 자동화 가능하게 만드는 모드. 위키 꼭 확인 할 것~~
 ### Cauldrons
 -   ~~[Dispenser Cauldron](https://modrinth.com/mod/fabric-dispenser-cauldron) - 디스펜서랑 호환가능하게 함~~ 
--   [NBT Crafting](https://www.curseforge.com/minecraft/mc-mods/nbt-crafting)
--   ~~[Anvil Crushing Recipes](https://www.curseforge.com/minecraft/mc-mods/anvil-crushing-recipes)~~
+-   ✔[NBT Crafting](https://www.curseforge.com/minecraft/mc-mods/nbt-crafting)
+-   ✔[Anvil Crushing Recipes](https://www.curseforge.com/minecraft/mc-mods/anvil-crushing-recipes)
 -   ~~$[Glowing Potion](https://modrinth.com/mod/glowpot) - 발광 포션 제작 가능 - 조합법 : 투명 포션에 발광 잉크~~ 
 -   ~~[Gimme bundles!](https://www.curseforge.com/minecraft/mc-mods/gimme-bundles) - 주머니 제작 가능. 토끼 가죽 2 4 6 7 8 9, 실 1 3 , 5 공백 - 데팩~~
 -   ~~$[Configured Keep Inventory](https://www.curseforge.com/minecraft/mc-mods/configured-keep-inventory) - 사망 시 인벤토리 유지 설정, 1.17 불가시 대안 : [Conditional Keep Inventory](https://modrinth.com/mod/conditional_keep_inventory)~~
@@ -156,7 +156,7 @@
 -   ~~$[Gestus](https://www.curseforge.com/minecraft/mc-mods/gestus) - 감정표현 가능~~
 -   [Image2Map](https://www.curseforge.com/minecraft/mc-mods/image2map) - 이미지 지도로 가져 올 수 있음.
 -   ~~$[Chat History](https://www.curseforge.com/minecraft/mc-mods/chat-history) - 접속 시 이전 채팅 히스토리 보여짐~~
--   ~~[Command Aliases](https://www.curseforge.com/minecraft/mc-mods/commandaliases) - 특정 명령어들을 하나로 엮을 수 있음.~~ 
+-   ✔[Command Aliases](https://www.curseforge.com/minecraft/mc-mods/commandaliases) - 특정 명령어들을 하나로 엮을 수 있음.
 -   ~~[ItemFlexer](https://www.curseforge.com/minecraft/mc-mods/itemflexer)~~
 -   ~~$[Tagboard](https://www.curseforge.com/minecraft/mc-mods/tagboard)~~
 -   [GlobalSpawn](https://www.curseforge.com/minecraft/mc-mods/globalspawn)
@@ -167,7 +167,7 @@
 -   ~~$[Pingspam](https://modrinth.com/mod/pingspam) - 디코마냥 부를 수 있음~~
 -   ~~$[Roll](https://www.curseforge.com/minecraft/mc-mods/roll-fabric) - 주사위~~
 -   ~~[MobDisguises](https://modrinth.com/mod/mobdisguises)~~
--   ~~[DisguiseLib](https://modrinth.com/mod/disguiselib)~~
+-   ✔[DisguiseLib](https://modrinth.com/mod/disguiselib)
 -   ~~$[Fabric Death Messages](https://modrinth.com/mod/death-messages)~~
 -   ~~[capit_alists' gameplay commands](https://www.curseforge.com/minecraft/mc-mods/useful-commands) - 데미지 주거나 힐하거나 그런 명령어 [이 모드]~~(https://modrinth.com/mod/damagefunction)랑 명령어가 겹치는데 넣을때 데미지를 갑옷으로 경감 할 수 있는 유형의 데미지로 주는 걸로 다운받아라~~
 -   ~~[Editable Player NBT Hack](https://modrinth.com/mod/editableplayernbthack)~~
@@ -240,4 +240,5 @@
 -   [Plan](https://www.curseforge.com/minecraft/mc-mods/plan-player-analytics)
 - ## NPCs
 
--   [Taterzens](https://modrinth.com/mod/Taterzens)
+-   ✔[Taterzens](https://modrinth.com/mod/Taterzens)
+-   ✔[TaterzensNPC](https://github.com/samolego/TraderNPCs)
