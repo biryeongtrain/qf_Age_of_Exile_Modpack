@@ -25,22 +25,22 @@
 ## Bugfixes
 
 -   ~~[Wither Cage Fix](https://www.curseforge.com/minecraft/mc-mods/wither-cage-fix) - 목표가 디스폰 시 다른 대상 포착 못하는 버그 수정~~
--   [Fabrication](https://www.curseforge.com/minecraft/mc-mods/fabrication) - 존나 필요함
--   [Keep Head Names](https://modrinth.com/mod/keepheadnames)
--   ~~[WorldBorderFix](https://modrinth.com/mod/WorldBorderFix) - 디멘션 마다 월드보더 설정 가능~~
+-   ✔[Fabrication](https://www.curseforge.com/minecraft/mc-mods/fabrication) - 존나 필요함
+-   ✔[Keep Head Names](https://modrinth.com/mod/keepheadnames)
+-   ✔[Multi World Borders](https://modrinth.com/mod/M7MroYMU)
 -   ~~[FabricCrossDimTPFix](https://modrinth.com/mod/FabricCrossDimTPFix)~~
 -   ~~[Illegal Stack Fixer](https://www.curseforge.com/minecraft/mc-mods/illegal-stack-fixer)~~
 -   ~~[Chunk Saving Fix](https://www.curseforge.com/minecraft/mc-mods/chunk-saving-fix)~~
 - ~~[Couplings](https://www.curseforge.com/minecraft/mc-mods/couplings) - Can Open with Double Door~~
 - ~~[ChestRefill](https://modrinth.com/mod/chestrefill) - refill loot items ~~
 -  ~~[Right click Harvest](https://www.curseforge.com/minecraft/mc-mods/right-click-harvest)~~
--   ~~[Better Signs & Frames](https://www.curseforge.com/minecraft/mc-mods/better-signs-and-frames)~~
+-  ✔[Better Signs & Frames](https://www.curseforge.com/minecraft/mc-mods/better-signs-and-frames)
 -   ~~[Baila](https://github.com/TheEpicBlock/baila) - ServerSide Waila~~
--   [Suitably Stackable Stew](https://www.curseforge.com/minecraft/mc-mods/suitably-stackable-stew)
--   ~~[I Am Very Smart](https://www.curseforge.com/minecraft/mc-mods/i-am-very-smart)~~
+-   ✔[Suitably Stackable Stew](https://www.curseforge.com/minecraft/mc-mods/suitably-stackable-stew)
+-   ✔[I Am Very Smart] -> https://vanillatweaks.net/picker/datapacks/ 에서 데팩으로 대체
 -   ~~[Monsters in the Closet](https://www.curseforge.com/minecraft/mc-mods/monsters-in-the-closet) - Highlight Mobs when you can't sleep~~
--   [Clumps](https://www.curseforge.com/minecraft/mc-mods/clumps)
--   [HealthCare](https://modrinth.com/mod/healthcare) - Floating Entity Health Bar
+-   ✔[Clumps](https://www.curseforge.com/minecraft/mc-mods/clumps)
+-   ✔[HealthCare](https://modrinth.com/mod/healthcare) - Floating Entity Health Bar
 -   ~~[Playtime Tracker](https://modrinth.com/mod/playtime-tracker)~~
 -   ~~[Egg Of Capitalism](https://modrinth.com/mod/egg-of-capitalism)~~
 -   ~~[Easy Painter](https://modrinth.com/mod/easy_painter)~~
