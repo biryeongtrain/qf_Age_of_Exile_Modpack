@@ -33,7 +33,7 @@
 -   ~~[Chunk Saving Fix](https://www.curseforge.com/minecraft/mc-mods/chunk-saving-fix)~~
 - ~~[Couplings](https://www.curseforge.com/minecraft/mc-mods/couplings) - Can Open with Double Door~~
 - ~~[ChestRefill](https://modrinth.com/mod/chestrefill) - refill loot items ~~
--  ~~[Right click Harvest](https://www.curseforge.com/minecraft/mc-mods/right-click-harvest)~~
+-  [Right click Harvest](https://www.curseforge.com/minecraft/mc-mods/right-click-harvest)
 -  ✔[Better Signs & Frames](https://www.curseforge.com/minecraft/mc-mods/better-signs-and-frames)
 -   ✔[Baila](https://github.com/TheEpicBlock/baila) - ServerSide Waila
 -   ✔[Suitably Stackable Stew](https://www.curseforge.com/minecraft/mc-mods/suitably-stackable-stew)
@@ -133,7 +133,7 @@
 -   ✔[Home Camp](https://www.curseforge.com/minecraft/mc-mods/home-camp) - 모닥불 쉬프트 우클릭 시 리스폰 포인트 지정 가능
 -   ✔[StitchedSnow](https://www.curseforge.com/minecraft/mc-mods/stitchedsnow) - 눈이 더 자연스럽게 쌓임
 -   ~~[Notchify](https://www.curseforge.com/minecraft/mc-mods/notchify) - 인첸트 사과 네더별이랑 39레벨로 만들 수 있음~~
--   ~~[Compostable Rotten Flesh](https://www.curseforge.com/minecraft/mc-mods/compostable-rotten-flesh) - 썩은 고기 비료로 사용가능~~
+-   [Compostable Rotten Flesh](https://www.curseforge.com/minecraft/mc-mods/compostable-rotten-flesh) - 썩은 고기 비료로 사용가능
 -   ~~[SlimyFloor](https://www.curseforge.com/minecraft/mc-mods/slimyfloor) - 슬라임 청크 진입시 청각적 효과 발생~~
 -   ✔[FabricSit](https://modrinth.com/mod/sit) - 앉는 모드
 -   ✔[Good Ol' Regen](https://modrinth.com/mod/good-ol-regen) - 체력 재생 수준 설정 가능
@@ -163,7 +163,7 @@
 -   ✔[Hat command](https://github.com/AquUpd/hat-command)
 -   ~~[Who's pet is this?](https://www.curseforge.com/minecraft/mc-mods/whos-pet-is-this)~~
 -  ~~$[GraphiX](https://modrinth.com/mod/graphix) - Luckperm 필수~~
--   ~~$[Pingspam](https://modrinth.com/mod/pingspam) - 디코마냥 부를 수 있음~~
+-   [Pingspam](https://modrinth.com/mod/pingspam) - 디코마냥 부를 수 있음
 -   ~~$[Roll](https://www.curseforge.com/minecraft/mc-mods/roll-fabric) - 주사위~~
 -   ~~[MobDisguises](https://modrinth.com/mod/mobdisguises)~~
 -   ✔[DisguiseLib](https://modrinth.com/mod/disguiselib)
